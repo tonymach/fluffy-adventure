@@ -179,6 +179,10 @@ function card(t) {
         text: compareSel.has(t.id) ? "✓ Comparing" : "+ Compare",
         onclick: () => toggleCompare(t.id),
       }),
+      el("a", {
+        class: "vid", href: imgSearch(t), target: "_blank", rel: "noopener",
+        text: "🔍 Images ↗", title: "Opens a Google Images search in a new tab (needs internet)",
+      }),
       vid
         ? el("button", { class: "vid", text: "▶ Video", onclick: () => openVideo(t) })
         : el("a", {
@@ -214,6 +218,12 @@ function shortVisa(t) {
 function escapeHtml(s) { const d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
 function ytSearch(t) {
   return "https://www.youtube.com/results?search_query=" + encodeURIComponent(t.media_query || (t.town + " " + t.country + " beach drone"));
+}
+function imgSearch(t) {
+  return "https://www.google.com/search?tbm=isch&q=" + encodeURIComponent(t.media_query || (t.town + " " + t.country + " beach"));
+}
+function ovSearch(t) {
+  return "https://openverse.org/search/?q=" + encodeURIComponent((t.town + " " + t.country + " beach").trim());
 }
 
 // ---------- render dispatch --------------------------------------------------
@@ -369,7 +379,7 @@ function showLb() {
   stage.appendChild(el("img", { src: p.src, alt: lbTown.town }));
   const cap = [];
   cap.push(`<strong>${lbTown.town}</strong> — ${lbIdx + 1}/${pics.length}`);
-  if (p.placeholder) cap.push('generated placeholder — run <code>fetch-media</code> for real photos');
+  if (p.placeholder) cap.push(`generated placeholder — real photos: <a href="${imgSearch(lbTown)}" target="_blank" rel="noopener">Google Images ↗</a> · <a href="${ovSearch(lbTown)}" target="_blank" rel="noopener">Openverse ↗</a> · or run <code>fetch-media</code>`);
   else if (p.credit) cap.push(`${p.credit}${p.license ? " · " + p.license : ""}${p.source_url ? ` · <a href="${p.source_url}" target="_blank" rel="noopener">source ↗</a>` : ""}`);
   $("#lbCaption").innerHTML = cap.join(" · ");
 }
