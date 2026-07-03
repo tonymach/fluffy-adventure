@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Waterline Scout — coastal base decision tool</title>
+<meta name="description" content="Browse and compare 120 warm-water coastal towns for a Jul–Nov 2026 base: score, price, warm-now, timezone-for-interviews, visa, airport.">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%8A%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <h1>🌊 Waterline Scout</h1>
+      <p class="tagline">120 coastal bases for a <strong>Jul–Nov 2026</strong> holding pattern — warm water, fast calls, tight budget.</p>
+    </div>
+    <div class="header-stats" id="headerStats"></div>
+  </div>
+  <div class="wrap notice" id="mediaNotice"></div>
+</header>
+
+<nav class="toolbar">
+  <div class="wrap toolbar-inner">
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-view="grid">Grid</button>
+      <button class="tab" data-view="compare">Compare <span class="tab-badge" id="cmpBadge">0</span></button>
+      <button class="tab" data-view="map">Map</button>
+    </div>
+    <div class="tool-actions">
+      <input type="search" id="search" placeholder="Search town or country…" aria-label="Search">
+      <label class="sort-wrap">Sort
+        <select id="sort" aria-label="Sort by">
+          <option value="score-desc">Score ↓</option>
+          <option value="score-asc">Score ↑</option>
+          <option value="price-asc">Rent ↑ (cheapest)</option>
+          <option value="price-desc">Rent ↓</option>
+          <option value="region">Region</option>
+          <option value="name">Name A–Z</option>
+        </select>
+      </label>
+      <button id="favBtn" class="ghost-btn" title="Show favorites only">★ <span id="favCount">0</span></button>
+      <button id="filterToggle" class="ghost-btn mobile-only">Filters</button>
+    </div>
+  </div>
+</nav>
+
+<div class="layout wrap">
+  <aside class="filters" id="filters">
+    <div class="filter-head">
+      <h2>Filters</h2>
+      <button id="resetFilters" class="link-btn">Reset all</button>
+    </div>
+
+    <fieldset class="fgroup">
+      <legend>Region</legend>
+      <div id="regionFilters" class="check-col"></div>
+    </fieldset>
+
+    <fieldset class="fgroup">
+      <legend>Warm &amp; swimmable now (Jul–Nov)</legend>
+      <select id="warmFilter">
+        <option value="any">Any water</option>
+        <option value="swim">Swimmable now (warm + cool-ish)</option>
+        <option value="warm">Warm now only</option>
+      </select>
+    </fieldset>
+
+    <fieldset class="fgroup">
+      <legend>Monthly rent ceiling</legend>
+      <div class="slider-row">
+        <input type="range" id="budget" min="300" max="3000" step="50" value="3000">
+        <output id="budgetOut">No limit</output>
+      </div>
+      <p class="hint">Hides towns whose cheapest monthly Airbnb (source band, low end) converts above the ceiling. Your target is ~C$1,000.</p>
+    </fieldset>
+
+    <fieldset class="fgroup">
+      <legend>Cost tier</legend>
+      <div id="tierFilters" class="check-row"></div>
+    </fieldset>
+
+    <fieldset class="fgroup">
+      <legend>Interview timezone</legend>
+      <label class="switch"><input type="checkbox" id="tzFilter"> Friendly for NA calls only <span class="hint-inline">(≤ +6h vs Toronto)</span></label>
+    </fieldset>
+
+    <fieldset class="fgroup">
+      <legend>Safety</legend>
+      <label class="switch"><input type="checkbox" id="safetyFilter"> Hide risk-flagged towns</label>
+    </fieldset>
+
+    <div class="filter-count" id="resultCount"></div>
+  </aside>
+
+  <main class="content">
+    <section id="gridView" class="view active">
+      <div id="grid" class="grid"></div>
+      <p id="emptyState" class="empty" hidden>No towns match these filters. <button class="link-btn" id="clearFromEmpty">Reset filters</button></p>
+    </section>
+
+    <section id="compareView" class="view">
+      <div id="compareEmpty" class="empty">
+        <p>Pick 2–4 towns to compare. Use the <strong>“+ Compare”</strong> button on any card (or star favorites and add them here).</p>
+      </div>
+      <div id="compareContent"></div>
+    </section>
+
+    <section id="mapView" class="view">
+      <div class="map-legend" id="mapLegend"></div>
+      <div id="mapHost" class="map-host"></div>
+      <p class="hint">Schematic equirectangular map — pin positions are approximate town centroids for orientation, not survey-grade. Pin colour = score.</p>
+    </section>
+  </main>
+</div>
+
+<!-- lightbox -->
+<div id="lightbox" class="lightbox" hidden>
+  <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">‹</button>
+  <div class="lb-stage" id="lbStage"></div>
+  <button class="lb-nav lb-next" id="lbNext" aria-label="Next">›</button>
+  <div class="lb-caption" id="lbCaption"></div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Waterline Scout · data from the waterline-scout manifest + regional scans (Jul 2026). Pricing &amp; scores are source-of-truth; enrichment fields (water temp, timezone, airport, coordinates, EUR→CAD) are derived and flagged in <code>data.json</code>.</p>
+    <p id="fxFooter"></p>
+  </div>
+</footer>
+
+<!-- data + media loaded as globals so this file works from disk (file://) -->
+<script src="data.js"></script>
+<script src="media.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
