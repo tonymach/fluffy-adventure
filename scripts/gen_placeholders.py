@@ -22,6 +22,7 @@ REGION_THEME = {
     "Eastern Europe": [("#1e3a5f", "#2e6b8f", "#7fb2c9"), ("#22506e", "#3f86a5")],
     "Africa":         [("#0f4c5c", "#2a9d8f", "#e9c46a"), ("#166b6b", "#3bb2a6")],
     "Brazil":         [("#0a6c74", "#12a6a6", "#8fe3cf"), ("#0d7a86", "#1fb6b0")],
+    "SE Asia":        [("#12566b", "#1f9e9e", "#7fe0c8"), ("#0e6b6b", "#2bb39a")],
 }
 LAKE_TINT = ("#2d6a4f", "#52b788")   # lakes / lagoons skew greener
 

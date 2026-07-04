@@ -389,8 +389,8 @@ function renderCompare() {
 }
 
 // ---------- map (schematic equirectangular) ----------------------------------
-// bounds cover all town coords: lon [-52,60], lat [-40,64]
-const MAP = { W: 1320, H: 660, lonMin: -52, lonMax: 60, latMin: -40, latMax: 64 };
+// bounds cover all town coords incl. SE Asia: lon [-52,128], lat [-40,64]
+const MAP = { W: 1320, H: 660, lonMin: -52, lonMax: 128, latMin: -40, latMax: 64 };
 function project(lat, lon) {
   const x = (lon - MAP.lonMin) / (MAP.lonMax - MAP.lonMin) * MAP.W;
   const y = (MAP.latMax - lat) / (MAP.latMax - MAP.latMin) * MAP.H;
@@ -466,6 +466,18 @@ const ISLANDS = [
   [[15.05,-23.6],[15.35,-23.5],[15.0,-23.35]], // Cape Verde (Santiago)
   [[-19.95,57.35],[-19.95,57.67],[-20.55,57.62],[-20.55,57.38]], // Mauritius
   [[-3.8,-32.5],[-3.8,-32.34],[-3.92,-32.34],[-3.92,-32.5]], // Fernando de Noronha
+  // --- SE Asia (coarse; enough that pins land on/near land) ---
+  [[22.5,103],[21.5,105.8],[18,106.5],[16,108.2],[12.5,109.3],[10.3,106.7],[9.5,104.8],
+   [11.5,103],[10.5,100.6],[8,100.6],[6.5,99.6],[2,102],[1.3,103.8],[5,98.5],[8,98.3],
+   [12.5,99.5],[16,98.2],[20,98.6],[22,100.2],[22.5,103]], // Indochina + Malay peninsula
+  [[5.5,95.3],[3,97],[-1,100],[-4,102],[-5.9,104],[-5.4,105.3],[-2.5,101],[0.5,98],[3.5,96],[5.5,95.3]], // Sumatra
+  [[-5.9,105.8],[-6.4,110],[-8,113],[-8.6,114.5],[-8.1,112],[-7,108],[-6.1,106]], // Java
+  [[-8.35,114.45],[-8.45,115.75],[-8.85,115.65],[-8.75,114.55]], // Bali
+  [[-8.3,116.0],[-8.45,116.75],[-8.95,116.6],[-8.85,116.05]], // Lombok
+  [[7,117],[4,118.5],[-1,117.5],[-4,116],[-3.5,110],[1,109.2],[4.5,109.5],[7,113],[7,117]], // Borneo
+  [[1.5,120],[-0.5,120.8],[-5.5,120.3],[-5.3,119.2],[-2,120],[1,119],[1.5,120]], // Sulawesi
+  [[18.6,120.4],[16.5,119.9],[14,120.4],[13,121.6],[13.6,123.9],[16,122.2],[18.2,122],[18.6,120.4]], // Luzon
+  [[11.6,124],[9,126.3],[6,126.4],[5.6,125],[7,123.5],[9.6,123],[11,123.6],[11.6,124]], // Visayas/Mindanao
 ];
 // build an SVG path string from a [lat,lon] ring
 function coastPath(ring) {
@@ -499,7 +511,7 @@ function renderMap() {
 
   // --- graticule every 15° ---
   const grat = mk("g", { stroke: "#173243", "stroke-width": 1, opacity: 0.6 });
-  for (let lon = -45; lon <= 60; lon += 15) { const [x] = project(0, lon); grat.appendChild(mk("line", { x1: x, y1: 0, x2: x, y2: MAP.H })); }
+  for (let lon = -45; lon <= 120; lon += 15) { const [x] = project(0, lon); grat.appendChild(mk("line", { x1: x, y1: 0, x2: x, y2: MAP.H })); }
   for (let lat = -30; lat <= 60; lat += 15) { const [, y] = project(lat, 0); grat.appendChild(mk("line", { x1: 0, y1: y, x2: MAP.W, y2: y })); }
   svg.appendChild(grat);
   const [, eqy] = project(0, 0);
@@ -762,7 +774,8 @@ function buildHeader() {
   const warm = TOWNS.filter(t => t.warm_now === "yes").length;
   const underBudget = TOWNS.filter(t => t.rent_band_cad[0] != null && t.rent_band_cad[0] <= 1300).length;
   const noRisk = TOWNS.filter(t => !t.has_risk).length;
-  const stats = [["120", "towns"], [warm, "warm now"], [underBudget, "≤ C$1.3k"], [noRisk, "no risk flag"]];
+  const stats = [[TOWNS.length, "towns"], [warm, "warm now"], [underBudget, "≤ C$1.3k"], [noRisk, "no risk flag"]];
+  const tag = $("#tagCount"); if (tag) tag.textContent = TOWNS.length;
   $("#headerStats").innerHTML = "";
   stats.forEach(([b, s]) => $("#headerStats").appendChild(el("div", { class: "stat" }, [el("b", { text: b }), el("span", { text: s })])));
   $("#mediaNotice").textContent = META.media_status || "";

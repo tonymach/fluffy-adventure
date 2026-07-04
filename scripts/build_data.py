@@ -52,6 +52,9 @@ TZ_BY_COUNTRY = {
     "Egypt": 3, "Cape Verde": -1, "Senegal": 0, "The Gambia": 0,
     "Kenya": 3, "South Africa": 2, "Zanzibar": 3, "Mozambique": 2,
     "Tunisia": 1, "Namibia": 2, "Malawi": 2,
+    # SE Asia (no DST anywhere here)
+    "Thailand": 7, "Vietnam": 7, "Cambodia": 7,
+    "Indonesia": 8, "Philippines": 8, "Malaysia": 8,
 }
 # Brazil towns are all UTC-3 (no DST since 2019).
 TZ_BRAZIL = -3
@@ -241,6 +244,9 @@ def seasonality(country, region, water):
         if "Santa Catarina" in region_full or "Sao Paulo SE" in region_full:
             return "austral-winter (coldest Jul–Sep)"
         return "tropical / warm year-round"
+    if region == "SE Asia":
+        # water is warm year-round; the Jul–Nov catch is monsoon/typhoon sea-state
+        return "warm water year-round; Jul–Nov monsoon/typhoon affects sea-state"
     if any(k in country for k in ["Egypt"]):
         return "Red Sea, warm year-round"
     if country in ("Mauritius", "Kenya", "Zanzibar", "Mozambique"):
@@ -331,7 +337,7 @@ def price_band(s):
 
 
 RISK_HIGH = ["homicide", "terror", "kidnap", "gang", "do not travel",
-             "do-not-travel", "highest", "violence", " war"]
+             "do-not-travel", "highest", "violence", " war", "trafficking"]
 RISK_MED = ["crime", "robbery", "theft", "snatch", "harass", "bumster",
             "dangerous", "bilharzia", "malaria", "cyclone", "flooding",
             "water-quality", "water quality", "shark", "road-safety",
@@ -363,7 +369,9 @@ def main():
     ee = {r["town"]: r for r in read_csv(SRC / "easterneurope.csv")}
     af = {r["town"]: r for r in read_csv(SRC / "africa.csv")}
     br = {r["town"]: r for r in read_csv(SRC / "brazil.csv")}
-    detail_by_region = {"Eastern Europe": ee, "Africa": af, "Brazil": br}
+    seasia_path = SRC / "southeastasia.csv"
+    sea = {r["town"]: r for r in read_csv(seasia_path)} if seasia_path.exists() else {}
+    detail_by_region = {"Eastern Europe": ee, "Africa": af, "Brazil": br, "SE Asia": sea}
 
     global region_full  # used by seasonality()
     towns = []
@@ -404,16 +412,21 @@ def main():
         visa_days = (detail.get("cad_visa_free_days") or "").strip()
 
         rent_lo, rent_hi = price_band(airbnb_raw)
-        price_basis = ("Sept 2026 shoulder (your window)" if region == "Brazil"
-                       else "peak season (overstates Jul–Nov shoulder)")
+        if region == "Brazil":
+            price_basis = "Sept 2026 shoulder (your window)"
+        elif region == "SE Asia":
+            price_basis = "long-stay estimate (your window)"
+        else:
+            price_basis = "peak season (overstates Jul–Nov shoulder)"
         rent_lo_cad = round(rent_lo * EUR_TO_CAD) if rent_lo else None
         rent_hi_cad = round(rent_hi * EUR_TO_CAD) if rent_hi else None
 
         # --- water temp (parsed from source text) ----------------------------
         wlo, whi, wlabel = parse_water_temp(vibe_note, tri_note,
                                             row.get("suggested_media_search"))
-        brazil_warm = detail.get("warm_now_jul_nov") if region == "Brazil" else None
-        warm = warm_class(wlo, whi, brazil_warm, country, water)
+        # regions that carry an explicit warm_now_jul_nov column (Brazil, SE Asia)
+        explicit_warm = detail.get("warm_now_jul_nov")
+        warm = warm_class(wlo, whi, explicit_warm, country, water)
 
         # --- timezone --------------------------------------------------------
         if region == "Brazil":
@@ -426,15 +439,33 @@ def main():
         na_friendly = (tz_vs is not None and tz_vs <= 6)
 
         # --- airport + coords -------------------------------------------------
+        # SE Asia carries coords + airport in its own CSV; fall back to the maps.
         iata, aname, anote = AIRPORTS.get(town, ("", "", "not resolved — verify"))
+        if detail.get("airport_iata"):
+            iata = detail["airport_iata"].strip()
+            aname = (detail.get("airport_name") or aname).strip()
+            anote = ""
         coords = COORDS.get(town)
+        if detail.get("coords"):
+            try:
+                lat, lng = [float(x) for x in detail["coords"].split(",")]
+                coords = [lat, lng]
+            except Exception:
+                pass
 
         # --- composed vibe blurb (2–3 sentences, from source facts only) -----
-        warm_phrase = {
-            "yes": "Warm and swimmable across the Jul–Nov window",
-            "partial": "Swimmable but on the cool side in this window (wetsuit-optional)",
-            "cool": "Cool water for Jul–Nov — wetsuit territory or off-season",
-        }[warm]
+        if region == "SE Asia":
+            warm_phrase = {
+                "yes": "Warm water and a good open-water window in Jul–Nov",
+                "partial": "Warm water, but Jul–Nov monsoon/swell roughens the sea",
+                "cool": "Warm water, but Jul–Nov is peak monsoon/typhoon — poor swim window",
+            }[warm]
+        else:
+            warm_phrase = {
+                "yes": "Warm and swimmable across the Jul–Nov window",
+                "partial": "Swimmable but on the cool side in this window (wetsuit-optional)",
+                "cool": "Cool water for Jul–Nov — wetsuit territory or off-season",
+            }[warm]
         s2 = warm_phrase
         if wlabel:
             s2 += f" (source notes ~{wlabel}; {seasonality(country, region, water)})."
@@ -502,12 +533,16 @@ def main():
         })
 
     # region order + within-region by score desc
-    region_order = {"Eastern Europe": 0, "Africa": 1, "Brazil": 2}
+    region_order = {"Eastern Europe": 0, "Africa": 1, "Brazil": 2, "SE Asia": 3}
     towns.sort(key=lambda t: (region_order.get(t["region"], 9), -t["score"]))
+
+    regions = ["Eastern Europe", "Africa", "Brazil"]
+    if any(t["region"] == "SE Asia" for t in towns):
+        regions.append("SE Asia")
 
     payload = {
         "meta": {
-            "generated_from": "waterline-scout manifest + 3 regional CSVs",
+            "generated_from": "waterline-scout manifest + regional CSVs",
             "town_count": len(towns),
             "fx_eur_cad": EUR_TO_CAD,
             "fx_note": FX_NOTE,
@@ -517,7 +552,7 @@ def main():
             "media_status": "Photos: CC-licensed images fetched per town from "
                             "Openverse/Wikimedia (with attribution in credits/). "
                             "Toggle 📷 Live to refresh from the browser.",
-            "regions": ["Eastern Europe", "Africa", "Brazil"],
+            "regions": regions,
         },
         "towns": towns,
     }
@@ -535,7 +570,7 @@ def main():
         for r, t in misses:
             print(f"   - [{r}] {t}")
     else:
-        print("All 120 manifest rows joined to a regional detail row.")
+        print(f"All {len(manifest)} manifest rows joined to a regional detail row.")
 
     # quick provenance summary
     warm_counts = {}

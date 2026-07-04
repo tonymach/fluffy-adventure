@@ -105,6 +105,20 @@ Pricing, scores, tourism tiers, peak months, visa clocks, and water-body/type co
 **EUR→CAD rate.** One disclosed constant, `EUR_TO_CAD = 1.48`, set in
 `scripts/build_data.py`. Change it there and rerun the build to reprice everything.
 
+### SE Asia region — a fresh scan (not the original data)
+
+The **26 SE Asia towns** (Indonesia/Bali, Thailand, Vietnam, Cambodia, Philippines,
+Malaysia) are a **July 2026 scan added by this tool**, not part of the original
+120-town research. Their pricing/visa/season/safety facts were gathered via live
+web research (sourced in the agent transcripts), converted USD→EUR at 0.92, and
+**scored by `scripts/build_seasia.py`** using a documented rubric that weights the
+same constraints as the rest of the tool — warm-swimmable-now (Jul–Nov), a uniform
+timezone penalty (all SE Asia is +11/+12h vs Toronto, poor for NA interview calls),
+budget, founder internet, tri-terrain, and safety. That's why the best SE Asia base
+(~7.6) still ranks below the top Brazil/Europe picks for *this* window. Re-run
+`python3 scripts/build_seasia.py && python3 scripts/build_data.py` to regenerate.
+The scoring rubric is documented at the top of `scripts/build_seasia.py`.
+
 **Price basis caveat.** Eastern-Europe and Africa rent bands are **peak-season**
 (they overstate a Jul–Nov shoulder stay); Brazil bands are **Sept 2026 shoulder**
 (your actual window). Each card/compare row states its basis.
