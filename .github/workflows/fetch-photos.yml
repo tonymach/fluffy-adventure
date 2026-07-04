@@ -1,0 +1,65 @@
+name: Fetch city photos
+
+# Runs the media scraper on a GitHub-hosted runner (which HAS open internet,
+# unlike the build sandbox), then commits the photos back to the branch. That
+# push re-triggers the Pages deploy, so the live site updates with real photos.
+# Trigger it from the Actions tab ("Run workflow") or via the API.
+
+on:
+  workflow_dispatch:
+    inputs:
+      per_region:
+        description: "Top N per region first (blank = all 120 towns)"
+        required: false
+        default: ""
+      min_photos:
+        description: "Minimum photos to accept per town"
+        required: false
+        default: "3"
+      max_photos:
+        description: "Maximum photos to download per town"
+        required: false
+        default: "8"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-photos
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch photos (Openverse + Wikimedia, keyless)
+        run: |
+          ARGS="--min-photos=${{ github.event.inputs.min_photos }} --max-photos=${{ github.event.inputs.max_photos }}"
+          if [ -n "${{ github.event.inputs.per_region }}" ]; then
+            ARGS="$ARGS --per-region=${{ github.event.inputs.per_region }}"
+          fi
+          echo "node scripts/fetch-media.mjs $ARGS"
+          node scripts/fetch-media.mjs $ARGS
+
+      - name: Summarize
+        run: |
+          echo "Towns with photos: $(ls -d images/*/ | while read d; do ls "$d"photo-* >/dev/null 2>&1 && echo x; done | wc -l) / 120"
+
+      - name: Commit photos back to the branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images credits media.js
+          if git diff --cached --quiet; then
+            echo "No new photos landed — nothing to commit."
+          else
+            git commit -m "Fetch city photos via CI [skip-fetch]"
+            git push
+            echo "Pushed photos — Pages will redeploy."
+          fi
