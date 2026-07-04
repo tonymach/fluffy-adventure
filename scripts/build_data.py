@@ -514,8 +514,9 @@ def main():
             "budget_target_cad": 1000,
             "budget_ceiling_cad": 1300,
             "toronto_ref": "EDT (UTC-4) for the Sept/Oct 2026 interview window",
-            "media_status": "placeholder art shipped; run scripts/fetch-media.mjs "
-                            "on a networked machine to populate images/<id>/",
+            "media_status": "Photos: CC-licensed images fetched per town from "
+                            "Openverse/Wikimedia (with attribution in credits/). "
+                            "Toggle 📷 Live to refresh from the browser.",
             "regions": ["Eastern Europe", "Africa", "Brazil"],
         },
         "towns": towns,
