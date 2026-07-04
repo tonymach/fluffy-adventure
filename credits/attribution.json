@@ -3640,6 +3640,54 @@
     "provider": "openverse/flickr"
   },
   {
+    "town": "Dakhla",
+    "src": "images/dakhla/photo-1.jpg",
+    "credit": "\"Dakhla – Western Sahara Desert, Africa\" by NASA Goddard Space Flight Center is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/35278629@N08/11192870626",
+    "provider": "openverse/flickr"
+  },
+  {
+    "town": "Dakhla",
+    "src": "images/dakhla/photo-2.jpg",
+    "credit": "\"In the streets of Dakhla - Western Sahara CD5A9189\" by fveronesi1 is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/30818542@N04/51940123553",
+    "provider": "openverse/flickr"
+  },
+  {
+    "town": "Dakhla",
+    "src": "images/dakhla/photo-3.jpg",
+    "credit": "\"In the streets of Dakhla - Western Sahara CD5A9132\" by fveronesi1 is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/30818542@N04/51939055657",
+    "provider": "openverse/flickr"
+  },
+  {
+    "town": "Dakhla",
+    "src": "images/dakhla/photo-4.jpg",
+    "credit": "\"Western Sahara Refugees\" by United Nations Photo is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/35483578@N03/5665570162",
+    "provider": "openverse/flickr"
+  },
+  {
+    "town": "Dakhla",
+    "src": "images/dakhla/photo-5.jpg",
+    "credit": "\"Mohamed Dadach's mother and sister\" by Saharauiak is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/43418841@N00/463289073",
+    "provider": "openverse/flickr"
+  },
+  {
+    "town": "Dakhla",
+    "src": "images/dakhla/photo-6.jpg",
+    "credit": "\"Western Sahara Refugee\" by United Nations Photo is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/35483578@N03/5309455601",
+    "provider": "openverse/flickr"
+  },
+  {
     "town": "Knysna",
     "src": "images/knysna/photo-1.jpg",
     "credit": "\"Lady Vendor - Knysna, South Africa\" by Sheree (Here intermittently) is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
