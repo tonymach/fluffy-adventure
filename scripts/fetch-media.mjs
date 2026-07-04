@@ -52,6 +52,14 @@ const FORCE = !!args["force"];
 const DRY = !!args["dry-run"];
 const CONCURRENCY = +(args["concurrency"] || 3);
 const DELAY_MS = +(args["delay"] || 400);
+const DEBUG = !!args["debug"];
+
+// aggregate distinct provider errors so a run summarizes *why* it found nothing
+const providerErrorSummary = {};
+function recordProviderError(prov, msg) {
+  const key = `${prov}: ${msg}`;
+  providerErrorSummary[key] = (providerErrorSummary[key] || 0) + 1;
+}
 
 // ---------- providers --------------------------------------------------------
 const KEYS = {
@@ -77,7 +85,11 @@ const UA = { "User-Agent": "WaterlineScout/1.0 (personal research tool)" };
 
 async function jget(url, headers = {}) {
   const r = await fetch(url, { headers: { ...UA, ...headers } });
-  if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+  if (!r.ok) {
+    let body = "";
+    try { body = (await r.text()).slice(0, 200); } catch (e) {}
+    throw new Error(`${r.status} ${r.statusText}${body ? " :: " + body : ""}`);
+  }
   return r.json();
 }
 
@@ -127,7 +139,7 @@ const PROVIDERS = {
     }));
   },
   async openverse(q) {
-    const d = await jget(`https://api.openverse.org/v1/images/?q=${encodeURIComponent(q)}&page_size=${MAX_PHOTOS}&license_type=all&mature=false`);
+    const d = await jget(`https://api.openverse.org/v1/images/?q=${encodeURIComponent(q)}&page_size=${MAX_PHOTOS}`);
     return (d.results || []).map(p => ({
       url: p.url,
       credit: p.attribution || `${p.title || "Untitled"}${p.creator ? " — " + p.creator : ""}`,
@@ -202,7 +214,11 @@ async function fetchTown(town, manifest) {
     try {
       const got = await PROVIDERS[prov](query);
       candidates.push(...got.filter(c => c.url && /^https?:/i.test(c.url)));
-    } catch (e) { /* provider miss — try next */ }
+      if (DEBUG) console.log(`   · ${prov}: ${got.length} candidates`);
+    } catch (e) {
+      recordProviderError(prov, e.message);
+      if (DEBUG) console.log(`   · ${prov} ERROR: ${e.message}`);
+    }
     if (candidates.length >= MIN_PHOTOS) break;
   }
   if (!candidates.length) return { id, status: "no results" };
@@ -287,6 +303,11 @@ async function main() {
   await writeCredits(manifest, data.towns);
   const withPhotos = Object.values(manifest).filter(m => (m.photos || []).length).length;
   console.log(`\nDone. ${withPhotos}/${data.towns.length} towns now have real photos.`);
+  const errs = Object.entries(providerErrorSummary);
+  if (errs.length) {
+    console.log("\nProvider error summary (distinct):");
+    errs.sort((a, b) => b[1] - a[1]).forEach(([k, n]) => console.log(`   ${n}×  ${k}`));
+  }
   console.log("Reload index.html to see them (placeholders remain as fallback).");
 }
 
