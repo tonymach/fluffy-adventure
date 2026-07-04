@@ -135,15 +135,19 @@ table.cmp th.rowhead{background:var(--panel);color:var(--ink-faint);font-weight:
 .cmp-strip img{width:33%;height:52px;object-fit:cover;border-radius:5px}
 
 /* map */
-.map-host{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.map-host{background:#0a1a26;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:inset 0 0 60px rgba(0,0,0,.45)}
 .map-host svg{display:block;width:100%;height:auto}
-.map-legend{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:12px;font-size:12px;color:var(--ink-dim)}
+.map-legend{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:12px;font-size:12.5px;color:var(--ink-dim);background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:9px 14px}
 .map-legend .lg{display:flex;align-items:center;gap:6px}
-.map-legend .dot{width:12px;height:12px;border-radius:50%}
-.map-pin{cursor:pointer;transition:r .1s}
-.map-pin:hover{stroke:#fff;stroke-width:2}
-.map-tooltip{position:fixed;pointer-events:none;background:#06121a;border:1px solid var(--line2);border-radius:8px;padding:8px 10px;font-size:12px;z-index:80;box-shadow:var(--shadow);max-width:230px}
-.map-tooltip b{color:var(--ink)}
+.map-legend .dot{width:12px;height:12px;border-radius:50%;box-shadow:0 0 6px rgba(0,0,0,.5)}
+.map-legend .dot.fav{background:transparent;border:2px solid var(--star);box-shadow:0 0 7px rgba(255,207,77,.55)}
+.map-legend .hint .dot.sm{width:7px;height:7px;background:var(--ink-faint)}
+.map-legend .hint .dot.lg2{width:14px;height:14px;background:var(--ink-dim);margin-left:-2px}
+.map-legend .count{margin-left:auto;color:var(--ink-faint);font-weight:600}
+.map-pin{cursor:pointer;transition:r .12s ease,stroke-width .12s ease}
+.map-pin:hover{stroke:#fff;stroke-width:2.4}
+.map-tooltip{position:fixed;pointer-events:none;background:rgba(6,18,26,.96);border:1px solid var(--line2);border-radius:9px;padding:8px 11px;font-size:12px;line-height:1.5;color:var(--ink-dim);z-index:80;box-shadow:var(--shadow);max-width:240px;backdrop-filter:blur(4px)}
+.map-tooltip b{color:var(--ink);font-size:12.5px}
 
 /* lightbox */
 .lightbox{position:fixed;inset:0;z-index:100;background:rgba(4,10,15,.94);display:flex;align-items:center;justify-content:center;flex-direction:column}

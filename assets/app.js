@@ -108,9 +108,13 @@ async function fetchLive(id) {
   liveTried.add(id);
   const t = TOWNS.find(x => x.id === id);
   if (!t) return;
-  const q = t.media_query || `${t.town} ${t.country} beach`;
+  // Clean query: the media_query seed ("…beach aerial drone 4k") is tuned for
+  // YouTube/Google and returns nothing on Openverse's CC corpus.
+  const baseTown = t.town.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
+  const loc = t.region === "Brazil" ? "Brazil" : t.country;
+  const q = `${baseTown} ${loc}`.trim();
   try {
-    const r = await fetch(`https://api.openverse.org/v1/images/?q=${encodeURIComponent(q)}&page_size=8&mature=false`,
+    const r = await fetch(`https://api.openverse.org/v1/images/?q=${encodeURIComponent(q)}&page_size=8`,
       { headers: { Accept: "application/json" } });
     if (!r.ok) throw new Error(r.status);
     const d = await r.json();
@@ -391,51 +395,170 @@ function project(lat, lon) {
   const y = (MAP.latMax - lat) / (MAP.latMax - MAP.latMin) * MAP.H;
   return [x, y];
 }
-// coarse continent outlines (very approximate, for orientation only)
-const LAND = {
-  europe: "M300,70 L520,60 L640,120 L700,150 L690,210 L600,250 L560,230 L470,250 L430,300 L360,300 L330,250 L300,210 L280,150 Z",
-  africa: "M470,250 L640,250 L700,300 L720,420 L640,560 L560,600 L520,540 L470,470 L440,360 L430,300 Z",
-  samerica: "M120,360 L240,340 L300,420 L300,560 L230,660 L160,640 L120,520 L110,430 Z",
+// ---- recognizable coastline outlines, authored in [lat, lon] and projected --
+// Simplified but geographically faithful enough that pins land on/near real
+// coasts. Only the regions that actually hold towns are detailed.
+const COAST = {
+  africa: [
+    [35.9,-5.4],[35.7,-2.9],[37.0,3.0],[37.3,9.9],[33.9,10.9],[32.1,15.0],
+    [30.4,19.2],[31.2,27.0],[31.4,30.0],[31.2,32.3],[30.0,32.6],[27.3,33.8],
+    [25.0,35.0],[22.0,36.8],[18.0,38.5],[15.0,40.0],[12.5,43.3],[11.5,45.0],
+    [11.8,51.0],[2.0,45.5],[-4.0,39.6],[-6.9,39.5],[-10.5,40.5],[-16.0,40.0],
+    [-20.0,34.9],[-26.0,32.9],[-29.0,31.5],[-33.0,27.9],[-34.0,25.6],
+    [-34.8,22.0],[-34.5,20.0],[-34.4,18.4],[-31.0,17.5],[-29.0,16.5],
+    [-26.6,15.1],[-22.7,14.5],[-17.9,11.8],[-12.5,13.4],[-8.8,13.2],
+    [-6.0,12.3],[-1.0,8.9],[1.9,9.6],[3.9,9.0],[4.3,6.0],[6.4,3.4],
+    [5.8,0.5],[4.9,-3.0],[4.4,-7.5],[6.3,-10.8],[8.5,-13.3],[11.3,-15.9],
+    [13.5,-16.8],[14.7,-17.5],[16.0,-16.5],[20.8,-17.0],[23.7,-16.0],
+    [27.7,-13.2],[30.4,-9.7],[33.3,-8.6],[35.2,-6.1],
+  ],
+  sinai: [[30.1,32.4],[29.9,34.9],[27.9,34.0]],
+  samerica: [
+    [4.0,-51.5],[0.0,-50.0],[-2.5,-44.0],[-3.7,-38.5],[-5.0,-35.5],
+    [-8.0,-34.8],[-10.5,-36.2],[-13.0,-38.5],[-15.5,-39.0],[-18.5,-39.7],
+    [-20.3,-40.3],[-22.9,-42.0],[-23.0,-43.2],[-23.4,-45.0],[-25.5,-48.5],
+    [-27.6,-48.5],[-28.5,-48.8],[-30.0,-50.5],[-33.0,-52.0],[-38.0,-60.0],
+    [-10.0,-66.0],[3.0,-58.0],[4.0,-51.5],
+  ],
+  // Eurasia outer ring: Med north shore -> Anatolia/Caucasus -> east edge ->
+  // top -> Scandinavia -> Iberia. Black Sea + Baltic are cut as holes below.
+  eurasia: [
+    [36.1,-5.3],[36.7,-4.4],[36.8,-2.5],[37.6,-1.0],[39.5,-0.3],[41.4,2.2],[42.3,3.2],
+    [43.0,3.1],[43.3,5.4],[43.7,7.3],[44.4,8.9],[43.5,10.3],[41.8,12.4],[40.8,14.2],
+    [38.0,15.7],[40.0,16.5],[40.0,18.4],
+    [42.0,14.5],[45.4,12.4],[45.7,13.7],
+    [45.0,14.4],[44.1,15.2],[43.5,16.4],[42.6,18.1],[42.3,18.8],[41.0,19.4],[40.0,19.4],
+    [39.0,20.3],[36.7,21.7],[36.4,22.5],[36.4,23.2],[37.9,23.7],
+    [40.6,22.9],[40.8,24.9],[39.5,26.5],[38.4,27.0],[37.0,27.4],
+    [36.6,30.5],[36.2,33.3],[36.6,34.5],[36.6,36.0],
+    [37.2,38.5],[38.0,42.0],[39.5,46.0],[42.0,48.0],[45.0,50.0],[47.0,55.0],[48.0,60.0],
+    [55.0,60.0],[60.0,60.0],[64.0,60.0],
+    [64.0,50.0],[64.0,40.0],[64.0,30.0],[64.0,15.0],[64.0,11.0],
+    [63.5,9.5],[62.5,6.0],[60.4,5.2],[59.0,5.7],[58.1,6.6],[57.7,10.6],
+    [57.0,8.1],[53.6,7.0],[52.5,4.4],[51.0,2.5],[49.5,-1.5],[48.6,-4.7],[46.5,-1.5],
+    [43.4,-1.8],[43.5,-6.0],[43.0,-9.2],[39.4,-9.4],[37.0,-8.9],
+  ],
+  blacksea: [
+    [42.5,27.5],[43.2,27.9],[44.2,28.6],[46.5,30.7],[45.3,33.5],[45.3,36.5],
+    [44.6,37.8],[43.4,39.9],[41.7,41.7],[41.0,39.7],[41.3,36.3],[42.0,35.2],
+    [41.5,31.5],[41.2,29.0],[42.0,28.0],
+  ],
+  baltic: [
+    [54.5,10.0],[54.2,12.0],[54.2,14.0],[54.2,15.6],[54.4,18.6],[54.9,20.0],
+    [55.7,21.1],[56.5,21.0],[57.0,24.0],[58.4,24.5],[58.6,23.0],[59.4,24.7],
+    [60.2,25.0],[60.4,28.0],[61.5,21.5],[63.5,21.5],[63.5,19.0],[60.5,17.5],
+    [59.3,18.6],[57.0,16.5],[55.4,13.0],[55.0,12.5],
+  ],
 };
+// standalone islands (some hold towns)
+const ISLANDS = [
+  [[50.1,-5.6],[51.6,-4.5],[53.4,-4.8],[54.8,-5.0],[58.6,-5.0],[57.5,-2.0],[56.0,-2.5],[55.0,-1.4],[52.9,1.7],[51.4,1.4],[50.6,-1.5],[50.1,-3.5]], // Great Britain
+  [[51.5,-10.2],[53.1,-10.3],[54.5,-8.5],[55.3,-7.2],[54.3,-5.9],[52.2,-6.2],[51.6,-9.5]], // Ireland
+  [[43.0,9.4],[42.5,9.6],[41.4,9.6],[39.2,9.6],[38.9,8.9],[39.9,8.4],[41.2,8.4],[42.6,8.7]], // Corsica+Sardinia
+  [[38.3,15.3],[37.1,15.3],[36.7,14.5],[37.6,12.4],[38.2,13.4]], // Sicily
+  [[35.6,23.6],[35.3,24.7],[35.4,26.3],[35.0,25.7],[34.9,24.0]], // Crete
+  [[35.7,32.3],[35.4,34.6],[34.9,34.0],[34.6,32.9]], // Cyprus
+  [[-12.0,49.3],[-15.5,50.4],[-25.5,47.0],[-25.0,44.0],[-16.0,43.5],[-12.3,48.5]], // Madagascar
+  [[-5.6,39.2],[-5.9,39.5],[-6.4,39.5],[-6.3,39.1]], // Zanzibar
+  [[16.35,-23.15],[16.85,-22.65],[16.15,-22.55],[16.05,-23.05]], // Cape Verde (Sal/Boa Vista)
+  [[16.75,-25.15],[17.05,-24.8],[16.75,-24.75]], // Cape Verde (Sao Vicente)
+  [[15.05,-23.6],[15.35,-23.5],[15.0,-23.35]], // Cape Verde (Santiago)
+  [[-19.95,57.35],[-19.95,57.67],[-20.55,57.62],[-20.55,57.38]], // Mauritius
+  [[-3.8,-32.5],[-3.8,-32.34],[-3.92,-32.34],[-3.92,-32.5]], // Fernando de Noronha
+];
+// build an SVG path string from a [lat,lon] ring
+function coastPath(ring) {
+  return ring.map((p, i) => (i ? "L" : "M") + project(p[0], p[1]).map(n => n.toFixed(1)).join(" ")).join("") + "Z";
+}
 function renderMap() {
   const host = $("#mapHost");
   host.innerHTML = "";
-  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-  svg.setAttribute("viewBox", `0 0 ${MAP.W} ${MAP.H}`);
   const ns = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(ns, "svg");
+  svg.setAttribute("viewBox", `0 0 ${MAP.W} ${MAP.H}`);
   const mk = (tag, at) => { const n = document.createElementNS(ns, tag); for (const k in at) n.setAttribute(k, at[k]); return n; };
+  const cv = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
-  svg.appendChild(mk("rect", { x: 0, y: 0, width: MAP.W, height: MAP.H, fill: "#0c1c28" }));
-  // graticule every 15°
-  for (let lon = -45; lon <= 60; lon += 15) { const [x] = project(0, lon); svg.appendChild(mk("line", { x1: x, y1: 0, x2: x, y2: MAP.H, stroke: "#16303f", "stroke-width": 1 })); }
-  for (let lat = -30; lat <= 60; lat += 15) { const [, y] = project(lat, 0); svg.appendChild(mk("line", { x1: 0, y1: y, x2: MAP.W, y2: y, stroke: "#16303f", "stroke-width": 1 })); }
-  // equator emphasis
-  const [, eqy] = project(0, 0); svg.appendChild(mk("line", { x1: 0, y1: eqy, x2: MAP.W, y2: eqy, stroke: "#20465b", "stroke-width": 1.5, "stroke-dasharray": "6 6" }));
-  Object.values(LAND).forEach(d => svg.appendChild(mk("path", { d, fill: "#12303a", stroke: "#1c4457", "stroke-width": 1 })));
+  // --- defs: ocean + land gradients, coast blur, pin glow ---
+  const defs = mk("defs", {});
+  const grad = (id, stops, attrs = {}) => {
+    const g = mk("linearGradient", Object.assign({ id, x1: 0, y1: 0, x2: 0, y2: 1 }, attrs));
+    stops.forEach(([o, c]) => g.appendChild(mk("stop", { offset: o, "stop-color": c })));
+    defs.appendChild(g);
+  };
+  grad("oceanGrad", [["0", "#0a1a26"], ["0.55", "#0b2130"], ["1", "#0e2a3b"]]);
+  grad("landGrad", [["0", "#1a3846"], ["1", "#122e3b"]]);
+  const glow = mk("filter", { id: "pinGlow", x: "-60%", y: "-60%", width: "220%", height: "220%" });
+  glow.appendChild(mk("feGaussianBlur", { stdDeviation: "2.6" }));
+  defs.appendChild(glow);
+  svg.appendChild(defs);
+
+  // --- ocean ---
+  svg.appendChild(mk("rect", { x: 0, y: 0, width: MAP.W, height: MAP.H, fill: "url(#oceanGrad)" }));
+
+  // --- graticule every 15° ---
+  const grat = mk("g", { stroke: "#173243", "stroke-width": 1, opacity: 0.6 });
+  for (let lon = -45; lon <= 60; lon += 15) { const [x] = project(0, lon); grat.appendChild(mk("line", { x1: x, y1: 0, x2: x, y2: MAP.H })); }
+  for (let lat = -30; lat <= 60; lat += 15) { const [, y] = project(lat, 0); grat.appendChild(mk("line", { x1: 0, y1: y, x2: MAP.W, y2: y })); }
+  svg.appendChild(grat);
+  const [, eqy] = project(0, 0);
+  svg.appendChild(mk("line", { x1: 0, y1: eqy, x2: MAP.W, y2: eqy, stroke: "#2a5066", "stroke-width": 1.4, "stroke-dasharray": "7 8", opacity: 0.8 }));
+  // graticule labels
+  const labels = mk("g", { fill: "#4f7286", "font-size": "12", "font-family": "system-ui, sans-serif" });
+  for (let lat = -30; lat <= 60; lat += 30) { const [, y] = project(lat, 0); labels.appendChild(mk("text", { x: 6, y: y - 4, opacity: 0.8 })).textContent = (lat > 0 ? lat + "°N" : lat < 0 ? -lat + "°S" : "0°"); }
+  svg.appendChild(labels);
+
+  // --- land ---
+  const landStroke = "#356279";
+  const landStyle = { fill: "url(#landGrad)", stroke: landStroke, "stroke-width": 1.2, "stroke-linejoin": "round" };
+  // Eurasia with Black Sea + Baltic cut out as holes (even-odd)
+  svg.appendChild(mk("path", Object.assign({
+    d: coastPath(COAST.eurasia) + coastPath(COAST.blacksea) + coastPath(COAST.baltic),
+    "fill-rule": "evenodd",
+  }, landStyle)));
+  [COAST.africa, COAST.sinai, COAST.samerica].forEach(r => svg.appendChild(mk("path", Object.assign({ d: coastPath(r) }, landStyle))));
+  ISLANDS.forEach(r => svg.appendChild(mk("path", Object.assign({ d: coastPath(r) }, landStyle))));
 
   const list = TOWNS.filter(passes).filter(t => t.coords);
   const tip = ensureTooltip();
+  const pinR = t => 4.5 + (t.score - 3) * 0.95;
+
+  // soft color glow layer (blurred copies of each pin)
+  const glowG = mk("g", { filter: "url(#pinGlow)", opacity: 0.5 });
   list.forEach(t => {
     const [x, y] = project(t.coords[0], t.coords[1]);
-    const r = 4 + (t.score - 3) * 0.9;
-    const c = mk("circle", { cx: x, cy: y, r, fill: scoreVar(t.score), "fill-opacity": 0.9, stroke: "#06121a", "stroke-width": 1, class: "map-pin" });
-    if (favorites.has(t.id)) { c.setAttribute("stroke", "#ffcf4d"); c.setAttribute("stroke-width", "2.5"); }
+    glowG.appendChild(mk("circle", { cx: x, cy: y, r: pinR(t) + 1.5, fill: scoreVar(t.score) }));
+  });
+  svg.appendChild(glowG);
+
+  // crisp interactive pins
+  const pinsG = mk("g", {});
+  list.forEach(t => {
+    const [x, y] = project(t.coords[0], t.coords[1]);
+    const r = pinR(t);
+    if (favorites.has(t.id)) {
+      pinsG.appendChild(mk("circle", { cx: x, cy: y, r: r + 3, fill: "none", stroke: cv("--star"), "stroke-width": 2, "stroke-opacity": 0.95 }));
+    }
+    const c = mk("circle", { cx: x, cy: y, r, fill: scoreVar(t.score), stroke: "#08151d", "stroke-width": 1.2, class: "map-pin" });
     c.addEventListener("mousemove", (e) => {
       tip.style.display = "block"; tip.style.left = (e.clientX + 14) + "px"; tip.style.top = (e.clientY + 14) + "px";
       tip.innerHTML = `<b>${t.town}</b> · ${t.score.toFixed(1)}<br>${t.country} — ${t.water_body}<br>${t.rent_band_cad[0] != null ? fmtCAD(t.rent_band_cad[0]) + "+/mo" : ""} · ${WARM_LABEL[t.warm_now]}`;
     });
     c.addEventListener("mouseleave", () => tip.style.display = "none");
     c.addEventListener("click", () => { view = "grid"; filters.search = t.town; $("#search").value = t.town; render(); });
-    svg.appendChild(c);
+    pinsG.appendChild(c);
   });
+  svg.appendChild(pinsG);
   host.appendChild(svg);
+
   $("#mapLegend").innerHTML = "";
   [["≥8.0", "--s-hi"], ["7–8", "--s-good"], ["6–7", "--s-mid"], ["5–6", "--s-low"], ["<5", "--s-bad"]]
     .forEach(([lab, v]) => $("#mapLegend").appendChild(el("span", { class: "lg" }, [
       el("span", { class: "dot", style: "background:var(" + v + ")" }), el("span", { text: lab }),
     ])));
-  $("#mapLegend").appendChild(el("span", { class: "lg", html: `<span class="dot" style="background:transparent;border:2px solid var(--star)"></span><span>favorite</span>` }));
-  $("#mapLegend").appendChild(el("span", { text: `${list.length} pins` }));
+  $("#mapLegend").appendChild(el("span", { class: "lg", html: `<span class="dot fav"></span><span>favorite</span>` }));
+  $("#mapLegend").appendChild(el("span", { class: "lg hint", html: `<span class="dot sm"></span><span class="dot lg2"></span><span>dot size = score</span>` }));
+  $("#mapLegend").appendChild(el("span", { class: "count", text: `${list.length} pins` }));
 }
 function ensureTooltip() {
   let t = $(".map-tooltip");

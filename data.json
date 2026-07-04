@@ -6386,7 +6386,10 @@
       "airport_iata": "",
       "airport_name": "",
       "airport_note": "not resolved — verify",
-      "coords": null,
+      "coords": [
+        -16.59,
+        -39.09
+      ],
       "_derived": {
         "fx": "1 EUR ≈ 1.48 CAD (approximate, build-time constant)",
         "water_temp": "not stated in source",
