@@ -1,0 +1,30 @@
+[
+  {
+    "src": "images/nkhata-bay/photo-1.jpg",
+    "credit": "\"Nkhata Bay, Malawi\" by noboundariesorg is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/39698070@N00/2393710867",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nkhata-bay/photo-2.jpg",
+    "credit": "\"ilala ferry, nkhata bay, malawi\" by Enzinho83 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/41850848@N08/3852565366",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nkhata-bay/photo-3.jpg",
+    "credit": "\"nkhata bay, malawi\" by Enzinho83 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/41850848@N08/3852544440",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nkhata-bay/photo-4.jpg",
+    "credit": "\"Fish Eagle Perfectly Captures a Sunset\" by ReeSaunders is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/58996719@N07/7163157881",
+    "provider": "openverse/flickr"
+  }
+]

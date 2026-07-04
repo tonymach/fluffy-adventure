@@ -1,0 +1,44 @@
+[
+  {
+    "src": "images/flic-en-flac/photo-1.jpg",
+    "credit": "\"Flic-en-Flac, Mauritius (26)\" by JULIAN MASON is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/30937273@N06/10578840534",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/flic-en-flac/photo-2.jpg",
+    "credit": "\"Flic-en-Flac, Mauritius (31)\" by JULIAN MASON is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/30937273@N06/10578765035",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/flic-en-flac/photo-3.jpg",
+    "credit": "\"Flic-en-Flac, Mauritius (27)\" by JULIAN MASON is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/30937273@N06/10578817746",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/flic-en-flac/photo-4.jpg",
+    "credit": "\"Flic-en-Flac, Mauritius (30)\" by JULIAN MASON is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/30937273@N06/10578806896",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/flic-en-flac/photo-5.jpg",
+    "credit": "\"Flic-en-Flac, Mauritius (28)\" by JULIAN MASON is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/30937273@N06/10579053163",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/flic-en-flac/photo-6.jpg",
+    "credit": "\"Flic-en-Flac, Mauritius (29)\" by JULIAN MASON is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/30937273@N06/10579049383",
+    "provider": "openverse/flickr"
+  }
+]

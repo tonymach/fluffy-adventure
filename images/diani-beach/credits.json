@@ -1,0 +1,51 @@
+[
+  {
+    "src": "images/diani-beach/photo-1.jpg",
+    "credit": "\"Diani Beach, Kenya\" by The Sands Kenya is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/97309140@N03/15986377387",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/diani-beach/photo-2.jpg",
+    "credit": "\"Camels at Diani Beach, Kenya\" by terbeck is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/39832617@N07/7923350608",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/diani-beach/photo-3.jpg",
+    "credit": "\"Film crew. Diani Beach, Kenya.\" by tonywright617 is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/129893691@N07/46177405505",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/diani-beach/photo-4.jpg",
+    "credit": "\"Diani beach, Kenya\" by Cilia Schubert is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/40265046@N02/12662287394",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/diani-beach/photo-5.jpg",
+    "credit": "\"Red Coral Section, Diani Beach, Kenya\" by JulienLavergneUK is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/186345284@N08/49368216503",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/diani-beach/photo-6.jpg",
+    "credit": "\"Shell Perspective, Diani Beach, Kenya\" by JulienLavergneUK is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/186345284@N08/49368703516",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/diani-beach/photo-7.jpg",
+    "credit": "\"Diani Beach, Kenya\" by Ninara is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/37583176@N00/51975888598",
+    "provider": "openverse/flickr"
+  }
+]

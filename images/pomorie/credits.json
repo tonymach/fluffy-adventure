@@ -1,0 +1,23 @@
+[
+  {
+    "src": "images/pomorie/photo-1.jpg",
+    "credit": "\"Farewell\" by decar66 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/74776159@N00/9585268666",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/pomorie/photo-2.jpg",
+    "credit": "\"watermelons\" by ztephen is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/87463936@N00/2839516489",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/pomorie/photo-3.jpg",
+    "credit": "\"pomorie nord\" by ztephen is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/87463936@N00/2840274010",
+    "provider": "openverse/flickr"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "src": "images/jeffreys-bay/photo-1.jpg",
+    "credit": "\"Jeffreys bay - South Africa\" by Matteo Sorba is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/14384226@N07/19780829789",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/jeffreys-bay/photo-2.jpg",
+    "credit": "\"Jeffreys Bay, South Africa.\" by travelationship is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/118889575@N05/14611720321",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/jeffreys-bay/photo-3.jpg",
+    "credit": "\"Surfer, Jeffrey's Bay, South Africa\" by rocemm.wordpress.com is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/23047408@N00/2675676186",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/jeffreys-bay/photo-4.jpg",
+    "credit": "\"Swinging like crazy\" by rogiro is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/43132185@N00/66198719",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/jeffreys-bay/photo-5.jpg",
+    "credit": "\"Triviidae (Trivia family)\" by D.Eickhoff is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/50823119@N08/6434746165",
+    "provider": "openverse/flickr"
+  }
+]

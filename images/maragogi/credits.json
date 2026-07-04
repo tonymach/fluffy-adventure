@@ -1,0 +1,58 @@
+[
+  {
+    "src": "images/maragogi/photo-1.jpg",
+    "credit": "\"Maragogi, Brazil\" by danvof is marked with Public Domain Mark 1.0. To view the terms, visit https://creativecommons.org/publicdomain/mark/1.0/.",
+    "license": "PDM 1.0",
+    "source_url": "https://www.flickr.com/photos/193131310@N04/51440425064",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/maragogi/photo-2.jpg",
+    "credit": "\"Praia de Peroba / Peroba Beach\" by Marcio Cabral de Moura is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/7704455@N02/5846911008",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/maragogi/photo-3.jpg",
+    "credit": "\"Verde Maragogi...\" by alordelo is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/7387467@N04/42911721032",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/maragogi/photo-4.jpg",
+    "credit": "\"Trilhas Maragogi...\" by alordelo is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/7387467@N04/29241445958",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/maragogi/photo-5.jpg",
+    "credit": "\"Maragogi, Alagoas, Brazil (Explore)\" by danvof is marked with Public Domain Mark 1.0. To view the terms, visit https://creativecommons.org/publicdomain/mark/1.0/.",
+    "license": "PDM 1.0",
+    "source_url": "https://www.flickr.com/photos/193131310@N04/51427611991",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/maragogi/photo-6.jpg",
+    "credit": "\"Fazenda Marrecas Eco-hotel\" by Marcio Cabral de Moura is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/7704455@N02/5846882730",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/maragogi/photo-7.jpg",
+    "credit": "\"Bird feeder\" by Henrique Vicente is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+    "license": "CC0 1.0",
+    "source_url": "https://www.flickr.com/photos/51314820@N00/357400811",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/maragogi/photo-8.jpg",
+    "credit": "\"Mar Infinito\" by ground.zero is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/83265757@N00/3171916546",
+    "provider": "openverse/flickr"
+  }
+]

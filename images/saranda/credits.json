@@ -1,0 +1,23 @@
+[
+  {
+    "src": "images/saranda/photo-1.jpg",
+    "credit": "\"Saranda, Albania\" by D-Stanley is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/79721788@N00/31873093748",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/saranda/photo-2.jpg",
+    "credit": "\"Saranda (Albania)\" by Linera_68 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/21786721@N07/2184879313",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/saranda/photo-3.jpg",
+    "credit": "\"Saranda, Albania\" by timniblett is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/95764749@N00/748069",
+    "provider": "openverse/flickr"
+  }
+]

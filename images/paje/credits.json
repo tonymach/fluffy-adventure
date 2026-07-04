@@ -1,0 +1,58 @@
+[
+  {
+    "src": "images/paje/photo-1.jpg",
+    "credit": "\"Paje, Zanzibar\" by Abdallah A. Mansour is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/61633521@N08/33646838312",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/paje/photo-2.jpg",
+    "credit": "\"Paje, Zanzibar\" by Abdallah A. Mansour is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/61633521@N08/33903037836",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/paje/photo-3.jpg",
+    "credit": "\"Paje, Zanzibar\" by Abdallah A. Mansour is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/61633521@N08/33807647382",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/paje/photo-4.jpg",
+    "credit": "\"Morning work / Paje / Zanzibar / Tanzanie\" by Pauline Slt is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/62806363@N06/19507044526",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/paje/photo-5.jpg",
+    "credit": "\"paje, zanzibar\" by Enzinho83 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/41850848@N08/3851745943",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/paje/photo-6.jpg",
+    "credit": "\"paje, zanzibar\" by Enzinho83 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/41850848@N08/3852541194",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/paje/photo-7.jpg",
+    "credit": "\"paje, zanzibar\" by Enzinho83 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/41850848@N08/3851745473",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/paje/photo-8.jpg",
+    "credit": "\"Paje, Zanzibar\" by mebrett is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/91426379@N00/48777522952",
+    "provider": "openverse/flickr"
+  }
+]

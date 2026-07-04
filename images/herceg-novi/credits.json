@@ -1,0 +1,23 @@
+[
+  {
+    "src": "images/herceg-novi/photo-1.jpg",
+    "credit": "\"Grilled Squid Feral Restaurant Herceg Novi Montenegro\" by amanderson2 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/49399018@N00/10479991603",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/herceg-novi/photo-2.jpg",
+    "credit": "\"Savina Monastery Herceg Novi Montenegro\" by amanderson2 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/49399018@N00/10480504293",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/herceg-novi/photo-3.jpg",
+    "credit": "\"Herceg Novi, Montenegro\" by duopastorale is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/10487973@N05/4329483219",
+    "provider": "openverse/flickr"
+  }
+]

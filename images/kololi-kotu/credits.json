@@ -1,0 +1,23 @@
+[
+  {
+    "src": "images/kololi-kotu/photo-1.jpg",
+    "credit": "\"Kotu & Kololi beaches, Gambia\" by WildRedHed is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/71967161@N02/17409682506",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/kololi-kotu/photo-2.jpg",
+    "credit": "No machine-readable author provided. Kotoviski assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gambia005.jpg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/kololi-kotu/photo-3.jpg",
+    "credit": "WildRedHed",
+    "license": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kotu_%26_Kololi_beaches,_Gambia_(17409682506).jpg",
+    "provider": "wikimedia"
+  }
+]

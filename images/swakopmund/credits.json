@@ -1,0 +1,23 @@
+[
+  {
+    "src": "images/swakopmund/photo-1.jpg",
+    "credit": "\"Swakopmund, Namibia\" by dconvertini is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/42477684@N08/16691335104",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/swakopmund/photo-2.jpg",
+    "credit": "\"Sandboarding near Swakopmund, Namibia\" by delayed gratification is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/34865803@N00/798165601",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/swakopmund/photo-3.jpg",
+    "credit": "\"Swakopmund, Namibia\" by dconvertini is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/42477684@N08/17303952555",
+    "provider": "openverse/flickr"
+  }
+]

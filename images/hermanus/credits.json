@@ -1,0 +1,51 @@
+[
+  {
+    "src": "images/hermanus/photo-1.jpg",
+    "credit": "\"Great White Shark, Hermanus, South Africa\" by GrahamIX is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/63263977@N00/25554197",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/hermanus/photo-2.jpg",
+    "credit": "\"Sunset at Hermanus, South Africa\" by Rob Schleiffert is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/109661044@N07/15003413685",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/hermanus/photo-3.jpg",
+    "credit": "\"Hermanus, South Africa\" by jbdodane is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/27998473@N02/16008908871",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/hermanus/photo-4.jpg",
+    "credit": "\"Hermanus, South Africa\" by manoellemos is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/37022807@N00/2407848805",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/hermanus/photo-5.jpg",
+    "credit": "\"Hermanus, South Africa\" by manoellemos is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/37022807@N00/2407846889",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/hermanus/photo-6.jpg",
+    "credit": "\"Hermanus, South Africa\" by jbdodane is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/27998473@N02/15823570550",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/hermanus/photo-7.jpg",
+    "credit": "\"Hermanus, South Africa\" by jbdodane is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/27998473@N02/15823532590",
+    "provider": "openverse/flickr"
+  }
+]

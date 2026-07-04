@@ -1,0 +1,44 @@
+[
+  {
+    "src": "images/garopaba/photo-1.jpg",
+    "credit": "\"A panoramic view of Porto Beach (Praia do Porto) - Imbituba, SC, Brazil\" by bairrosfelipe is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+    "license": "CC0 1.0",
+    "source_url": "https://www.flickr.com/photos/117812763@N02/25848976465",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/garopaba/photo-2.jpg",
+    "credit": "\"Garopaba\" by Miradortigre is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/68018236@N03/39882185192",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/garopaba/photo-3.jpg",
+    "credit": "\"Cheiro do mar- Explore\" by Miradortigre is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/68018236@N03/39076995935",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/garopaba/photo-4.jpg",
+    "credit": "\"Pescadores de Garopaba\" by Miradortigre is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/68018236@N03/28064259519",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/garopaba/photo-5.jpg",
+    "credit": "\"Filhos do Mar\" by Miradortigre is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/68018236@N03/49112276168",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/garopaba/photo-6.jpg",
+    "credit": "\"Bocce Scoreboard\" by dav is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/37996635091@N01/11459858",
+    "provider": "openverse/flickr"
+  }
+]

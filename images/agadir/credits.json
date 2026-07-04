@@ -1,0 +1,44 @@
+[
+  {
+    "src": "images/agadir/photo-1.jpg",
+    "credit": "\"The beach at Agadir, Morocco\" by Robbie's Photo Art is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/37394417@N00/334554042",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/agadir/photo-2.jpg",
+    "credit": "\"W114 Taxi, Agadir Morocco\" by 300td.org is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/18832004@N07/2241692280",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/agadir/photo-3.jpg",
+    "credit": "\"Taghazout Agadir Morocco Beach surf Surfing\" by heatheronhertravels is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/22446827@N02/8591461025",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/agadir/photo-4.jpg",
+    "credit": "\"Heather and Family at Paradise Valley, near Agadir, Morocco\" by heatheronhertravels is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/22446827@N02/8616495203",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/agadir/photo-5.jpg",
+    "credit": "\"Agadir, Morocco\" by :Duncan is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/87581091@N00/220303935",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/agadir/photo-6.jpg",
+    "credit": "\"Agadir, Morocco\" by funkyflamenca is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "license": "BY-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/33532136@N02/3125834483",
+    "provider": "openverse/flickr"
+  }
+]

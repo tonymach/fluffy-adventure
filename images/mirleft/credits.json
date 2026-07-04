@@ -1,0 +1,23 @@
+[
+  {
+    "src": "images/mirleft/photo-1.jpg",
+    "credit": "\"Sunset in Mirleft, Morocco\" by Julien Sanine is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/80531360@N03/32096683936",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/mirleft/photo-2.jpg",
+    "credit": "\"Blue Hour, in Mirleft, Morocco\" by Julien Sanine is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/80531360@N03/32278944235",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/mirleft/photo-3.jpg",
+    "credit": "\"Barbary Ground Squirrels #mirleft #Morocco\" by in the shadows is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/7387285@N06/24186513852",
+    "provider": "openverse/flickr"
+  }
+]

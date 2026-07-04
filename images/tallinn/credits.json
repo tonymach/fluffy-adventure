@@ -1,0 +1,58 @@
+[
+  {
+    "src": "images/tallinn/photo-1.jpg",
+    "credit": "\"Tallinn, Estonia, May 2012\" by bill barber is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/21861018@N00/7701216000",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/tallinn/photo-2.jpg",
+    "credit": "\"DSC01122, Old Town, Tallinn, Estonia\" by jimg944 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/21203533@N00/220298964",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/tallinn/photo-3.jpg",
+    "credit": "\"Tallinn, Estonia 027 - Ciudad vieja desde el mar/The Old City view from the sea\" by Claudio.Ar is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/8991878@N08/2558684272",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/tallinn/photo-4.jpg",
+    "credit": "\"Tallinn, Estonia 030 - Ciudad vieja/Old City\" by Claudio.Ar is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/8991878@N08/2561838277",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/tallinn/photo-5.jpg",
+    "credit": "\"Tallinn, Estonia.\" by Dmitry Yurchenko is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/55489288@N03/52505660269",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/tallinn/photo-6.jpg",
+    "credit": "\"Tallinn, Estonia.\" by Dmitry Yurchenko is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/55489288@N03/52566473461",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/tallinn/photo-7.jpg",
+    "credit": "\"Tallinn Estonia\" by TausP. is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "license": "BY-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/52219029@N04/7874707058",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/tallinn/photo-8.jpg",
+    "credit": "\"Inside one of the ancient city gates, Tallinn, Estonia\" by neilalderney123 is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/17559979@N00/6972352870",
+    "provider": "openverse/flickr"
+  }
+]

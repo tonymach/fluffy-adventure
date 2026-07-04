@@ -1,0 +1,37 @@
+[
+  {
+    "src": "images/grand-baie/photo-1.jpg",
+    "credit": "\"Grand Baie, Mauritius\" by Treefiddy is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/72338482@N00/355057440",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/grand-baie/photo-2.jpg",
+    "credit": "\"Boat in Grand Baie, Mauritius\" by Olivier Roux is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/11146442@N00/1222797375",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/grand-baie/photo-3.jpg",
+    "credit": "\"Grand Baie, Mauritius\" by icklekitty is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/25193498@N00/5023155411",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/grand-baie/photo-4.jpg",
+    "credit": "\"Grand Baie, Mauritius\" by icklekitty is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/25193498@N00/5023760588",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/grand-baie/photo-5.jpg",
+    "credit": "\"Grand Baie, Mauritius\" by icklekitty is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/25193498@N00/5023154447",
+    "provider": "openverse/flickr"
+  }
+]

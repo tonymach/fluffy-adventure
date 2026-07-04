@@ -1,0 +1,51 @@
+[
+  {
+    "src": "images/marsa-alam/photo-1.jpg",
+    "credit": "\"Marsa Alam, Egypt\" by Bakar_88 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/78174175@N00/2232061997",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/marsa-alam/photo-2.jpg",
+    "credit": "\"Scuba diving, Marsa Alam, Egypt\" by karlibubbles is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/98991004@N03/9304261967",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/marsa-alam/photo-3.jpg",
+    "credit": "\"Dolphin playing underwater - Marsa Alam, Egypt\" by mattk1979 is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/24879135@N04/2354355796",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/marsa-alam/photo-4.jpg",
+    "credit": "\"Dolphins playing underwater - Marsa Morena near Marsa Alam, Egypt\" by mattk1979 is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/24879135@N04/2353544985",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/marsa-alam/photo-5.jpg",
+    "credit": "\"Dugong photographed by divers - Marsa Alam, Egypt\" by mattk1979 is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/24879135@N04/2353527953",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/marsa-alam/photo-6.jpg",
+    "credit": "\"Dugong feeding in Marsa Alam, Egypt\" by mattk1979 is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/24879135@N04/2353529393",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/marsa-alam/photo-7.jpg",
+    "credit": "\"Dugong feeding in Marsa Alam, Egypt\" by mattk1979 is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/24879135@N04/2354359180",
+    "provider": "openverse/flickr"
+  }
+]

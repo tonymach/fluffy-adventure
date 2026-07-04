@@ -1,0 +1,30 @@
+[
+  {
+    "src": "images/jurmala/photo-1.jpg",
+    "credit": "\"Canon EOS 100D & EF-S 18-55mm f3.5-5.6 IS STM test shot Jurmala Latvia\" by FotoFromFoto is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/90085138@N07/14136174354",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/jurmala/photo-2.jpg",
+    "credit": "\"Jurmala (Latvia)\" by liber is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/51035655291@N01/55628260",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/jurmala/photo-3.jpg",
+    "credit": "\"Jurmala Latvia Lettonia\" by Ivan Zanotti Photo is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/100738664@N05/10884719023",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/jurmala/photo-4.jpg",
+    "credit": "\"Jurmala, Latvia\" by lecercle is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/58143674@N00/4933801465",
+    "provider": "openverse/flickr"
+  }
+]

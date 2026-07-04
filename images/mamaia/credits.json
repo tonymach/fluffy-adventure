@@ -1,0 +1,30 @@
+[
+  {
+    "src": "images/mamaia/photo-1.jpg",
+    "credit": "\"Postcard late 1930s, Grand Hotel Rex, Mamaia, Romania\" by Sludge G is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/28179929@N08/51911919953",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/mamaia/photo-2.jpg",
+    "credit": "\"Mamaia\" by swarve is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/96155869@N00/156428501",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/mamaia/photo-3.jpg",
+    "credit": "\"Sunset over lake Siutghiol (AP4J2624 1PS)\" by Alex Panoiu is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/38737290@N06/29215296800",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/mamaia/photo-4.jpg",
+    "credit": "\"Mamaia on the Black Sea shore\" by adam79 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/31723929@N00/492568776",
+    "provider": "openverse/flickr"
+  }
+]

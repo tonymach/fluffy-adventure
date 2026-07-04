@@ -1,0 +1,30 @@
+[
+  {
+    "src": "images/sal-rei/photo-1.jpg",
+    "credit": "\"Jumping Backwards - Cape Verde, Sal Rei\" by Espen Faugstad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/54788991@N00/8386881066",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sal-rei/photo-2.jpg",
+    "credit": "\"Beach - Cape Verde, Sal Rei\" by Espen Faugstad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/54788991@N00/8387174569",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sal-rei/photo-3.jpg",
+    "credit": "\"Fishing Boat - Cape Verde, Sal Rei\" by Espen Faugstad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/54788991@N00/8386772492",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sal-rei/photo-4.jpg",
+    "credit": "\"Panorama Beach - Cape Verde, Sal Rei\" by Espen Faugstad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/54788991@N00/8385820881",
+    "provider": "openverse/flickr"
+  }
+]
