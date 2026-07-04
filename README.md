@@ -30,6 +30,34 @@ python3 -m http.server 8000    # then visit http://localhost:8000
 
 ---
 
+## Put it online (phone-friendly) 📱
+
+The site is plain static files, so hosting is trivial. **Photos load live in the
+visitor's browser** from Openverse (CC-licensed) via the **📷 Live** toggle, so a
+hosted copy shows real imagery with *nothing to install and no images to commit* —
+the sandbox that built this couldn't reach image hosts, but your phone can.
+
+**Option A — GitHub Pages via Actions (auto-deploys on every push):**
+1. In the repo: **Settings → Pages → Build and deployment → Source = "GitHub Actions"**.
+2. That's it. The included workflow (`.github/workflows/deploy-pages.yml`) runs on
+   push and publishes to `https://tonymach.github.io/fluffy-adventure/`.
+   Open that URL on your phone.
+
+**Option B — GitHub Pages, no workflow:**
+**Settings → Pages → Source = "Deploy from a branch" →** pick this branch, folder
+`/ (root)` → Save. Same URL a minute later.
+
+**Option C — drag-and-drop:** drop the whole folder onto
+[netlify.com/drop](https://app.netlify.com/drop) or run `npx vercel` — instant HTTPS
+link.
+
+> Live photos need HTTPS (works on any of the hosts above). Opening `index.html`
+> straight from disk (`file://`) can't fetch the Openverse API in some browsers, so
+> you'll see placeholders there — host it (or run `fetch-media.mjs`) for real photos.
+> Toggle **📷 Live** off anytime to go back to the offline placeholder art.
+
+---
+
 ## What you can do
 
 - **Gallery grid** of all 120 towns — hero image, gallery thumbnails, video button.

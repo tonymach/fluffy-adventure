@@ -49,6 +49,7 @@ code{background:#0a1017;padding:1px 5px;border-radius:5px;font-size:.85em;color:
 select{background:var(--panel);border:1px solid var(--line2);color:var(--ink);border-radius:10px;padding:8px 10px;font-size:13px}
 .ghost-btn{background:var(--panel);border:1px solid var(--line2);color:var(--ink);border-radius:10px;padding:8px 12px;font-weight:600}
 .ghost-btn.active{background:var(--star);color:#3a2c00;border-color:var(--star)}
+#liveBtn.active{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .link-btn{background:none;border:0;color:var(--accent);text-decoration:underline;padding:0;font-size:13px}
 
 /* layout */

@@ -69,16 +69,98 @@ function saveFavorites() {
 }
 
 // ---------- media resolution -------------------------------------------------
+// Priority per town: committed local photos -> live-fetched (browser) photos
+// -> generated placeholders. Live photos are pulled client-side from Openverse
+// (CC-licensed, CORS-enabled) so real imagery appears when the site is hosted /
+// viewed on a device with internet — no build script or committed images needed.
+let LIVE = true;                     // live-photo mode (persisted)
+const liveCache = {};                // id -> { ts, photos:[{src,full,credit,...}] }
+const liveTried = new Set();         // ids attempted this session (avoid refetch loops)
+
 function photosFor(id) {
   if (id && typeof id === "object") id = id.id;
   const m = MEDIA[id] || {};
-  const real = (m.photos || []).map(p => typeof p === "string" ? { src: p } : p);
-  if (real.length) return real;
-  return (m.placeholders || []).map(src => ({ src, placeholder: true }));
+  const local = (m.photos || []).map(p => typeof p === "string" ? { src: p } : p);
+  if (local.length) return local;
+  const placeholders = (m.placeholders || []).map(src => ({ src, placeholder: true }));
+  const live = LIVE && liveCache[id] ? liveCache[id].photos : null;
+  if (live && live.length) {
+    return live.length >= 3 ? live : live.concat(placeholders).slice(0, 3);
+  }
+  return placeholders;
 }
 function videoFor(id) {
   if (id && typeof id === "object") id = id.id;
   return (MEDIA[id] || {}).video || null;
+}
+function hasLocalPhotos(id) { return ((MEDIA[id] || {}).photos || []).length > 0; }
+
+// ---- live client-side photo fetch (Openverse) -------------------------------
+function loadLiveState() {
+  try { LIVE = localStorage.getItem("waterline_live") !== "0"; } catch (e) {}
+  try { Object.assign(liveCache, JSON.parse(localStorage.getItem("waterline_livecache") || "{}")); } catch (e) {}
+}
+function saveLiveCache() {
+  try { localStorage.setItem("waterline_livecache", JSON.stringify(liveCache)); } catch (e) {}
+}
+async function fetchLive(id) {
+  if (!LIVE || liveCache[id] || liveTried.has(id) || hasLocalPhotos(id)) return;
+  liveTried.add(id);
+  const t = TOWNS.find(x => x.id === id);
+  if (!t) return;
+  const q = t.media_query || `${t.town} ${t.country} beach`;
+  try {
+    const r = await fetch(`https://api.openverse.org/v1/images/?q=${encodeURIComponent(q)}&page_size=8&mature=false`,
+      { headers: { Accept: "application/json" } });
+    if (!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    const photos = (d.results || []).map(p => ({
+      src: p.thumbnail || p.url,
+      full: p.url || p.thumbnail,
+      credit: p.attribution || p.creator || p.title || "Openverse",
+      license: `${(p.license || "").toUpperCase()} ${p.license_version || ""}`.trim(),
+      source_url: p.foreign_landing_url || p.url,
+      live: true,
+    })).filter(p => p.src);
+    if (photos.length) {
+      liveCache[id] = { ts: Date.now(), photos };
+      saveLiveCache();
+      refreshCard(id);
+    }
+  } catch (e) { /* offline / CORS / rate-limited -> keep placeholders */ }
+}
+// small concurrency queue so we don't burst the API when many cards are visible
+const liveQueue = []; let liveActive = 0; const LIVE_MAX = 3;
+function queueLive(id) {
+  if (!LIVE || liveCache[id] || liveTried.has(id) || hasLocalPhotos(id)) return;
+  liveQueue.push(id); pumpLive();
+}
+function pumpLive() {
+  while (liveActive < LIVE_MAX && liveQueue.length) {
+    const id = liveQueue.shift(); liveActive++;
+    fetchLive(id).finally(() => { liveActive--; pumpLive(); });
+  }
+}
+let liveObserver = null;
+function setupLiveObserver() {
+  if (liveObserver) liveObserver.disconnect();
+  if (!LIVE || !("IntersectionObserver" in window)) return;
+  liveObserver = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { liveObserver.unobserve(e.target); queueLive(e.target.dataset.id); }
+    });
+  }, { rootMargin: "300px" });
+  $$(".card").forEach(cardEl => {
+    const id = cardEl.dataset.id;
+    if (hasLocalPhotos(id) || liveCache[id] || liveTried.has(id)) return;
+    liveObserver.observe(cardEl);
+  });
+}
+function refreshCard(id) {
+  const oldNode = document.querySelector('.card[data-id="' + CSS.escape(id) + '"]');
+  if (!oldNode) return;
+  const t = TOWNS.find(x => x.id === id);
+  if (t) oldNode.replaceWith(card(t));
 }
 
 // ---------- filtering + sorting ---------------------------------------------
@@ -246,6 +328,7 @@ function renderGrid() {
   list.forEach(t => grid.appendChild(card(t)));
   $("#emptyState").hidden = list.length > 0;
   $("#resultCount").innerHTML = `<b>${list.length}</b> of ${TOWNS.length} towns match`;
+  setupLiveObserver();
 }
 
 // ---------- compare ----------------------------------------------------------
@@ -362,7 +445,7 @@ function ensureTooltip() {
 
 // ---------- lightbox ---------------------------------------------------------
 let lbTown = null, lbIdx = 0;
-function openLightbox(t, i) { lbTown = t; lbIdx = i; showLb(); $("#lightbox").hidden = false; }
+function openLightbox(t, i) { lbTown = t; lbIdx = i; queueLive(t.id); showLb(); $("#lightbox").hidden = false; }
 function openVideo(t) {
   const v = videoFor(t);
   const stage = $("#lbStage"); stage.innerHTML = "";
@@ -376,11 +459,11 @@ function showLb() {
   if (lbIdx < 0) lbIdx = 0; if (lbIdx >= pics.length) lbIdx = pics.length - 1;
   const p = pics[lbIdx];
   const stage = $("#lbStage"); stage.innerHTML = "";
-  stage.appendChild(el("img", { src: p.src, alt: lbTown.town }));
+  stage.appendChild(el("img", { src: p.full || p.src, alt: lbTown.town }));
   const cap = [];
   cap.push(`<strong>${lbTown.town}</strong> — ${lbIdx + 1}/${pics.length}`);
   if (p.placeholder) cap.push(`generated placeholder — real photos: <a href="${imgSearch(lbTown)}" target="_blank" rel="noopener">Google Images ↗</a> · <a href="${ovSearch(lbTown)}" target="_blank" rel="noopener">Openverse ↗</a> · or run <code>fetch-media</code>`);
-  else if (p.credit) cap.push(`${p.credit}${p.license ? " · " + p.license : ""}${p.source_url ? ` · <a href="${p.source_url}" target="_blank" rel="noopener">source ↗</a>` : ""}`);
+  else if (p.credit) cap.push(`${escapeHtml(p.credit)}${p.license ? " · " + escapeHtml(p.license) : ""}${p.source_url ? ` · <a href="${p.source_url}" target="_blank" rel="noopener">source ↗</a>` : ""}${p.live ? " · live via Openverse" : ""}`);
   $("#lbCaption").innerHTML = cap.join(" · ");
 }
 function lbMove(d) { if (lbIdx < 0) return; lbIdx += d; showLb(); }
@@ -429,6 +512,14 @@ function buildFilterUI() {
   $("#search").addEventListener("input", e => { filters.search = e.target.value.trim(); render(); });
   $("#sort").addEventListener("change", e => { sort = e.target.value; render(); });
   $("#favBtn").addEventListener("click", () => { filters.favOnly = !filters.favOnly; render(); });
+  const syncLiveBtn = () => { $("#liveBtn").classList.toggle("active", LIVE); $("#liveBtn").textContent = LIVE ? "📷 Live ✓" : "📷 Live"; };
+  $("#liveBtn").addEventListener("click", () => {
+    LIVE = !LIVE;
+    try { localStorage.setItem("waterline_live", LIVE ? "1" : "0"); } catch (e) {}
+    if (LIVE) liveTried.clear();
+    syncLiveBtn(); render();
+  });
+  syncLiveBtn();
 
   $$(".tab").forEach(b => b.addEventListener("click", () => { view = b.dataset.view; render(); }));
   $("#resetFilters").addEventListener("click", resetFilters);
@@ -506,6 +597,7 @@ loadData().then(({ data, media }) => {
   if (!data) { document.body.innerHTML = "<p style='padding:40px'>Could not load data.json. Serve the folder or open with data.js present.</p>"; return; }
   TOWNS = data.towns; META = data.meta || {}; MEDIA = media;
   loadFavorites();
+  loadLiveState();
   buildHeader();
   buildFilterUI();
   buildFavTools();
