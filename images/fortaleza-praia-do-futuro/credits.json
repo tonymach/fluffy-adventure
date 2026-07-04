@@ -1,23 +1,58 @@
 [
   {
     "src": "images/fortaleza-praia-do-futuro/photo-1.jpg",
-    "credit": "\"7 Reasons Americans Should (Never) Buy Fortaleza Brazil Real Estate – Part 1\" by International Real Estate Listings is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/59281281@N03/9508466751",
+    "credit": "\"Contemplation - Sony RX1\" by Gordon-Shukwit is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/65231736@N07/12567437795",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/fortaleza-praia-do-futuro/photo-2.jpg",
-    "credit": "\"Beira Mar - Fortaleza, Brazil!\" by Guilherme Sampaio de Melo is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/55806187@N02/28048578632",
+    "credit": "\"Rain Water\" by Chaval Brasil is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/14425592@N07/3695048905",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/fortaleza-praia-do-futuro/photo-3.jpg",
-    "credit": "\"Sunset in the Ponte Metálica. Fortaleza, Brazil.\" by Guilherme Sampaio de Melo is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/55806187@N02/27546566693",
+    "credit": "\"Brasil - Ceará - Fortaleza - Meireles\" by A. Duarte is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/30411166@N04/2966220544",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/fortaleza-praia-do-futuro/photo-4.jpg",
+    "credit": "\"Family on the beach\" by Ric e Ette is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/34708734@N00/311623775",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/fortaleza-praia-do-futuro/photo-5.jpg",
+    "credit": "\"Shadow people & green donuts\" by Ric e Ette is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/34708734@N00/212438101",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/fortaleza-praia-do-futuro/photo-6.jpg",
+    "credit": "\"Fortaleza - CE - BRAZIL\" by ground.zero is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/83265757@N00/48970061",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/fortaleza-praia-do-futuro/photo-7.jpg",
+    "credit": "\"Silhouette...\" by Tereza Duarte is marked with Public Domain Mark 1.0. To view the terms, visit https://creativecommons.org/publicdomain/mark/1.0/.",
+    "license": "PDM 1.0",
+    "source_url": "https://www.flickr.com/photos/35745832@N08/4649868987",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/fortaleza-praia-do-futuro/photo-8.jpg",
+    "credit": "\"Brasil - Ceará - Fortaleza - Meireles (zoom)\" by A. Duarte is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/30411166@N04/2965372715",
     "provider": "openverse/flickr"
   }
 ]

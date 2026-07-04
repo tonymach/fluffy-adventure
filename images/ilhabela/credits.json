@@ -1,51 +1,58 @@
 [
   {
     "src": "images/ilhabela/photo-1.jpg",
-    "credit": "\"ILHABELA, BRAZIL: paradise on the atlantic coast\" by thejourney1972 (South America addicted) is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "credit": "\"Sunbathing at Noon\" by Saopaulo1 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/50694521@N00/281561962",
+    "source_url": "https://www.flickr.com/photos/63134718@N00/188468490",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/ilhabela/photo-2.jpg",
-    "credit": "\"Beach - Ilhabela, Brazil\" by Szymon Kochanski is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/14257585@N08/3534255523",
+    "credit": "\"Ilhabela's beach\" by Saopaulo1 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/63134718@N00/188468492",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/ilhabela/photo-3.jpg",
-    "credit": "\"Ilhabela - Brazil\" by Diego3336 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/31018257@N00/22805263",
+    "credit": "\"Underground Ballet (E2-F4)\" by Edward Zulawski is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/69508547@N06/48347348657",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/ilhabela/photo-4.jpg",
-    "credit": "\"Ilhabela, Brazil\" by L. Centomo is marked with Public Domain Mark 1.0. To view the terms, visit https://creativecommons.org/publicdomain/mark/1.0/.",
-    "license": "PDM 1.0",
-    "source_url": "https://www.flickr.com/photos/124360936@N08/18875063445",
+    "credit": "\"Underground Ballet (E3-F14)\" by Edward Zulawski is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/69508547@N06/48441829147",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/ilhabela/photo-5.jpg",
-    "credit": "\"Crowded beach - Ilhabela, Brazil\" by Szymon Kochanski is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "credit": "\"Underground Ballet (E3-F8)\" by Edward Zulawski is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/14257585@N08/3535073356",
+    "source_url": "https://www.flickr.com/photos/69508547@N06/48372566617",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/ilhabela/photo-6.jpg",
-    "credit": "\"Beach - Ilhabela, Brazil\" by Szymon Kochanski is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "credit": "\"Underground Ballet (E1-F1)\" by Edward Zulawski is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/14257585@N08/3534255323",
+    "source_url": "https://www.flickr.com/photos/69508547@N06/48311717752",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/ilhabela/photo-7.jpg",
-    "credit": "\"Two fishermen, two boats and one cross - Ilhabela, Brazil\" by Szymon Kochanski is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "credit": "\"Underground Ballet (E1-F15)\" by Edward Zulawski is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/14257585@N08/3534255865",
+    "source_url": "https://www.flickr.com/photos/69508547@N06/48463150487",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/ilhabela/photo-8.jpg",
+    "credit": "\"Underground Ballet (E3-F9)\" by Edward Zulawski is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/69508547@N06/48379783541",
     "provider": "openverse/flickr"
   }
 ]

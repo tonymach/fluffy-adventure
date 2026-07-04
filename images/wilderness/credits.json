@@ -8,51 +8,51 @@
   },
   {
     "src": "images/wilderness/photo-2.jpg",
-    "credit": "\"Kaaiman's River Bridge, Wilderness, South Africa\" by DanieVDM is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/12915821@N00/104898475",
+    "credit": "\"Wilderness, too - South Africa\" by South African Tourism is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/25779097@N08/2418528446",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/wilderness/photo-3.jpg",
-    "credit": "\"Wolfberg Cracks Cederberg Wilderness South Africa\" by Jonohey is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/23465120@N00/5334534392",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/wilderness/photo-4.jpg",
     "credit": "\"Wilderness, South Africa\" by SoulRiser is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
     "license": "BY-SA 2.0",
     "source_url": "https://www.flickr.com/photos/7661492@N06/22108232192",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/wilderness/photo-5.jpg",
+    "src": "images/wilderness/photo-4.jpg",
     "credit": "\"Wilderness, South Africa\" by SoulRiser is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
     "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/7661492@N06/21499662913",
+    "source_url": "https://www.flickr.com/photos/7661492@N06/22130864741",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/wilderness/photo-5.jpg",
+    "credit": "\"Indian Ocean Shore line - Wilderness SA\" by Donnie Ray is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/12509899@N00/126610064",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/wilderness/photo-6.jpg",
-    "credit": "\"Wilderness, South Africa\" by SoulRiser is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/7661492@N06/21932895638",
+    "credit": "\"The Wilderness, Garden Route, South Africa\" by RobW_ is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/82362654@N00/196088927",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/wilderness/photo-7.jpg",
-    "credit": "\"Wilderness, South Africa\" by SoulRiser is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/7661492@N06/21932653890",
+    "credit": "\"Wilderness Panorama\" by RobW_ is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/82362654@N00/143899350",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/wilderness/photo-8.jpg",
-    "credit": "\"Wilderness, South Africa\" by SoulRiser is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/7661492@N06/22094584926",
+    "credit": "\"Wilderness\" by David W. Siu is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/7400937@N07/5117074062",
     "provider": "openverse/flickr"
   }
 ]

@@ -1,9 +1,37 @@
 [
   {
     "src": "images/santa-maria/photo-1.jpg",
+    "credit": "\"Porto Antigo Sunset\" by gstening is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/42503424@N06/15434466214",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/santa-maria/photo-2.jpg",
     "credit": "\"Boat Wreck Santa Maria - Cape Verde, Boa Vista\" by Espen Faugstad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/54788991@N00/8387760302",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/santa-maria/photo-3.jpg",
+    "credit": "\"Santa Maria Sunrise\" by gstening is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/42503424@N06/16088744835",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/santa-maria/photo-4.jpg",
+    "credit": "\"Sand Castle\" by waldyrious is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/10185567@N05/1485792430",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/santa-maria/photo-5.jpg",
+    "credit": "\"Sun\" by AmC0rp is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/25943165@N02/2446426969",
     "provider": "openverse/flickr"
   }
 ]

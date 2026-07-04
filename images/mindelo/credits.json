@@ -1,51 +1,58 @@
 [
   {
     "src": "images/mindelo/photo-1.jpg",
-    "credit": "\"Mindelo Cape Verde\" by harryandrowenaphotos is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/55453048@N03/8477820045",
+    "credit": "\"Mindelo, São Vicente, Cape Verde\" by CarolineG2011 is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/58108850@N07/16696353652",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/mindelo/photo-2.jpg",
-    "credit": "\"AFRICOM: MINDELO, Cape Verde\" by USAFRICOM is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/44606090@N06/4705020331",
+    "credit": "\"Mindelo, São Vicente, Cabo Verde\" by CarolineG2011 is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/58108850@N07/16638270705",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/mindelo/photo-3.jpg",
-    "credit": "\"AFRICOM: MINDELO, Cape Verde\" by USAFRICOM is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/44606090@N06/4705020255",
+    "credit": "\"HMS IRON DUKE visits Mindelo in the Cape Verde Islands\" by Royal Navy Media Archive is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/69974959@N03/14657796311",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/mindelo/photo-4.jpg",
-    "credit": "\"Mindelo Cape Verde\" by harryandrowenaphotos is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "credit": "\"Camino de São Nicolau 2012\" by oscarparadela.com is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/55453048@N03/8477816847",
+    "source_url": "https://www.flickr.com/photos/51234167@N08/8417960152",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/mindelo/photo-5.jpg",
-    "credit": "\"Mindelo, Cape Verde\" by Traveller858 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "credit": "\"Camino de São Nicolau 2012\" by oscarparadela.com is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/16158148@N07/6358452889",
+    "source_url": "https://www.flickr.com/photos/51234167@N08/8415066358",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/mindelo/photo-6.jpg",
-    "credit": "\"AFRICOM: MINDELO, Cape Verde\" by USAFRICOM is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/44606090@N06/4705020415",
+    "credit": "\"Camino de São Nicolau 2012\" by oscarparadela.com is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/51234167@N08/8429872897",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/mindelo/photo-7.jpg",
-    "credit": "\"Mindelo Cape Verde\" by harryandrowenaphotos is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "credit": "\"Camino de São Nicolau 2012\" by oscarparadela.com is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/55453048@N03/8477819183",
+    "source_url": "https://www.flickr.com/photos/51234167@N08/8416831685",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/mindelo/photo-8.jpg",
+    "credit": "\"beach fish market\" by veritatem is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/66722164@N00/314229921",
     "provider": "openverse/flickr"
   }
 ]

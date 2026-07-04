@@ -1,51 +1,58 @@
 [
   {
     "src": "images/tamarin/photo-1.jpg",
-    "credit": "\"Salt Pans in Tamarin, Mauritius\" by Philippe Vieux-Jeanton is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/11234074@N05/12673152424",
+    "credit": "This work by carrotmadman6 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/23512070@N08/9716137960",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/tamarin/photo-2.jpg",
+    "credit": "\"Sunbathing, Tamarin beach\" by duncan is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/34427470616@N01/2931197360",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/tamarin/photo-3.jpg",
+    "credit": "This work by Philippe Vieux-Jeanton is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/11234074@N05/12674858293",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/tamarin/photo-4.jpg",
     "credit": "\"Tamarin, Mauritius Island\" by Philippe Vieux-Jeanton is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
     "source_url": "https://www.flickr.com/photos/11234074@N05/12700509505",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/tamarin/photo-3.jpg",
+    "src": "images/tamarin/photo-5.jpg",
+    "credit": "\"Mauritius Beaches - West - Tamarin - 001\" by Dietmar Reigber is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/41949843@N06/5689790690",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/tamarin/photo-6.jpg",
+    "credit": "\"Large & Small Magellanic Clouds / Bahia de Tamarin, Mauritus 2018\" by Martin Lovekosi is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/100250706@N06/44645110720",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/tamarin/photo-7.jpg",
     "credit": "\"Dolphins in Tamarin, Mauritius!\" by tripandtravelblog is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/130082958@N04/17157244898",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/tamarin/photo-4.jpg",
-    "credit": "\"dolphins-tamarin-mauritius\" by stillingen is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "src": "images/tamarin/photo-8.jpg",
+    "credit": "\"Tamarin bay\" by duncan is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
     "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/37559519@N05/9322074282",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/tamarin/photo-5.jpg",
-    "credit": "\"© Veranda Tamarin, Mauritius\" by feeinternational is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/129864402@N06/52490413409",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/tamarin/photo-6.jpg",
-    "credit": "\"#postcard from #tamarin #Mauritius #sunset on the #surf #spot in #winter\" by davidterranova is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/68788482@N07/19410477491",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/tamarin/photo-7.jpg",
-    "credit": "\"© Veranda Tamarin, Mauritius\" by feeinternational is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/129864402@N06/52489645582",
+    "source_url": "https://www.flickr.com/photos/34427470616@N01/2906884350",
     "provider": "openverse/flickr"
   }
 ]

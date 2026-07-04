@@ -1,44 +1,58 @@
 [
   {
     "src": "images/budva/photo-1.jpg",
-    "credit": "\"Mogren Beach in Budva, Montenegro\" by davduf is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "credit": "\"Current (wishful) status: reading, relaxing by the beach, and going for frequent dips. Reality is very different. 🌊☀️💦📖😎 #budva #montenegro #beach\" by byte is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/14483308@N00/556941381",
+    "source_url": "https://www.flickr.com/photos/17956027@N00/34968772942",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/budva/photo-2.jpg",
-    "credit": "\"2016 ITU Regional Development Forum for Europe, Budva, Montenegro, 27 -28 September 2016 - Dinner\" by ITU Pictures is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/42121221@N07/29957172520",
+    "credit": "\"I hope there are days when you fall in love with being alive\" by Belinda Novika is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/151619224@N04/34249097804",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/budva/photo-3.jpg",
-    "credit": "\"Budva, Montenegro\" by Nigel Swales is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "credit": "\"A beautiful tragedy\" by Belinda Novika is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
     "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/22890158@N08/2481107050",
+    "source_url": "https://www.flickr.com/photos/151619224@N04/33500020293",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/budva/photo-4.jpg",
-    "credit": "\"Portrait, Budva, Montenegro\" by chrisjohnbeckett is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/62558594@N00/26772215854",
+    "credit": "\"Day 3 @ Sea Dance Festival 2017\" by Sea Dance Festival is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/129940764@N06/35979843555",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/budva/photo-5.jpg",
-    "credit": "\"Budva, Montenegro\" by Nigel Swales is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/22890158@N08/2481107750",
+    "credit": "\"Sea Dance Festival 2016\" by Sea Dance Festival is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/129940764@N06/28289544601",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/budva/photo-6.jpg",
-    "credit": "\"Portrait, Budva, Montenegro\" by chrisjohnbeckett is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/62558594@N00/27861832135",
+    "credit": "\"Sea Dance Festival 2016\" by Sea Dance Festival is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/129940764@N06/28334837306",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/budva/photo-7.jpg",
+    "credit": "\"Sea Dance Festival 2016\" by Sea Dance Festival is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/129940764@N06/28289536331",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/budva/photo-8.jpg",
+    "credit": "\"Sea Dance Festival 2016\" by Sea Dance Festival is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/129940764@N06/28085267960",
     "provider": "openverse/flickr"
   }
 ]

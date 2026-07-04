@@ -1,44 +1,58 @@
 [
   {
     "src": "images/ohrid/photo-1.jpg",
-    "credit": "\"Ohrid, North Macedonia\" by Sharon Hahn Darlin is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/41980486@N07/52425217645",
-    "provider": "openverse/flickr"
+    "credit": "David Bailey",
+    "license": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ohrid_Beach_Bar.jpg",
+    "provider": "wikimedia"
   },
   {
     "src": "images/ohrid/photo-2.jpg",
-    "credit": "\"Lake Ohrid, North Macedonia\" by Sharon Hahn Darlin is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/41980486@N07/52271101669",
-    "provider": "openverse/flickr"
+    "credit": "Pudelek (Marcin Szala)",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lake_Ohrid_near_Ohrid.JPG",
+    "provider": "wikimedia"
   },
   {
     "src": "images/ohrid/photo-3.jpg",
-    "credit": "\"Ohrid, North Macedonia\" by Sharon Hahn Darlin is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/41980486@N07/52361302525",
-    "provider": "openverse/flickr"
+    "credit": "Pudelek (Marcin Szala)",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lake_Ohrid_in_Ohrid_01.JPG",
+    "provider": "wikimedia"
   },
   {
     "src": "images/ohrid/photo-4.jpg",
-    "credit": "\"Ohrid, North Macedonia\" by Sharon Hahn Darlin is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/41980486@N07/52314956869",
-    "provider": "openverse/flickr"
+    "credit": "Pudelek (Marcin Szala)",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lake_Ohrid_in_Ohrid_02.JPG",
+    "provider": "wikimedia"
   },
   {
     "src": "images/ohrid/photo-5.jpg",
-    "credit": "\"Ohrid, North Macedonia\" by Sharon Hahn Darlin is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/41980486@N07/52333080661",
-    "provider": "openverse/flickr"
+    "credit": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Iglesia_San_Juan_Kaneo,_Ohrid,_Macedonia_del_Norte,_2014-04-17,_DD_19.jpg",
+    "provider": "wikimedia"
   },
   {
     "src": "images/ohrid/photo-6.jpg",
-    "credit": "\"Ohrid, North Macedonia\" by Sharon Hahn Darlin is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/41980486@N07/52314822973",
-    "provider": "openverse/flickr"
+    "credit": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Iglesia_San_Juan_Kaneo,_Ohrid,_Macedonia_del_Norte,_2014-04-17,_DD_22.jpg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/ohrid/photo-7.jpg",
+    "credit": "Pudelek",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lake_Ohrid_near_city_Ohrid.jpg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/ohrid/photo-8.jpg",
+    "credit": "Ljiljana Sundać",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ohrid,_North_Macedonia,_2009_02.jpg",
+    "provider": "wikimedia"
   }
 ]

@@ -1,44 +1,58 @@
 [
   {
     "src": "images/kotor/photo-1.jpg",
-    "credit": "\"Kotor - Montenegro\" by carlosoliveirareis is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/54218923@N00/52527698293",
+    "credit": "\"Water\" by Alexandra Zakharova is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/27887762@N07/15215287296",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/kotor/photo-2.jpg",
-    "credit": "\"Kotor - Montenegro\" by carlosoliveirareis is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/54218923@N00/52527626965",
+    "credit": "\"Private beach. Bay of Kotor\" by VV Nincic is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/133904091@N04/29502927375",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/kotor/photo-3.jpg",
-    "credit": "\"Urlaub 2016 - Bucht von Kotor, Montenegro\" by trombone65 (PhotoArt Laatzen) is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/98927875@N05/30574086292",
+    "credit": "\"EXIT Adventure 2014\" by Exit Festival is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/48584875@N05/11219267864",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/kotor/photo-4.jpg",
-    "credit": "\"Bay of Kotor, Montenegro\" by scottmliddell is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "credit": "\"Storm over Fjord\" by arno.hoyer is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/28841991@N05/5011605940",
+    "source_url": "https://www.flickr.com/photos/128621707@N08/17382781141",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/kotor/photo-5.jpg",
-    "credit": "\"Kotor Montenegro\" by Clay Gilliland is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/26781577@N07/16021411695",
+    "credit": "\"'Like the boss'\" by bluishgreen12 is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/144187954@N07/37164345715",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/kotor/photo-6.jpg",
-    "credit": "\"Spending time in one of the most beautiful places on earth. Kotor, Montenegro.\" by fulvio di marco is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/31974495@N04/9981426765",
+    "credit": "\"Water\" by Alexandra Zakharova is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/27887762@N07/7948890638",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/kotor/photo-7.jpg",
+    "credit": "\"EXIT Adventure 2014\" by Exit Festival is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/48584875@N05/11219252615",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/kotor/photo-8.jpg",
+    "credit": "\"Zadar, Croatia Downtown Coastline\" by kayadams.com is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/29326506@N04/2853046053",
     "provider": "openverse/flickr"
   }
 ]

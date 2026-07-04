@@ -1,44 +1,58 @@
 [
   {
     "src": "images/oualidia/photo-1.jpg",
-    "credit": "\"Surf and turf on the beach... Oualidia, Morocco.\" by Webwright is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/47871844@N00/9062162210",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/oualidia/photo-2.jpg",
-    "credit": "\"Oualidia Morocco\" by image engine is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/7482782@N06/54099566394",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/oualidia/photo-3.jpg",
-    "credit": "\"Blue R4 Oualidia Morocco\" by image engine is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/7482782@N06/54098366387",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/oualidia/photo-4.jpg",
     "credit": "\"Plage de Oualidia\" by Carlos ZGZ is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
     "license": "CC0 1.0",
     "source_url": "https://www.flickr.com/photos/31810462@N07/15561675650",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/oualidia/photo-5.jpg",
+    "src": "images/oualidia/photo-2.jpg",
     "credit": "\"Sunset Barbeque\" by 16:9clue is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/53255320@N07/5421052454",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/oualidia/photo-6.jpg",
+    "src": "images/oualidia/photo-3.jpg",
     "credit": "\"Glow\" by 16:9clue is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/53255320@N07/5424500446",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/oualidia/photo-4.jpg",
+    "credit": "\"Beach life\" by 16:9clue is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/53255320@N07/5416488352",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/oualidia/photo-5.jpg",
+    "credit": "\"sur la plage\" by Alexbip is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/99014076@N00/1598863996",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/oualidia/photo-6.jpg",
+    "credit": "\"Oualidia\" by Siri B.L. is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/33042199@N02/7542573538",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/oualidia/photo-7.jpg",
+    "credit": "\"Camera ... men\" by jeremysalmon is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "license": "BY-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/26308411@N03/4625863125",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/oualidia/photo-8.jpg",
+    "credit": "\"Oualidia Sunrise\" by jeremysalmon is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "license": "BY-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/26308411@N03/4621336762",
     "provider": "openverse/flickr"
   }
 ]

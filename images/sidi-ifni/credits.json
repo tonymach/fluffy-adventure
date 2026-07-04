@@ -1,58 +1,51 @@
 [
   {
     "src": "images/sidi-ifni/photo-1.jpg",
+    "credit": "\"Playa salvaje entre Agadir y Sidi Ifni (Marruecos)\" by Carlos ZGZ is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+    "license": "CC0 1.0",
+    "source_url": "https://www.flickr.com/photos/31810462@N07/15746479805",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sidi-ifni/photo-2.jpg",
+    "credit": "\"Mirhleft, Morocco\" by dpalmisano is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/20123038@N07/11058476554",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sidi-ifni/photo-3.jpg",
+    "credit": "\"Agadir from the Kasbah\" by dpalmisano is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/20123038@N07/11058403876",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sidi-ifni/photo-4.jpg",
+    "credit": "\"Plage de Legzira IV, Morocco, 20150923\" by G · RTM is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/89446016@N00/21762220751",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sidi-ifni/photo-5.jpg",
+    "credit": "This work by Maniacalrobot is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/40172922@N00/297666920",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sidi-ifni/photo-6.jpg",
     "credit": "\"Horse riding on the beach in Sidi Ifni, Morocco\" by jbdodane is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
     "license": "BY-NC 2.0",
     "source_url": "https://www.flickr.com/photos/27998473@N02/8521069350",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/sidi-ifni/photo-2.jpg",
-    "credit": "\"Election poster, Sidi Ifni, Morocco, 1991\" by Pixel whippersnapper is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/29298221@N06/3286386656",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/sidi-ifni/photo-3.jpg",
-    "credit": "\"Coastline in Sidi Ifni, Morocco\" by jbdodane is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/27998473@N02/8519946429",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/sidi-ifni/photo-4.jpg",
-    "credit": "\"Coastline in Sidi Ifni, Morocco\" by jbdodane is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/27998473@N02/8519962155",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/sidi-ifni/photo-5.jpg",
-    "credit": "\"Coastline in Sidi Ifni, Morocco\" by jbdodane is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/27998473@N02/8519945189",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/sidi-ifni/photo-6.jpg",
-    "credit": "\"Coastline in Sidi Ifni, Morocco\" by jbdodane is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/27998473@N02/8521062442",
-    "provider": "openverse/flickr"
-  },
-  {
     "src": "images/sidi-ifni/photo-7.jpg",
-    "credit": "\"Coastline in Sidi Ifni, Morocco\" by jbdodane is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/27998473@N02/8519956861",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/sidi-ifni/photo-8.jpg",
-    "credit": "\"Coastline in Sidi Ifni, Morocco\" by jbdodane is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/27998473@N02/8519953855",
+    "credit": "\"Spanish soldiers disembarking in Sidi Ifni\" by Cassowary Colorizations is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/150300783@N07/34594848635",
     "provider": "openverse/flickr"
   }
 ]

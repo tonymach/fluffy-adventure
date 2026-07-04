@@ -1,51 +1,51 @@
 [
   {
     "src": "images/wladyslawowo-hel/photo-1.jpg",
+    "credit": "Michał Kwasiżur",
+    "license": "CC BY 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hel_-_panoramio_(4).jpg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/wladyslawowo-hel/photo-2.jpg",
     "credit": "File:Wladyslawowo-hel.jpg",
     "license": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Wladyslawowo-hel.jpg",
     "provider": "wikimedia"
   },
   {
-    "src": "images/wladyslawowo-hel/photo-2.jpg",
+    "src": "images/wladyslawowo-hel/photo-3.jpg",
     "credit": "Diego Delso",
     "license": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Puerto_de_Hel,_Polonia,_2013-05-23,_DD_01.jpg",
     "provider": "wikimedia"
   },
   {
-    "src": "images/wladyslawowo-hel/photo-3.jpg",
+    "src": "images/wladyslawowo-hel/photo-4.jpg",
     "credit": "Diego Delso",
     "license": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Puerto_de_Hel,_Polonia,_2013-05-23,_DD_02.jpg",
     "provider": "wikimedia"
   },
   {
-    "src": "images/wladyslawowo-hel/photo-4.jpg",
+    "src": "images/wladyslawowo-hel/photo-5.jpg",
     "credit": "Diego Delso",
     "license": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Puerto_de_Hel,_Polonia,_2013-05-23,_DD_03.jpg",
     "provider": "wikimedia"
   },
   {
-    "src": "images/wladyslawowo-hel/photo-5.jpg",
+    "src": "images/wladyslawowo-hel/photo-6.jpg",
     "credit": "bogdan1971",
     "license": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Starowiejska_25,_84-120_W%C5%82adys%C5%82awowo,_Poland_-_panoramio.jpg",
     "provider": "wikimedia"
   },
   {
-    "src": "images/wladyslawowo-hel/photo-6.jpg",
+    "src": "images/wladyslawowo-hel/photo-7.jpg",
     "credit": "Unknown authorUnknown author",
     "license": "Public domain",
     "source_url": "https://commons.wikimedia.org/wiki/File:Wladyslawowo_umocnienia.jpg",
-    "provider": "wikimedia"
-  },
-  {
-    "src": "images/wladyslawowo-hel/photo-7.jpg",
-    "credit": "Dwxn",
-    "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:20240228_142158_W%C5%82adys%C5%82awowo_09.jpg",
     "provider": "wikimedia"
   },
   {

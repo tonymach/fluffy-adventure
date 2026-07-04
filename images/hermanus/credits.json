@@ -1,51 +1,58 @@
 [
   {
     "src": "images/hermanus/photo-1.jpg",
-    "credit": "\"Great White Shark, Hermanus, South Africa\" by GrahamIX is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/63263977@N00/25554197",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/hermanus/photo-2.jpg",
     "credit": "\"Sunset at Hermanus, South Africa\" by Rob Schleiffert is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
     "license": "BY-NC 2.0",
     "source_url": "https://www.flickr.com/photos/109661044@N07/15003413685",
     "provider": "openverse/flickr"
   },
   {
+    "src": "images/hermanus/photo-2.jpg",
+    "credit": "\"Whale Walk, Hermanus, Western Cape\" by South African Tourism is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/25779097@N08/6252718671",
+    "provider": "openverse/flickr"
+  },
+  {
     "src": "images/hermanus/photo-3.jpg",
-    "credit": "\"Hermanus, South Africa\" by jbdodane is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/27998473@N02/16008908871",
+    "credit": "\"Grasses on the shore\" by Sumarie Slabber is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "license": "BY-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/28770457@N03/33754711520",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/hermanus/photo-4.jpg",
-    "credit": "\"Hermanus, South Africa\" by manoellemos is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/37022807@N00/2407848805",
+    "credit": "\"Whale with calf\" by cornstaruk is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/23508331@N00/1764354868",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/hermanus/photo-5.jpg",
-    "credit": "\"Hermanus, South Africa\" by manoellemos is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/37022807@N00/2407846889",
+    "credit": "\"Grotto Beach, Hermanus\" by RobW_ is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/82362654@N00/261645321",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/hermanus/photo-6.jpg",
-    "credit": "\"Hermanus, South Africa\" by jbdodane is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/27998473@N02/15823570550",
+    "credit": "\"Whale blow-holing\" by cornstaruk is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/23508331@N00/1763510753",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/hermanus/photo-7.jpg",
-    "credit": "\"Hermanus, South Africa\" by jbdodane is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/27998473@N02/15823532590",
+    "credit": "\"Whale Breaching\" by cornstaruk is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/23508331@N00/1764357262",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/hermanus/photo-8.jpg",
+    "credit": "\"Hermanus, Cape Town\" by Abspires40 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/76506919@N04/10134137256",
     "provider": "openverse/flickr"
   }
 ]

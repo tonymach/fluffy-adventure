@@ -1,58 +1,58 @@
 [
   {
     "src": "images/sedgefield/photo-1.jpg",
-    "credit": "\"Scarab Paper Sedgefield - South Africa\" by South African Tourism is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/25779097@N08/4029385660",
+    "credit": "\"Sedgefield Beach\" by 126 Club is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/47339128@N00/50595445",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/sedgefield/photo-2.jpg",
-    "credit": "\"Greater Double-collared Sunbird in Wilderness National Park near Sedgefield, South Africa\" by Dave Bezaire is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/75988799@N00/4961371064",
+    "credit": "\"Beach Walk\" by nataliej is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/98894117@N00/3264900936",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/sedgefield/photo-3.jpg",
-    "credit": "\"Bird of Paradise in Wilderness National Park near Sedgefield, South Africa\" by Dave Bezaire is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/75988799@N00/4961373316",
+    "credit": "\"Beach Walk\" by nataliej is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/98894117@N00/3264065187",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/sedgefield/photo-4.jpg",
-    "credit": "\"Cape Weaver in Wilderness National Park near Sedgefield, South Africa\" by Dave Bezaire is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/75988799@N00/4961365280",
-    "provider": "openverse/flickr"
+    "credit": "Internet Archive Book Images",
+    "license": "No restrictions",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Annals_of_the_South_African_Museum_-_Annale_van_die_Suid-Afrikaanse_Museum_(1963)_(18228603978).jpg",
+    "provider": "wikimedia"
   },
   {
     "src": "images/sedgefield/photo-5.jpg",
-    "credit": "\"Egyptian Geese in Winderness National Park near Sedgefield, South Africa\" by Dave Bezaire is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/75988799@N00/4961375760",
-    "provider": "openverse/flickr"
+    "credit": "South African Museum",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Annals_of_the_South_African_Museum_%3D_Annale_van_die_Suid-Afrikaanse_Museum_(IA_annalsofsoutha6921975sout).pdf",
+    "provider": "wikimedia"
   },
   {
     "src": "images/sedgefield/photo-6.jpg",
-    "credit": "\"Drumming & Candlelight Vigil in Sedgefield South Africa\" by The World Wants a Real Deal is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/45290485@N08/4179998060",
-    "provider": "openverse/flickr"
+    "credit": "Tristram, H. B. (Henry Baker), 1822-1906",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Catalogue_of_a_collection_of_birds_belonging_to_.._(IA_catalogueofcolle00tris).pdf",
+    "provider": "wikimedia"
   },
   {
     "src": "images/sedgefield/photo-7.jpg",
-    "credit": "\"Sedgefield South Africa\" by The World Wants a Real Deal is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/45290485@N08/4183715143",
-    "provider": "openverse/flickr"
+    "credit": "Morrison, W. Frederic",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:California_Digital_Library_(IA_aldinehistoryofq01morr).pdf",
+    "provider": "wikimedia"
   },
   {
     "src": "images/sedgefield/photo-8.jpg",
-    "credit": "\"Drumming & Candlelight Vigil in Sedgefield South Africa\" by The World Wants a Real Deal is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/45290485@N08/4179997594",
-    "provider": "openverse/flickr"
+    "credit": "Zoological Society of London",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:List_of_fellows_(IA_listoffellows1924zooluoft).pdf",
+    "provider": "wikimedia"
   }
 ]

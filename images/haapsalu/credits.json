@@ -22,30 +22,37 @@
   },
   {
     "src": "images/haapsalu/photo-4.jpg",
-    "credit": "\"Haapsalu, Estonia\" by Kazimierz Popławski is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/127492045@N06/22198646201",
+    "credit": "\"Paralepa beach\" by Eesti.pl is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/81382714@N02/15200142164",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/haapsalu/photo-5.jpg",
-    "credit": "\"Haapsalu, Estonia\" by Liberty Dent is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "credit": "\"Haapsalu beach in winter\" by Vicky Brock is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
     "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/46795530@N02/9300410502",
+    "source_url": "https://www.flickr.com/photos/43881438@N00/51837794356",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/haapsalu/photo-6.jpg",
-    "credit": "\"Old freight train in the collection of old trains Haapsalu, Estonia.\" by David Allen Wizardgold is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
-    "license": "BY-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/31514438@N00/10776006543",
+    "credit": "\"Africa Beach and Promenade\" by VisitEstonia is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/78660462@N05/17304144683",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/haapsalu/photo-7.jpg",
-    "credit": "\"Haapsalu, Estonia\" by Kazimierz Popławski is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/127492045@N06/22175589922",
+    "credit": "\"Africa Beach and Promenade\" by VisitEstonia is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/78660462@N05/17738379199",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/haapsalu/photo-8.jpg",
+    "credit": "\"Africa Beach and Promenade\" by VisitEstonia is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/78660462@N05/17921578392",
     "provider": "openverse/flickr"
   }
 ]

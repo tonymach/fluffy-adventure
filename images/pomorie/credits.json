@@ -8,16 +8,51 @@
   },
   {
     "src": "images/pomorie/photo-2.jpg",
-    "credit": "\"watermelons\" by ztephen is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "credit": "\"pomorie nord\" by ztephen is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
     "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/87463936@N00/2839516489",
+    "source_url": "https://www.flickr.com/photos/87463936@N00/2840274010",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/pomorie/photo-3.jpg",
-    "credit": "\"pomorie nord\" by ztephen is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "credit": "\"pomorie est\" by ztephen is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
     "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/87463936@N00/2840274010",
+    "source_url": "https://www.flickr.com/photos/87463936@N00/2839428239",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/pomorie/photo-4.jpg",
+    "credit": "\"Summer time\" by Epsilon68 - Street and Travel Photography is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/17279863@N05/50381566767",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/pomorie/photo-5.jpg",
+    "credit": "\"Black Sea Morning\" by Moche is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/87727998@N00/4785310925",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/pomorie/photo-6.jpg",
+    "credit": "\"Apartments at the Black Sea\" by Moche is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/87727998@N00/4785306307",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/pomorie/photo-7.jpg",
+    "credit": "\"Enjoying the Summer\" by Moche is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/87727998@N00/4785942036",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/pomorie/photo-8.jpg",
+    "credit": "\"Morning Field of Seaweed\" by Moche is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/87727998@N00/4785935974",
     "provider": "openverse/flickr"
   }
 ]

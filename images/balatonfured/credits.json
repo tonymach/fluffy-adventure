@@ -1,51 +1,58 @@
 [
   {
     "src": "images/balatonfured/photo-1.jpg",
-    "credit": "\"Path in Balatonfured (Hungary)\" by rthakrar is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/37387675@N07/3441968099",
+    "credit": "\"Hungary 2010\" by commodore* is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/94365056@N06/16426875313",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/balatonfured/photo-2.jpg",
-    "credit": "\"Balaton\" by padshewscky is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
-    "license": "BY-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/57102678@N06/6137732580",
-    "provider": "openverse/flickr"
+    "credit": "Benlovas",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Balatonfured_beach.jpg",
+    "provider": "wikimedia"
   },
   {
     "src": "images/balatonfured/photo-3.jpg",
-    "credit": "\"2017 Finn Silver Cup - Day 1\" by finnclassphotos is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/97957734@N04/35904836284",
-    "provider": "openverse/flickr"
+    "credit": "Globetrotter19",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flamingo_Wellness_and_Conference_Hotel._Entrance._-_Balatonf%C3%BCred,_Hungary.JPG",
+    "provider": "wikimedia"
   },
   {
     "src": "images/balatonfured/photo-4.jpg",
-    "credit": "\"Balaton\" by padshewscky is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
-    "license": "BY-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/57102678@N06/6137247223",
-    "provider": "openverse/flickr"
+    "credit": "Globetrotter19",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flamingo_Wellness_and_Conference_Hotel._Staircase._-_Balatonf%C3%BCred,_Hungary.JPG",
+    "provider": "wikimedia"
   },
   {
     "src": "images/balatonfured/photo-5.jpg",
-    "credit": "\"2017 Finn Silver Cup - Practice Race\" by finnclassphotos is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/97957734@N04/36666562836",
-    "provider": "openverse/flickr"
+    "credit": "Globetrotter19",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Balatonf%C3%BCred_Heart_Hospital._Beach_pool_wing._-_Hungary.JPG",
+    "provider": "wikimedia"
   },
   {
     "src": "images/balatonfured/photo-6.jpg",
-    "credit": "\"Balaton\" by padshewscky is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
-    "license": "BY-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/57102678@N06/6137788146",
-    "provider": "openverse/flickr"
+    "credit": "nucek",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pla%C5%BCa_balato%C5%84ska_-_nucek_-_panoramio.jpg",
+    "provider": "wikimedia"
   },
   {
     "src": "images/balatonfured/photo-7.jpg",
-    "credit": "\"Balaton\" by padshewscky is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
-    "license": "BY-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/57102678@N06/6137188701",
-    "provider": "openverse/flickr"
+    "credit": "FOTO:Fortepan — ID 26801: Adományozó/Donor: Grauthoff, Ted. archive copy at the Wayback Machine",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Balatonf%C3%BCred_1935,_F%C3%BCrd%C5%91h%C3%A1z._-_Fortepan_26801.jpg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/balatonfured/photo-8.jpg",
+    "credit": "FOTO:Fortepan — ID 29501: Adományozó/Donor: Korenchy László. archive copy at the Wayback Machine",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:N%C5%91i_portr%C3%A9,_1934._Fortepan_29501.jpg",
+    "provider": "wikimedia"
   }
 ]

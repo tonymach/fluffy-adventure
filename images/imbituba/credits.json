@@ -1,58 +1,58 @@
 [
   {
     "src": "images/imbituba/photo-1.jpg",
-    "credit": "\"Imbituba, Brazil\" by edwardweston52 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/35138223@N08/4348707433",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/imbituba/photo-2.jpg",
-    "credit": "\"Imbituba Brazil\" by edwardweston52 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/35138223@N08/4349455970",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/imbituba/photo-3.jpg",
-    "credit": "\"Ok, the photo may not be the best. But I post it here because the master and crew of BBC Citrine deserve kudos for their timely and efficient response to a distress call from a fishing vessel about 45 miles off Imbituba, Brazil. Thanks to these guys, 16\" by lotsemann is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/23654877@N04/30441263322",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/imbituba/photo-4.jpg",
     "credit": "\"A panoramic view of Porto Beach (Praia do Porto) - Imbituba, SC, Brazil\" by bairrosfelipe is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
     "license": "CC0 1.0",
     "source_url": "https://www.flickr.com/photos/117812763@N02/25848976465",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/imbituba/photo-5.jpg",
-    "credit": "\"Whale Watching\" by Marco Nunes is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/77561243@N00/3925110871",
+    "src": "images/imbituba/photo-2.jpg",
+    "credit": "\"surf school\" by Lenny Wood is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/48387633@N00/473673471",
     "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/imbituba/photo-3.jpg",
+    "credit": "Rafael Simões de Castro",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Praia_do_Rosa.jpg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/imbituba/photo-4.jpg",
+    "credit": "IthakaDarinPappas",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Professional_surfer_Chris_Davidson_in_Imbituba,_Brazil_-_July_2009._Photo_by_Ithaka_Darin_Pappas_02.jpg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/imbituba/photo-5.jpg",
+    "credit": "IthakaDarinPappas",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Professional_surfer_Chris_Davidson_in_Imbituba,_Brazil_-_July_2009._Photo_by_Ithaka_Darin_Pappas_01.jpg",
+    "provider": "wikimedia"
   },
   {
     "src": "images/imbituba/photo-6.jpg",
-    "credit": "\"Whale Watching\" by Marco Nunes is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/77561243@N00/3925894466",
-    "provider": "openverse/flickr"
+    "credit": "IthakaDarinPappas",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Professional_surfer_Chris_Davidson_in_Imbituba,_Brazil_-_July_2009._Photo_by_Ithaka_Darin_Pappas_03.jpg",
+    "provider": "wikimedia"
   },
   {
     "src": "images/imbituba/photo-7.jpg",
-    "credit": "\"Whale Watching\" by Marco Nunes is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/77561243@N00/3917139318",
-    "provider": "openverse/flickr"
+    "credit": "IthakaDarinPappas",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Professional_surfer_Chris_Davidson_in_Imbituba,_Brazil_-_July_2009._Photo_by_Ithaka_Darin_Pappas_04.jpg",
+    "provider": "wikimedia"
   },
   {
     "src": "images/imbituba/photo-8.jpg",
-    "credit": "\"Whale Watching\" by Marco Nunes is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/77561243@N00/3934334216",
-    "provider": "openverse/flickr"
+    "credit": "Jack Chan Franz (Chanderson Franz)",
+    "license": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Luz_do_Sol_entre_nuvens_na_praia_da_Arma%C3%A7%C3%A3o_em_Florian%C3%B3polis.jpg",
+    "provider": "wikimedia"
   }
 ]

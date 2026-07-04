@@ -1,58 +1,58 @@
 [
   {
     "src": "images/maceio-pajucara/photo-1.jpg",
-    "credit": "\"Maceio, Brazil\" by Cynthia Vanessa Photography is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/94559524@N06/8606813936",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/maceio-pajucara/photo-2.jpg",
-    "credit": "\"Boats in Maceio, Brazil\" by Cynthia Vanessa Photography is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/94559524@N06/8605707927",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/maceio-pajucara/photo-3.jpg",
-    "credit": "\"# POR DO SOL EM MACEIÓ-AL. (5 imagens)\" by Contato: Dearaújo is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/11740854@N05/7182295224",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/maceio-pajucara/photo-4.jpg",
     "credit": "\"As areias de Maceio ~//~ Sands of Maceio\" by ground.zero is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/83265757@N00/188002687",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/maceio-pajucara/photo-5.jpg",
+    "src": "images/maceio-pajucara/photo-2.jpg",
     "credit": "\"Praia de Peroba / Peroba Beach\" by Marcio Cabral de Moura is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
     "source_url": "https://www.flickr.com/photos/7704455@N02/5846911008",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/maceio-pajucara/photo-6.jpg",
+    "src": "images/maceio-pajucara/photo-3.jpg",
     "credit": "\"Maceio...sem palavras ~//~ wordless\" by ground.zero is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/83265757@N00/188002319",
     "provider": "openverse/flickr"
   },
   {
+    "src": "images/maceio-pajucara/photo-4.jpg",
+    "credit": "\"Verde mar\" by emarquetti is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/94408930@N00/659605245",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/maceio-pajucara/photo-5.jpg",
+    "credit": "\"Farol da Ponta Verde (Maceió, Brazil)\" by André Lage is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/39983379@N00/17347109962",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/maceio-pajucara/photo-6.jpg",
+    "credit": "\"Jangadas na Praia da Pajuçara/Pajuçara Beach (Maceió, Alagoas, Brasil).\" by thejourney1972 (South America addicted) is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/50694521@N00/822010958",
+    "provider": "openverse/flickr"
+  },
+  {
     "src": "images/maceio-pajucara/photo-7.jpg",
-    "credit": "\"Capela-Alagoas/Brasil\" by Pequena Verena is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/39912233@N00/263718524",
+    "credit": "\"2005.05: Maragogi, Maceió, AL, Brasil\" by Rodrigo Accurcio is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/36843292@N05/3396817126",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/maceio-pajucara/photo-8.jpg",
-    "credit": "\"Verde mar\" by emarquetti is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/94408930@N00/659605245",
+    "credit": "\"2005.05: Maceió, AL, Brasil\" by Rodrigo Accurcio is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/36843292@N05/3396819806",
     "provider": "openverse/flickr"
   }
 ]

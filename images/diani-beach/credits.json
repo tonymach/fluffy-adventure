@@ -1,51 +1,58 @@
 [
   {
     "src": "images/diani-beach/photo-1.jpg",
+    "credit": "\"Low tide on the reef\" by The Sands Kenya is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/97309140@N03/16587266761",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/diani-beach/photo-2.jpg",
+    "credit": "\"Looking for cookies at tea time ...\" by The Sands Kenya is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/97309140@N03/16481426058",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/diani-beach/photo-3.jpg",
     "credit": "\"Diani Beach, Kenya\" by The Sands Kenya is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
     "license": "BY-NC 2.0",
     "source_url": "https://www.flickr.com/photos/97309140@N03/15986377387",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/diani-beach/photo-2.jpg",
-    "credit": "\"Camels at Diani Beach, Kenya\" by terbeck is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/39832617@N07/7923350608",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/diani-beach/photo-3.jpg",
-    "credit": "\"Film crew. Diani Beach, Kenya.\" by tonywright617 is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/129893691@N07/46177405505",
-    "provider": "openverse/flickr"
-  },
-  {
     "src": "images/diani-beach/photo-4.jpg",
-    "credit": "\"Diani beach, Kenya\" by Cilia Schubert is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "credit": "\"The second beach\" by The Sands Kenya is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
     "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/40265046@N02/12662287394",
+    "source_url": "https://www.flickr.com/photos/97309140@N03/17259074318",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/diani-beach/photo-5.jpg",
-    "credit": "\"Red Coral Section, Diani Beach, Kenya\" by JulienLavergneUK is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/186345284@N08/49368216503",
+    "credit": "\"Afternoon lights at Overwater Suite. Tide this time about at highest level.\" by The Sands Kenya is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/97309140@N03/16402637899",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/diani-beach/photo-6.jpg",
-    "credit": "\"Shell Perspective, Diani Beach, Kenya\" by JulienLavergneUK is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/186345284@N08/49368703516",
+    "credit": "\"Chale Island view from water level\" by The Sands Kenya is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/97309140@N03/16075988549",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/diani-beach/photo-7.jpg",
-    "credit": "\"Diani Beach, Kenya\" by Ninara is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/37583176@N00/51975888598",
+    "credit": "\"Colobus monkey having lunch\" by The Sands Kenya is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/97309140@N03/16069231374",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/diani-beach/photo-8.jpg",
+    "credit": "\"The first sunrise of 2015\" by The Sands Kenya is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/97309140@N03/15985023888",
     "provider": "openverse/flickr"
   }
 ]

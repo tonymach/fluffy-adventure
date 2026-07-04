@@ -8,16 +8,51 @@
   },
   {
     "src": "images/arraial-dajuda/photo-2.jpg",
+    "credit": "\"HDR Boats - Arraial d'ajuda\" by André Alves Silveira is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/11267403@N08/4680459245",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/arraial-dajuda/photo-3.jpg",
+    "credit": "Quézia Graciele de Oliveira",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fal%C3%A9sias_Arraial_d%22ajuda.JPG",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/arraial-dajuda/photo-4.jpg",
+    "credit": "Quézia Graciele de Oliveira",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fal%C3%A9sias_Arraial_d%22ajuda_2.JPG",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/arraial-dajuda/photo-5.jpg",
+    "credit": "Quézia Graciele de Oliveira",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fal%C3%A9sias_Arraial_d%22ajuda_1.JPG",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/arraial-dajuda/photo-6.jpg",
     "credit": "\"Pôr do Sol - Arraial d'ajuda\" by André Alves Silveira is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
     "source_url": "https://www.flickr.com/photos/11267403@N08/4681081506",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/arraial-dajuda/photo-3.jpg",
-    "credit": "\"HDR Boats - Arraial d'ajuda\" by André Alves Silveira is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/11267403@N08/4680459245",
-    "provider": "openverse/flickr"
+    "src": "images/arraial-dajuda/photo-7.jpg",
+    "credit": "Amandapiresdr",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Igreja_Nossa_senhora_D%C2%B4ajuda.jpg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/arraial-dajuda/photo-8.jpg",
+    "credit": "Amandapiresdr",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Balsa_de_Arraial_D%C2%B4_ajuda.jpg",
+    "provider": "wikimedia"
   }
 ]

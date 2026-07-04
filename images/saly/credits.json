@@ -1,51 +1,58 @@
 [
   {
     "src": "images/saly/photo-1.jpg",
-    "credit": "\"Saly (Senegal - Bizkaia)\" by Joseba Barrenetxea Altuna is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/74626133@N00/24688220888",
+    "credit": "\"saly beach\" by Jeff Attaway is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/33398364@N08/3335656148",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/saly/photo-2.jpg",
-    "credit": "\"Saly, Senegal\" by jojomotion is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/53711808@N03/34359026542",
+    "credit": "\"saly beach\" by Jeff Attaway is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/33398364@N08/3335643182",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/saly/photo-3.jpg",
-    "credit": "\"Saly, Senegal\" by Rick McCharles is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/71035721@N00/8221740835",
+    "credit": "\"Working people\" by alessandro silipo is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/86092351@N00/3193272251",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/saly/photo-4.jpg",
-    "credit": "\"Fish market near Saly, Senegal\" by unbettina is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "credit": "\"Saly\" by nextdrop is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
     "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/35638422@N08/3974413420",
+    "source_url": "https://www.flickr.com/photos/55938841@N00/107293482",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/saly/photo-5.jpg",
-    "credit": "\"Saly, Senegal\" by Rick McCharles is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/71035721@N00/8221741709",
+    "credit": "\"Senegal beach\" by nextdrop is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/55938841@N00/107291423",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/saly/photo-6.jpg",
-    "credit": "\"Saly, Senegal\" by Rick McCharles is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/71035721@N00/8221741991",
+    "credit": "\"Saly Sailing Cup: Off Obama Beach\" by kalyan3 is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/95674706@N00/8621604943",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/saly/photo-7.jpg",
-    "credit": "\"Saly, Senegal\" by Rick McCharles is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/71035721@N00/8222818246",
+    "credit": "\"Saly\" by nextdrop is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/55938841@N00/107293481",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/saly/photo-8.jpg",
+    "credit": "\"Saly, Senegal\" by jojomotion is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/53711808@N03/34359026542",
     "provider": "openverse/flickr"
   }
 ]

@@ -8,51 +8,51 @@
   },
   {
     "src": "images/morro-de-sao-paulo/photo-2.jpg",
-    "credit": "\"Morro de Sao Paulo 46\" by francisco_osorio is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/30330906@N04/9098101900",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/morro-de-sao-paulo/photo-3.jpg",
     "credit": "\"Morro de Sao Paulo 45\" by francisco_osorio is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/30330906@N04/9098100900",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/morro-de-sao-paulo/photo-4.jpg",
+    "src": "images/morro-de-sao-paulo/photo-3.jpg",
     "credit": "\"Morro de Sao Paulo 34\" by francisco_osorio is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/30330906@N04/9035941453",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/morro-de-sao-paulo/photo-5.jpg",
+    "src": "images/morro-de-sao-paulo/photo-4.jpg",
     "credit": "\"Morro de Sao Paulo 10\" by francisco_osorio is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/30330906@N04/8847535092",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/morro-de-sao-paulo/photo-6.jpg",
+    "src": "images/morro-de-sao-paulo/photo-5.jpg",
     "credit": "\"Morro de Sao Paulo 41\" by francisco_osorio is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/30330906@N04/9073562898",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/morro-de-sao-paulo/photo-7.jpg",
-    "credit": "\"Morro de Sao Paulo 24\" by francisco_osorio is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "src": "images/morro-de-sao-paulo/photo-6.jpg",
+    "credit": "\"Morro de Sao Paulo 46\" by francisco_osorio is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/30330906@N04/8963708861",
+    "source_url": "https://www.flickr.com/photos/30330906@N04/9098101900",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/morro-de-sao-paulo/photo-7.jpg",
+    "credit": "\"Morro de Sao Paulo 42\" by francisco_osorio is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/30330906@N04/9073564398",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/morro-de-sao-paulo/photo-8.jpg",
-    "credit": "\"Morro de Sao Paulo 42\" by francisco_osorio is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "credit": "\"Morro de Sao Paulo 33\" by francisco_osorio is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/30330906@N04/9073564398",
+    "source_url": "https://www.flickr.com/photos/30330906@N04/9038164508",
     "provider": "openverse/flickr"
   }
 ]

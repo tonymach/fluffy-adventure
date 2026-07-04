@@ -1,58 +1,58 @@
 [
   {
     "src": "images/dakar/photo-1.jpg",
+    "credit": "\"kite shadow\" by Jeff Attaway is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/33398364@N08/5294037405",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/dakar/photo-2.jpg",
+    "credit": "\"Soumbedioune Boats\" by Jeff Attaway is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/33398364@N08/5405595088",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/dakar/photo-3.jpg",
     "credit": "\"Dakar Senegal - Looking North\" by Jeff Attaway is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/33398364@N08/5274051599",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/dakar/photo-2.jpg",
-    "credit": "\"10/112015 El ministro, Pedro #Morenés, junto al tcol. Carlos Martinez, jefe del #DestacamentoMarfil en Dakar (Senegal). Foto: Roberto Salazar/MDE\" by Ministerio de Defensa is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/132269470@N02/22299372354",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/dakar/photo-3.jpg",
-    "credit": "\"10/11/2015 Componentes del #DestacamentoMarfil del #EjércitoAire en Dakar (Senegal). Foto: Roberto Salazar/MDE\" by Ministerio de Defensa is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/132269470@N02/22734110170",
-    "provider": "openverse/flickr"
-  },
-  {
     "src": "images/dakar/photo-4.jpg",
-    "credit": "\"Dakar, Senegal - Left Half\" by Jeff Attaway is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "credit": "\"boats\" by Jeff Attaway is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/33398364@N08/5662420768",
+    "source_url": "https://www.flickr.com/photos/33398364@N08/5274657815",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/dakar/photo-5.jpg",
-    "credit": "\"Dakar, Senegal - Corniche East\" by Jeff Attaway is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "credit": "\"do you see it?\" by Jeff Attaway is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/33398364@N08/5274001591",
+    "source_url": "https://www.flickr.com/photos/33398364@N08/5728181002",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/dakar/photo-6.jpg",
-    "credit": "\"N'gor - Dakar, Senegal.\" by Sinsistema is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/9565858@N06/4321584269",
+    "credit": "\"exercise\" by Jeff Attaway is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/33398364@N08/5728170888",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/dakar/photo-7.jpg",
-    "credit": "\"Children on the beach near Dakar, Senegal (West Africa)\" by gbaku is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/72105154@N00/2239659182",
+    "credit": "\"Senegal Girl\" by Jeff Attaway is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/33398364@N08/3335644896",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/dakar/photo-8.jpg",
-    "credit": "\"Heading for the fishing grounds at dawn of Dakar, Senegal\" by ambabheg is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "credit": "\"Beach @ Hotel Diarama\" by Jeff Attaway is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/31518985@N04/5628450220",
+    "source_url": "https://www.flickr.com/photos/33398364@N08/5662403084",
     "provider": "openverse/flickr"
   }
 ]

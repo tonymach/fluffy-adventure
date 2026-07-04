@@ -1,16 +1,58 @@
 [
   {
     "src": "images/nida/photo-1.jpg",
-    "credit": "\"Restaurant PASTOGĖ, Die Kurische Nehrung, Nida Lithuania\" by sludgegulper is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/28179929@N08/4175265162",
+    "credit": "\"Baltic sea, beach and dunes\" by Bernt Rostad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/67975030@N00/9614129325",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/nida/photo-2.jpg",
-    "credit": "\"Sonnenuhr , Parnidžis - die Kurischse Nehrung Nida Lithuania Sept 2003\" by sludgegulper is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/28179929@N08/4174506415",
+    "credit": "\"Nida\" by rrrtem is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/33756516@N07/5093236978",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nida/photo-3.jpg",
+    "credit": "\"childhood dreams\" by mdanys is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/91883096@N00/5917921558",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nida/photo-4.jpg",
+    "credit": "\"resting paddles\" by mdanys is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/91883096@N00/14840785834",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nida/photo-5.jpg",
+    "credit": "\"Nida\" by Marco Fieber | ostblog.org is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/12138652@N08/7181156018",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nida/photo-6.jpg",
+    "credit": "\"Nida\" by Marco Fieber | ostblog.org is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/12138652@N08/7181088654",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nida/photo-7.jpg",
+    "credit": "\"Nida\" by Marco Fieber | ostblog.org is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/12138652@N08/7181231220",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nida/photo-8.jpg",
+    "credit": "\"Nida Curonian - Klaipeda, Lithuania\" by whl.travel is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/40382540@N08/4209624034",
     "provider": "openverse/flickr"
   }
 ]

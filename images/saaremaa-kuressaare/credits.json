@@ -1,23 +1,58 @@
 [
   {
     "src": "images/saaremaa-kuressaare/photo-1.jpg",
-    "credit": "\"Saaremaa Estonia\" by Great grey owl is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/50677435@N00/3192054810",
+    "credit": "\"Empty beach in Saaremaa\" by VisitEstonia is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/78660462@N05/37441948692",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/saaremaa-kuressaare/photo-2.jpg",
-    "credit": "\"Sea-Buckthorn in Saaremaa Estonia\" by Great grey owl is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/50677435@N00/3192054702",
+    "credit": "\"girl on the beach\" by VisitEstonia is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/78660462@N05/36065804795",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/saaremaa-kuressaare/photo-3.jpg",
-    "credit": "\"Found Trump on Estonian shore 👋 #hair #trump #rock #beach #trumphair #island #kiipsaare #saaremaa #estonia #visitestonia #FujiXT1 #MyFujifilm #Fujifilm #fotoklubiņšco #fotoklubiņšsaaremaa\" by Janitors is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "credit": "\"girl on the beach\" by VisitEstonia is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/78660462@N05/35225725104",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/saaremaa-kuressaare/photo-4.jpg",
+    "credit": "\"Ohessaare Pank\" by Bernt Rostad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/65265630@N03/30172231441",
+    "source_url": "https://www.flickr.com/photos/67975030@N00/10579391746",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/saaremaa-kuressaare/photo-5.jpg",
+    "credit": "\"World War Two pillboxes\" by Bernt Rostad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/67975030@N00/10579485676",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/saaremaa-kuressaare/photo-6.jpg",
+    "credit": "\"White swans\" by Bernt Rostad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/67975030@N00/10579398436",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/saaremaa-kuressaare/photo-7.jpg",
+    "credit": "\"White swans\" by Bernt Rostad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/67975030@N00/10579401766",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/saaremaa-kuressaare/photo-8.jpg",
+    "credit": "\"Ohessaare rock sculptures\" by Bernt Rostad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/67975030@N00/10579415006",
     "provider": "openverse/flickr"
   }
 ]

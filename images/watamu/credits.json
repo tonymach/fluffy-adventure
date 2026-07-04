@@ -1,51 +1,58 @@
 [
   {
     "src": "images/watamu/photo-1.jpg",
-    "credit": "\"Watamu, Kenya\" by Dogon56 is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/11250312@N06/2169449960",
+    "credit": "\"White-Sand Beach in Watamu\" by malczyk is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/23265522@N06/5638742755",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/watamu/photo-2.jpg",
-    "credit": "\"indian ocean at Watamu, Kenya\" by andysternberg is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/17573696@N00/11715519384",
+    "credit": "\"africans\" by omnia_mutantur is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/39685874@N00/89236888",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/watamu/photo-3.jpg",
-    "credit": "\"indian ocean at Watamu, Kenya\" by andysternberg is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "credit": "\"Paradise Beach\" by _Hadock_ is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
     "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/17573696@N00/11715152525",
+    "source_url": "https://www.flickr.com/photos/7992704@N05/36091162584",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/watamu/photo-4.jpg",
-    "credit": "\"Watamu, Kenya\" by Dogon56 is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/11250312@N06/2168657431",
+    "credit": "\"3 friends\" by omnia_mutantur is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/39685874@N00/89225861",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/watamu/photo-5.jpg",
-    "credit": "\"Watamu, Kenya\" by Delphinidaesy is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/76379281@N05/31906826794",
+    "credit": "\"Kenya\" by robynejay is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/65749227@N00/2667420666",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/watamu/photo-6.jpg",
-    "credit": "\"Watamu, Kenya\" by Ninara31 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/150102727@N06/30886957653",
+    "credit": "\"2016_01_17_KenyaLive_Day_#11_Yoga_Treehouse_JPEG_RESIZED_0045\" by makeitkenya is marked with Public Domain Mark 1.0. To view the terms, visit https://creativecommons.org/publicdomain/mark/1.0/.",
+    "license": "PDM 1.0",
+    "source_url": "https://www.flickr.com/photos/132740829@N02/24345137940",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/watamu/photo-7.jpg",
-    "credit": "\"Watamu, Kenya\" by Ninara31 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/150102727@N06/30855534874",
+    "credit": "\"2016_01_18_KenyaLive_Day_#12_TurtleCam_Release_JPEG_RESIZED_0027\" by makeitkenya is marked with Public Domain Mark 1.0. To view the terms, visit https://creativecommons.org/publicdomain/mark/1.0/.",
+    "license": "PDM 1.0",
+    "source_url": "https://www.flickr.com/photos/132740829@N02/24520091725",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/watamu/photo-8.jpg",
+    "credit": "\"2016_01_17_KenyaLive_Day_#11_Yoga_Treehouse_JPEG_RESIZED_0044\" by makeitkenya is marked with Public Domain Mark 1.0. To view the terms, visit https://creativecommons.org/publicdomain/mark/1.0/.",
+    "license": "PDM 1.0",
+    "source_url": "https://www.flickr.com/photos/132740829@N02/24012536034",
     "provider": "openverse/flickr"
   }
 ]

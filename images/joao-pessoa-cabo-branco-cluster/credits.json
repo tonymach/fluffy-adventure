@@ -1,51 +1,58 @@
 [
   {
     "src": "images/joao-pessoa-cabo-branco-cluster/photo-1.jpg",
-    "credit": "\"Casa da Pólvora - João Pessoa/PB\" by Israel Freire is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
-    "license": "BY-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/71616977@N00/88925164",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/joao-pessoa-cabo-branco-cluster/photo-2.jpg",
-    "credit": "\"MY HEAVEN\" by Alex88 / Check out my new album of 500 favorites is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
-    "license": "BY-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/63351899@N05/5833170593",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/joao-pessoa-cabo-branco-cluster/photo-3.jpg",
     "credit": "\"Blue Heaven\" by Alex88 / Check out my new album of 500 favorites is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
     "license": "BY-ND 2.0",
     "source_url": "https://www.flickr.com/photos/63351899@N05/5813812407",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/joao-pessoa-cabo-branco-cluster/photo-4.jpg",
+    "src": "images/joao-pessoa-cabo-branco-cluster/photo-2.jpg",
     "credit": "\"Brazil-- Joao Pessoa\" by Alex88 Thanks for 212 Million Views is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
     "license": "BY-ND 2.0",
     "source_url": "https://www.flickr.com/photos/63351899@N05/5973744257",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/joao-pessoa-cabo-branco-cluster/photo-5.jpg",
-    "credit": "\"paradise\" by Alex88 / Check out my new album of 500 favorites is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "src": "images/joao-pessoa-cabo-branco-cluster/photo-3.jpg",
+    "credit": "\"Crowded beach\" by Alex88 / Check out my new album of 500 favorites is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
     "license": "BY-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/63351899@N05/5833769404",
+    "source_url": "https://www.flickr.com/photos/63351899@N05/5895845619",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/joao-pessoa-cabo-branco-cluster/photo-4.jpg",
+    "credit": "\"Oscar Niemeyer - Science Station, detail -\" by GeoNando is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/23530690@N06/2691757885",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/joao-pessoa-cabo-branco-cluster/photo-5.jpg",
+    "credit": "\"SportsUnited Sports Envoy Erikka Gulbranson and Ashley Dean\" by Bureau of Educational & Cultural Affairs is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "license": "BY-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/45717276@N08/5644562144",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/joao-pessoa-cabo-branco-cluster/photo-6.jpg",
-    "credit": "\"João Pessoa\" by ruifo is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/111245738@N08/35567503034",
+    "credit": "\"SportsUnited Sports Envoys Gulbranson and Dean\" by Bureau of Educational & Cultural Affairs is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "license": "BY-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/45717276@N08/5644621780",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/joao-pessoa-cabo-branco-cluster/photo-7.jpg",
-    "credit": "\"Crowded beach\" by Alex88 / Check out my new album of 500 favorites is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "credit": "\"Sports Envoys Gulbranson and Dean in Brazil\" by Bureau of Educational & Cultural Affairs is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
     "license": "BY-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/63351899@N05/5895845619",
+    "source_url": "https://www.flickr.com/photos/45717276@N08/5640743865",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/joao-pessoa-cabo-branco-cluster/photo-8.jpg",
+    "credit": "\"Loneliness - solitudine\" by Michele Mariani is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/42225839@N03/4135325593",
     "provider": "openverse/flickr"
   }
 ]

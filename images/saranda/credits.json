@@ -1,20 +1,48 @@
 [
   {
     "src": "images/saranda/photo-1.jpg",
-    "credit": "\"Saranda, Albania\" by D-Stanley is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/79721788@N00/31873093748",
+    "credit": "\"All blue in Sarande\" by CharlesFred is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/40279823@N00/19722153690",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/saranda/photo-2.jpg",
-    "credit": "\"Saranda (Albania)\" by Linera_68 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/21786721@N07/2184879313",
+    "credit": "\"Charles and his new Albanian friend in Sarande\" by CharlesFred is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/40279823@N00/19722372228",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/saranda/photo-3.jpg",
+    "credit": "\"Pretty artist on Sarande promenade\" by CharlesFred is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/40279823@N00/19722030608",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/saranda/photo-4.jpg",
+    "credit": "\"Sarande harbour in 1991\" by wallygrom is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/33037982@N04/3405744274",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/saranda/photo-5.jpg",
+    "credit": "\"beach detail\" by Magalie L'Abbé is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/97551727@N00/5937412819",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/saranda/photo-6.jpg",
+    "credit": "\"Apollonia - Driving Albania 170\" by Pero Kvrzica is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/7996705@N03/3867552269",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/saranda/photo-7.jpg",
     "credit": "\"Saranda, Albania\" by timniblett is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/95764749@N00/748069",

@@ -15,23 +15,44 @@
   },
   {
     "src": "images/porto-de-galinhas/photo-3.jpg",
-    "credit": "\"Pôrto De Galinhas, Pernambuco, Brasil 2012\" by alobos life is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "credit": "\"Boy from Porto de Galinhas\" by alobos life is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/80487073@N00/7277423706",
+    "source_url": "https://www.flickr.com/photos/80487073@N00/7277424394",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/porto-de-galinhas/photo-4.jpg",
     "credit": "\"Pôrto De Galinhas, Pernambuco, Brasil 2012\" by alobos life is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/80487073@N00/8718484993",
+    "source_url": "https://www.flickr.com/photos/80487073@N00/7277423706",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/porto-de-galinhas/photo-5.jpg",
-    "credit": "\"Boy from Porto de Galinhas\" by alobos life is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "credit": "\"Pôrto De Galinhas, Pernambuco, Brasil 2012\" by alobos life is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/80487073@N00/7277424394",
+    "source_url": "https://www.flickr.com/photos/80487073@N00/8718484993",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/porto-de-galinhas/photo-6.jpg",
+    "credit": "\"Porto de Galinhas - Recife - Brasil\" by alobos life is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/80487073@N00/7265468092",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/porto-de-galinhas/photo-7.jpg",
+    "credit": "\"Boys having fun at Porto de Galinhas\" by alobos life is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/80487073@N00/7246709234",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/porto-de-galinhas/photo-8.jpg",
+    "credit": "\"Boys having fun at Porto de Galinhas\" by alobos life is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/80487073@N00/7277489456",
     "provider": "openverse/flickr"
   }
 ]

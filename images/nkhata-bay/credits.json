@@ -1,30 +1,51 @@
 [
   {
     "src": "images/nkhata-bay/photo-1.jpg",
-    "credit": "\"Nkhata Bay, Malawi\" by noboundariesorg is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/39698070@N00/2393710867",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/nkhata-bay/photo-2.jpg",
-    "credit": "\"ilala ferry, nkhata bay, malawi\" by Enzinho83 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/41850848@N08/3852565366",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/nkhata-bay/photo-3.jpg",
-    "credit": "\"nkhata bay, malawi\" by Enzinho83 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/41850848@N08/3852544440",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/nkhata-bay/photo-4.jpg",
     "credit": "\"Fish Eagle Perfectly Captures a Sunset\" by ReeSaunders is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/58996719@N07/7163157881",
     "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nkhata-bay/photo-2.jpg",
+    "credit": "JackyR",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nkhata_Bay,_Malawi.jpg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/nkhata-bay/photo-3.jpg",
+    "credit": "JackyR",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mwaya_Beach,_Malawi.jpg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/nkhata-bay/photo-4.jpg",
+    "credit": "File:Naturalis Biodiversity Center - ZMA.MAM.26148.b lab - Rousettus lanosus - skin.jpeg",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.MAM.26148.b_lab_-_Rousettus_lanosus_-_skin.jpeg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/nkhata-bay/photo-5.jpg",
+    "credit": "File:Naturalis Biodiversity Center - ZMA.MAM.28353.a lat - Nycteris macrotis - skull.jpeg",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.MAM.28353.a_lat_-_Nycteris_macrotis_-_skull.jpeg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/nkhata-bay/photo-6.jpg",
+    "credit": "File:Naturalis Biodiversity Center - ZMA.MAM.28353.a pal - Nycteris macrotis - skull.jpeg",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.MAM.28353.a_pal_-_Nycteris_macrotis_-_skull.jpeg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/nkhata-bay/photo-7.jpg",
+    "credit": "File:Naturalis Biodiversity Center - ZMA.MAM.28354.a pal - Nycteris macrotis - skull.jpeg",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.MAM.28354.a_pal_-_Nycteris_macrotis_-_skull.jpeg",
+    "provider": "wikimedia"
   }
 ]

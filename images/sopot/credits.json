@@ -1,51 +1,58 @@
 [
   {
     "src": "images/sopot/photo-1.jpg",
-    "credit": "\"Sopot - Poland\" by altotemi is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/66490057@N07/14232010930",
+    "credit": "\"Pier bench\" by AstridWestvang is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/27558040@N00/14424933825",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/sopot/photo-2.jpg",
-    "credit": "\"Sopot - Poland\" by altotemi is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/66490057@N07/13982508220",
+    "credit": "\"Polish beaches\" by Ministry of Foreign Affairs of the Republic of Pol is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/38246185@N08/19688402653",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/sopot/photo-3.jpg",
-    "credit": "\"Sopot, Poland\" by Trojan_Llama is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/94382185@N00/14074636243",
+    "credit": "\"Polish beaches\" by Ministry of Foreign Affairs of the Republic of Pol is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/38246185@N08/20315290831",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/sopot/photo-4.jpg",
-    "credit": "\"Sopot - Poland\" by altotemi is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/66490057@N07/28793691781",
+    "credit": "\"Polish beaches\" by Ministry of Foreign Affairs of the Republic of Pol is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/38246185@N08/19688417053",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/sopot/photo-5.jpg",
-    "credit": "\"Sopot - Poland\" by altotemi is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/66490057@N07/23306176524",
+    "credit": "\"Polish beaches\" by Ministry of Foreign Affairs of the Republic of Pol is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/38246185@N08/19686748644",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/sopot/photo-6.jpg",
-    "credit": "\"Fishing boat in Sopot, Poland\" by Mondo79 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/50417570@N06/51679720306",
+    "credit": "\"Polish beaches\" by Ministry of Foreign Affairs of the Republic of Pol is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/38246185@N08/20283128476",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/sopot/photo-7.jpg",
-    "credit": "\"Katamaran ONYX - Gdańsk - Sopot - Poland\" by altotemi is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/66490057@N07/28869439915",
+    "credit": "\"Polish beaches\" by Ministry of Foreign Affairs of the Republic of Pol is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/38246185@N08/20300886832",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sopot/photo-8.jpg",
+    "credit": "\"Beach in Sopot at night\" by Kamil Rejczyk is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/45851663@N03/14889295547",
     "provider": "openverse/flickr"
   }
 ]

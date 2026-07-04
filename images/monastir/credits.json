@@ -1,44 +1,58 @@
 [
   {
     "src": "images/monastir/photo-1.jpg",
-    "credit": "\"Habib Bourguiba's Mausoleum in Monastir, Tunisia\" by Ray in Manila is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "credit": "\"Holiday\" by krejcirikmira is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/21186555@N07/22763504633",
+    "source_url": "https://www.flickr.com/photos/40207702@N00/4757662416",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/monastir/photo-2.jpg",
-    "credit": "\"Ribat, Monastir, Tunisia\" by JudaHamila13 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/63282973@N08/7331108100",
+    "credit": "\"Monastir Beach\" by D-Stanley is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/79721788@N00/25789323138",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/monastir/photo-3.jpg",
-    "credit": "\"Ribat, Monastir, Tunisia\" by JudaHamila13 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/63282973@N08/7331097780",
+    "credit": "\"Holiday\" by krejcirikmira is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/40207702@N00/4757036719",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/monastir/photo-4.jpg",
-    "credit": "\"MAVA Marine Turtles Project First Steering committee meeting Monastir (Tunisia), 3-4 May 2018\" by SPA/RAC is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/125852807@N05/40137811930",
+    "credit": "\"Holiday\" by krejcirikmira is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/40207702@N00/4757518786",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/monastir/photo-5.jpg",
-    "credit": "\"Ribat, Monastir, Tunisia\" by JudaHamila13 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/63282973@N08/7331111092",
+    "credit": "\"Holiday\" by krejcirikmira is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/40207702@N00/4757663812",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/monastir/photo-6.jpg",
-    "credit": "\"Monastir, Tunisia\" by JudaHamila13 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "credit": "\"Holiday\" by krejcirikmira is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/40207702@N00/4757680038",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/monastir/photo-7.jpg",
+    "credit": "\"night in tunisia\" by tomek.pl is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/63282973@N08/7331100664",
+    "source_url": "https://www.flickr.com/photos/85066944@N00/3576491455",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/monastir/photo-8.jpg",
+    "credit": "\"On the shore\" by eugenijusr is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/24172628@N08/2511278879",
     "provider": "openverse/flickr"
   }
 ]

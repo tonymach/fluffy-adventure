@@ -1,37 +1,58 @@
 [
   {
     "src": "images/grand-baie/photo-1.jpg",
-    "credit": "\"Grand Baie, Mauritius\" by Treefiddy is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "credit": "\"Mauritius - Grand Baie\" by Dietmar Reigber is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/72338482@N00/355057440",
+    "source_url": "https://www.flickr.com/photos/41949843@N06/3865263860",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/grand-baie/photo-2.jpg",
-    "credit": "\"Boat in Grand Baie, Mauritius\" by Olivier Roux is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/11146442@N00/1222797375",
+    "credit": "\"Mauritius\" by eutrophication&hypoxia is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/48722974@N07/5052410646",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/grand-baie/photo-3.jpg",
-    "credit": "\"Grand Baie, Mauritius\" by icklekitty is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/25193498@N00/5023155411",
+    "credit": "\"Mauritius 2008\" by Selene Weijenberg is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/96428165@N00/2430820315",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/grand-baie/photo-4.jpg",
-    "credit": "\"Grand Baie, Mauritius\" by icklekitty is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/25193498@N00/5023760588",
+    "credit": "\"Mauritius - Grand Baie\" by Dietmar Reigber is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/41949843@N06/3864475013",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/grand-baie/photo-5.jpg",
-    "credit": "\"Grand Baie, Mauritius\" by icklekitty is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/25193498@N00/5023154447",
+    "credit": "\"Mauritius - Cycling trip from Grand Baie to Trou d'Eau Douce - White Sandy Beach\" by Dietmar Reigber is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/41949843@N06/8382951977",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/grand-baie/photo-6.jpg",
+    "credit": "\"Mauritius Beaches - North - Grand Baie - 001\" by Dietmar Reigber is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/41949843@N06/5661411738",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/grand-baie/photo-7.jpg",
+    "credit": "\"Mauritius - Grand Baie\" by Dietmar Reigber is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/41949843@N06/3865258802",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/grand-baie/photo-8.jpg",
+    "credit": "\"Mauritius - Cycling trip from Grand Baie to Trou d'Eau Douce - Nice nicer nicest - THE BEACH\" by Dietmar Reigber is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/41949843@N06/8382941011",
     "provider": "openverse/flickr"
   }
 ]

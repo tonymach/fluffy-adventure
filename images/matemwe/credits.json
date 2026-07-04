@@ -1,58 +1,51 @@
 [
   {
     "src": "images/matemwe/photo-1.jpg",
-    "credit": "\"Keith boarding Dala Dala Matemwe Zanzibar\" by amanderson2 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/49399018@N00/4687452395",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/matemwe/photo-2.jpg",
-    "credit": "\"The brilliant white beaches in Matemwe, Zanzibar provide the perfect place to relax, take a break and soak up the sun. (c) pocketvillage.com\" by pocketvillage is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/63925903@N02/5819067843",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/matemwe/photo-3.jpg",
-    "credit": "\"Matemwe, Zanzibar, Tanzania\" by Marco di Pisa is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/89107315@N00/2832976828",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/matemwe/photo-4.jpg",
-    "credit": "\"The Rock restaurant\" by Malingering is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/68845396@N00/16675719962",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/matemwe/photo-5.jpg",
-    "credit": "\"IMG_4288\" by kaveman743 is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/9376953@N07/8651302129",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/matemwe/photo-6.webp",
     "credit": "\"Tropical Beach Hut\" by Caneles is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
     "license": "BY-NC-SA 2.0",
     "source_url": "https://www.flickr.com/photos/94446676@N00/6167098096",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/matemwe/photo-7.jpg",
+    "src": "images/matemwe/photo-2.jpg",
     "credit": "\"Fishermen at Sunrise in Zanzibar\" by imnewtryme is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
     "license": "BY-NC-SA 2.0",
     "source_url": "https://www.flickr.com/photos/60327433@N00/6261030",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/matemwe/photo-8.jpg",
-    "credit": "\"homes in Matemwe\" by Malingering is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "src": "images/matemwe/photo-3.jpg",
+    "credit": "\"I found a vertebra on the beach!!!\" by Malingering is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/68845396@N00/16054408884",
+    "source_url": "https://www.flickr.com/photos/68845396@N00/16650792676",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/matemwe/photo-4.jpg",
+    "credit": "\"matemwe beach in the morning\" by Malingering is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/68845396@N00/16675362771",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/matemwe/photo-5.jpg",
+    "credit": "\"matemwe beach in the morning\" by Malingering is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/68845396@N00/16675714602",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/matemwe/photo-6.jpg",
+    "credit": "\"beach at dawn\" by Malingering is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/68845396@N00/16676725975",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/matemwe/photo-7.jpg",
+    "credit": "\"Old Man Cycling at Beach\" by terbeck is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/39832617@N07/7923351808",
     "provider": "openverse/flickr"
   }
 ]

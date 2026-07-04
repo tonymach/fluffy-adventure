@@ -29,30 +29,30 @@
   },
   {
     "src": "images/bombinhas/photo-5.jpg",
-    "credit": "\"Aqui o Bebado realmente balança\" by ground.zero is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/83265757@N00/121212898",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/bombinhas/photo-6.jpg",
     "credit": "\"Bombinhas\" by emarquetti is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
     "license": "BY-SA 2.0",
     "source_url": "https://www.flickr.com/photos/94408930@N00/329031385",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/bombinhas/photo-7.jpg",
-    "credit": "\"Nosso vizinho\" by ground.zero is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "src": "images/bombinhas/photo-6.jpg",
+    "credit": "\"Aqui o Bebado realmente balança\" by ground.zero is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/83265757@N00/121212895",
+    "source_url": "https://www.flickr.com/photos/83265757@N00/121212898",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/bombinhas/photo-7.jpg",
+    "credit": "\"Cangrejo Fantasma Trabajando\" by Gustavo Fernando Durán is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/67662120@N00/8729852342",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/bombinhas/photo-8.jpg",
-    "credit": "\"Cangrejo Fantasma Trabajando\" by Gustavo Fernando Durán is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/67662120@N00/8729852342",
+    "credit": "\"Os Bombeiros estão por perto ~~//~~ The Firefighters is around us\" by ground.zero is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/83265757@N00/131629317",
     "provider": "openverse/flickr"
   }
 ]

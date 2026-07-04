@@ -1,16 +1,58 @@
 [
   {
     "src": "images/cabo-frio/photo-1.jpg",
-    "credit": "\"Cabo Frio - Brazil\" by RikyUnreal is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/37230701@N08/49829597976",
+    "credit": "\"Cabo Frio, Rio de Janeiro, Brazil Apartment For Sale - Beach Home In Gated Neighborhood\" by International Real Estate Listings is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/59281281@N03/8965141225",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/cabo-frio/photo-2.jpg",
-    "credit": "\"Cabo Frio, Rio de Janeiro, Brazil Apartment For Sale - Beach Home In Gated Neighborhood\" by International Real Estate Listings is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/59281281@N03/8965141225",
+    "credit": "\"Praia do Forte, Cabo Frio, Rio de Janeiro, Brasil\" by Rubem Jr is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/38795342@N06/8476354684",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/cabo-frio/photo-3.jpg",
+    "credit": "\"dog running\" by Rodrigo Soldon Souza is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "license": "BY-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/9783357@N08/8247814387",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/cabo-frio/photo-4.jpg",
+    "credit": "\"Brincando na praia\" by Edgard.V is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "license": "BY-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/50651464@N06/52041378478",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/cabo-frio/photo-5.jpg",
+    "credit": "\"Cabo frio, Brasil\" by alobos life is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/80487073@N00/2082609736",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/cabo-frio/photo-6.jpg",
+    "credit": "\"Colorida Cabo Frio...\" by alordelo is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/7387467@N04/26714609276",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/cabo-frio/photo-7.jpg",
+    "credit": "\"Praia do Forte, Cabo Frio. Brasil\" by Rubem Jr is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/38795342@N06/8170672717",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/cabo-frio/photo-8.jpg",
+    "credit": "\"dog running\" by Rodrigo Soldon Souza is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "license": "BY-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/9783357@N08/8248873982",
     "provider": "openverse/flickr"
   }
 ]

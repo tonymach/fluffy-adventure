@@ -1,44 +1,58 @@
 [
   {
     "src": "images/bohinj/photo-1.jpg",
-    "credit": "\"Lake Bohinj, Slovenia\" by Bob Ramsak is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/54981096@N00/383155743",
+    "credit": "\"Lake Bohinj\" by Bernd Thaller is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/44296132@N06/30816367150",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/bohinj/photo-2.jpg",
-    "credit": "\"Lake Bohinj, Slovenia\" by Filip Knežić is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/13355897@N02/7433167654",
+    "credit": "\"Anocheder sobre el lago Bohinj\" by Ignorant Walking is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/19599543@N00/7468090174",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/bohinj/photo-3.jpg",
-    "credit": "\"Lake Bohinj Slovenia, in the Bohinj valley\" by W. Seiler is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
-    "license": "BY-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/40827091@N02/38111512441",
+    "credit": "\"Beach at Zlatarog, Lake Bohinj\" by stevekeiretsu is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/26300494@N07/9481337752",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/bohinj/photo-4.jpg",
-    "credit": "\"Bohinj, Slovenia\" by leonyaakov is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/106447493@N05/15977779106",
+    "credit": "This work by tadekk is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/13906148@N00/8191374042",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/bohinj/photo-5.jpg",
-    "credit": "\"Lake Bohinj, Slovenia\" by Filip Knežić is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/13355897@N02/7251076920",
+    "credit": "\"Beach of Bohinj lake\" by MarySloA is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/131065947@N06/16052282743",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/bohinj/photo-6.jpg",
-    "credit": "\"Lake Bohinj Slovenia\" by neiljs is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/59367690@N00/4934293210",
-    "provider": "openverse/flickr"
+    "credit": "Tapiros",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bohinj_slovenia_10.jpg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/bohinj/photo-7.jpg",
+    "credit": "Loxy!! from Vancouver, Canada",
+    "license": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Slovenia_DSC08424_(21654678139).jpg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/bohinj/photo-8.jpg",
+    "credit": "Tiia Monto",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bohinj_lake_beach.jpg",
+    "provider": "wikimedia"
   }
 ]

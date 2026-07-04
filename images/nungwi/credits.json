@@ -1,51 +1,58 @@
 [
   {
     "src": "images/nungwi/photo-1.jpg",
+    "credit": "\"Day 13 - Sand, Surf, and Sun(burn)\" by Kevin H. is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/16151021@N00/4326685036",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nungwi/photo-2.jpg",
+    "credit": "\"Indian Ocean and Nungwi Beach\" by Malingering is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/68845396@N00/16057943254",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nungwi/photo-3.jpg",
+    "credit": "\"Bored\" by Eric Pauwels is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/57228017@N07/14600367682",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nungwi/photo-4.jpg",
+    "credit": "\"Zanzibar / Nungwi\" by Gasti is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/54321487@N00/34499453",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nungwi/photo-5.jpg",
+    "credit": "\"Fishmarket\" by Toni Birrer is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/38414435@N00/3380816780",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nungwi/photo-6.jpg",
+    "credit": "\"low tide in nungwi\" by Yoni Lerner is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/25570425@N07/8301485392",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/nungwi/photo-7.jpg",
     "credit": "\"Nungwi, Zanzibar\" by Woodlouse is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
     "license": "BY-SA 2.0",
     "source_url": "https://www.flickr.com/photos/8830859@N04/3990744523",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/nungwi/photo-2.jpg",
-    "credit": "\"Indian Ocean at Nungwi, Zanzibar (3)\" by Prof. Mortel is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/43714545@N06/29055501476",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/nungwi/photo-3.jpg",
-    "credit": "\"Beach at Nungwi, Zanzibar\" by Loves street-photo & sunsets is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/38494166@N06/4577920309",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/nungwi/photo-4.jpg",
-    "credit": "\"Coucher du soleil à Nungwi, Zanzibar\" by huguesn is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/10197543@N05/5841107528",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/nungwi/photo-5.jpg",
-    "credit": "\"Nungwi, Zanzibar\" by René Mayorga is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/59263066@N00/8700805835",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/nungwi/photo-6.jpg",
-    "credit": "\"Flametree Cottages, Nungwi, Zanzibar\" by inkognitoh is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/48499796@N00/5159227035",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/nungwi/photo-7.jpg",
-    "credit": "\"Nungwi, Zanzibar\" by Ninara31 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/150102727@N06/51554771606",
+    "src": "images/nungwi/photo-8.jpg",
+    "credit": "\"Day 14 - A Dusky Jewel\" by Kevin H. is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/16151021@N00/4326627610",
     "provider": "openverse/flickr"
   }
 ]

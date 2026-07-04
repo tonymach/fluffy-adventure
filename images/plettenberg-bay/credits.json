@@ -1,51 +1,58 @@
 [
   {
     "src": "images/plettenberg-bay/photo-1.jpg",
-    "credit": "\"Plettenberg Bay, South Africa\" by 350.org is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/25654955@N03/4045501045",
+    "credit": "\"Plettenberg Bay's Lookout - South Africa\" by South African Tourism is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/25779097@N08/2417712635",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/plettenberg-bay/photo-2.jpg",
-    "credit": "\"Plettenberg Bay South Africa\" by amanderson2 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "credit": "\"Abalone Beach House - Plettenberg Bay\" by Turntable Guy is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/49399018@N00/33490673945",
+    "source_url": "https://www.flickr.com/photos/16181679@N00/492319080",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/plettenberg-bay/photo-3.jpg",
-    "credit": "\"Plettenberg Bay / South Africa\" by Michael Zero Mayer is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "credit": "\"Abalone Beach House - Plettenberg Bay\" by Turntable Guy is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/12602671@N04/39599235021",
+    "source_url": "https://www.flickr.com/photos/16181679@N00/492319068",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/plettenberg-bay/photo-4.jpg",
-    "credit": "\"Plettenberg Bay, South Africa\" by noaml is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/50771289@N00/14241854827",
+    "credit": "\"Abalone Beach House - Plettenberg Bay\" by Turntable Guy is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/16181679@N00/492319082",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/plettenberg-bay/photo-5.jpg",
-    "credit": "\"Keurbooms Beach, Plettenberg Bay, South Africa\" by asbjorn.hansen is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/65346936@N00/42086098",
+    "credit": "\"Robberg Beach, Plett\" by cornstaruk is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/23508331@N00/1764366696",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/plettenberg-bay/photo-6.jpg",
-    "credit": "\"Seals at Plettenberg Bay - South Africa\" by RedCany0n is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/22705890@N06/10460191703",
+    "credit": "\"Robberg\" by Theo Crazzolara is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/141324643@N05/33282193116",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/plettenberg-bay/photo-7.jpg",
-    "credit": "\"Oysters for one in Plettenberg Bay, South Africa\" by fromagie is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/49719386@N00/4066004375",
+    "credit": "\"Robberg beach\" by slack12 is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/84923476@N00/6083704992",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/plettenberg-bay/photo-8.jpg",
+    "credit": "\"Robberg\" by Theo Crazzolara is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/141324643@N05/32480199914",
     "provider": "openverse/flickr"
   }
 ]

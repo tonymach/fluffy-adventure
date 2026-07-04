@@ -1,30 +1,51 @@
 [
   {
     "src": "images/sal-rei/photo-1.jpg",
-    "credit": "\"Jumping Backwards - Cape Verde, Sal Rei\" by Espen Faugstad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/54788991@N00/8386881066",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/sal-rei/photo-2.jpg",
     "credit": "\"Beach - Cape Verde, Sal Rei\" by Espen Faugstad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/54788991@N00/8387174569",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/sal-rei/photo-3.jpg",
+    "src": "images/sal-rei/photo-2.jpg",
     "credit": "\"Fishing Boat - Cape Verde, Sal Rei\" by Espen Faugstad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/54788991@N00/8386772492",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/sal-rei/photo-4.jpg",
+    "src": "images/sal-rei/photo-3.jpg",
     "credit": "\"Panorama Beach - Cape Verde, Sal Rei\" by Espen Faugstad is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/54788991@N00/8385820881",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sal-rei/photo-4.jpg",
+    "credit": "\"2024-12-04_10-47-33_ILCE-7CM2_DSCGE9550_DxO\" by Miguel Discart & Kiri Karma is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/69506664@N06/54332661594",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sal-rei/photo-5.jpg",
+    "credit": "\"2024-12-07_11-09-34_ILCE-7CM2_DSCGH0861_DxO\" by Miguel Discart & Kiri Karma is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/69506664@N06/54344513079",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sal-rei/photo-6.jpg",
+    "credit": "\"2024-12-07_19-32-56_ILCE-7CM2_DSCGH1242_DxO\" by Miguel Discart & Kiri Karma is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/69506664@N06/54348240148",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sal-rei/photo-7.jpg",
+    "credit": "\"2024-12-05_11-27-57_ILCE-7CM2_DSCGF0042_DxO\" by Miguel Discart & Kiri Karma is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/69506664@N06/54337128654",
     "provider": "openverse/flickr"
   }
 ]

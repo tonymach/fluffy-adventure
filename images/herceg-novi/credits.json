@@ -1,23 +1,58 @@
 [
   {
     "src": "images/herceg-novi/photo-1.jpg",
-    "credit": "\"Grilled Squid Feral Restaurant Herceg Novi Montenegro\" by amanderson2 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/49399018@N00/10479991603",
+    "credit": "\"Pebble beach in Herceg Novi\" by bluishgreen12 is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/144187954@N07/36691303280",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/herceg-novi/photo-2.jpg",
-    "credit": "\"Savina Monastery Herceg Novi Montenegro\" by amanderson2 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "credit": "\"My headstand in Herceg Novi\" by F. Montino is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/49399018@N00/10480504293",
+    "source_url": "https://www.flickr.com/photos/66475767@N00/5114327291",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/herceg-novi/photo-3.jpg",
-    "credit": "\"Herceg Novi, Montenegro\" by duopastorale is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/10487973@N05/4329483219",
+    "credit": "\"Herceg Novi, storm front\" by Sebastian Anthony is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "license": "BY-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/35816547@N02/4832583196",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/herceg-novi/photo-4.jpg",
+    "credit": "\"Herceg Novi, fork lightning\" by Sebastian Anthony is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "license": "BY-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/35816547@N02/4825038644",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/herceg-novi/photo-5.jpg",
+    "credit": "\"Herceg Novi, LIGHTNING!\" by Sebastian Anthony is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
+    "license": "BY-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/35816547@N02/4824428849",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/herceg-novi/photo-6.jpg",
+    "credit": "\"2022-04-27_19-41-43_ILCE-7C_DSCBH4331_DxO\" by miguel.discart is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/69506664@N06/52234629821",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/herceg-novi/photo-7.jpg",
+    "credit": "\"Wages are low as the Boka Trench\" by uros velickovic is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/24907948@N06/3879038984",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/herceg-novi/photo-8.jpg",
+    "credit": "\"Flying German\" by F. Montino is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/66475767@N00/5114326339",
     "provider": "openverse/flickr"
   }
 ]

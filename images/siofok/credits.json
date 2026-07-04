@@ -1,44 +1,58 @@
 [
   {
     "src": "images/siofok/photo-1.jpg",
-    "credit": "\"sign at Lake Balaton, Siofok, Hungary\" by DurhamDundee is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/76812925@N00/2879076298",
+    "credit": "\"Hoops Starz - Coke Club\" by filin ilia - aliyo.hu is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/37408217@N08/4817802811",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/siofok/photo-2.jpg",
-    "credit": "\"Lake Balaton in Siofok, Hungary\" by corsi photo is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/11211909@N00/14459119483",
+    "credit": "\"Hoops Starz - Coke Club\" by filin ilia - aliyo.hu is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/37408217@N08/4818420562",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/siofok/photo-3.jpg",
-    "credit": "\"Beautiful house on Lake Balaton in Siofok, Hungary\" by corsi photo is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/11211909@N00/14415807616",
+    "credit": "\"once upon a time at balaton\" by [blu:]skin is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/10687885@N05/3382720231",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/siofok/photo-4.jpg",
-    "credit": "\"Lake Balaton in Siofok, Hungary\" by corsi photo is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/11211909@N00/14252288839",
+    "credit": "\"Bild157\" by cervus is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/65346428@N00/425887890",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/siofok/photo-5.jpg",
-    "credit": "\"Siofok, Hungary\" by ibolyka1 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/8771870@N06/20335906235",
+    "credit": "\"Hungary 2010\" by commodore* is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/94365056@N06/16426875313",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/siofok/photo-6.webp",
-    "credit": "\"Hungarian MAN Lions Coach FLJ174,Dias Zeus Travel, Budapest. London WC2\" by sludgegulper is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/28179929@N08/3839617245",
+    "src": "images/siofok/photo-6.jpg",
+    "credit": "\"On the lake.\" by young shanahan is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/14759783@N04/50294705947",
     "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/siofok/photo-7.jpg",
+    "credit": "Brück &amp; Sohn Kunstverlag Meißen",
+    "license": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:09638-Siofok-1908-Plattensee_-_Bad-Br%C3%BCck_%26_Sohn_Kunstverlag.jpg",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/siofok/photo-8.jpg",
+    "credit": "77csoda",
+    "license": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Si%C3%B3fok_2010,_beach,_autumn_-_panoramio_(21).jpg",
+    "provider": "wikimedia"
   }
 ]

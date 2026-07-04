@@ -1,9 +1,9 @@
 [
   {
     "src": "images/cumbuco/photo-1.jpg",
-    "credit": "\"Cumbuco Brazil\" by Ivan Zanotti Photo is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/100738664@N05/17066152763",
+    "credit": "\"Praia do Cumbuco (Fortaleza-CE / Brasil)\" by Gabi Sakamoto (Gah'Be) is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/65684987@N08/12014817743",
     "provider": "openverse/flickr"
   },
   {
@@ -17,35 +17,35 @@
     "src": "images/cumbuco/photo-3.jpg",
     "credit": "\"Praia do Cumbuco (Fortaleza-CE / Brasil)\" by Gabi Sakamoto (Gah'Be) is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
     "license": "BY 2.0",
-    "source_url": "https://www.flickr.com/photos/65684987@N08/12014817743",
-    "provider": "openverse/flickr"
-  },
-  {
-    "src": "images/cumbuco/photo-4.jpg",
-    "credit": "\"Praia do Cumbuco (Fortaleza-CE / Brasil)\" by Gabi Sakamoto (Gah'Be) is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-    "license": "BY 2.0",
     "source_url": "https://www.flickr.com/photos/65684987@N08/12014812693",
     "provider": "openverse/flickr"
   },
   {
-    "src": "images/cumbuco/photo-5.jpg",
-    "credit": "\"Wake skate grab\" by stillingen is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "src": "images/cumbuco/photo-4.jpg",
+    "credit": "\"Cumbuco sunset\" by stillingen is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
     "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/37559519@N05/5984661843",
+    "source_url": "https://www.flickr.com/photos/37559519@N05/5985228634",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/cumbuco/photo-5.jpg",
+    "credit": "\"Cumbuco Beach, Ceará, Brazil.\" by ER's Eyes - Our planet is beautiful. is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/41111966@N04/8407961533",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/cumbuco/photo-6.jpg",
-    "credit": "\"praja de Cumbuco Cearà Brazil\" by Ivan Zanotti Photo is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
-    "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/100738664@N05/12291180406",
+    "credit": "\"Fortaleza - Ceará\" by https://www.rosanetur.com is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/54795166@N05/29297259153",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/cumbuco/photo-7.jpg",
-    "credit": "\"Ride\" by stillingen is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
-    "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/37559519@N05/5984654159",
+    "credit": "\"Fortaleza - Ceará\" by https://www.rosanetur.com is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/54795166@N05/29296565894",
     "provider": "openverse/flickr"
   }
 ]

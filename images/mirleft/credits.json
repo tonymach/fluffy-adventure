@@ -1,23 +1,58 @@
 [
   {
     "src": "images/mirleft/photo-1.jpg",
-    "credit": "\"Sunset in Mirleft, Morocco\" by Julien Sanine is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "credit": "\"Obsatcle\" by Julien Sanine is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/80531360@N03/32096683936",
+    "source_url": "https://www.flickr.com/photos/80531360@N03/32930729086",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/mirleft/photo-2.jpg",
-    "credit": "\"Blue Hour, in Mirleft, Morocco\" by Julien Sanine is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "credit": "\"Plage de Legzira IV, Morocco, 20150923\" by G · RTM is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
     "license": "BY-NC-ND 2.0",
-    "source_url": "https://www.flickr.com/photos/80531360@N03/32278944235",
+    "source_url": "https://www.flickr.com/photos/89446016@N00/21762220751",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/mirleft/photo-3.jpg",
-    "credit": "\"Barbary Ground Squirrels #mirleft #Morocco\" by in the shadows is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "credit": "\"artist's shelter\" by Yashin' is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/21966671@N08/6164526807",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/mirleft/photo-4.jpg",
+    "credit": "\"them 4 3\" by davide fantino is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/34039325@N07/3171498278",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/mirleft/photo-5.jpg",
+    "credit": "\"Mirleft\" by Evgeni Zotov is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/23609393@N03/6315327773",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/mirleft/photo-6.jpg",
+    "credit": "\"Afta beach\" by c.hug is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/13176024@N02/2117634133",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/mirleft/photo-7.jpg",
+    "credit": "\"SeM@MoRoCCo#MiRleFt#HallaLSpraY\" by SeM #FeatherboY is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/77367030@N07/15590822766",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/mirleft/photo-8.jpg",
+    "credit": "\"Legzira beach\" by by Mazette is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
     "license": "BY-NC 2.0",
-    "source_url": "https://www.flickr.com/photos/7387285@N06/24186513852",
+    "source_url": "https://www.flickr.com/photos/160551320@N04/45852134785",
     "provider": "openverse/flickr"
   }
 ]

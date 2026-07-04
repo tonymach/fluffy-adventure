@@ -1,23 +1,58 @@
 [
   {
     "src": "images/swakopmund/photo-1.jpg",
-    "credit": "\"Swakopmund, Namibia\" by dconvertini is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/42477684@N08/16691335104",
+    "credit": "\"JH-NA070906_0116 World Bank\" by World Bank Photo Collection is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/10816734@N03/5321493204",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/swakopmund/photo-2.jpg",
-    "credit": "\"Sandboarding near Swakopmund, Namibia\" by delayed gratification is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
-    "license": "BY-NC-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/34865803@N00/798165601",
+    "credit": "\"Swakop River Sunset\" by Namibnat is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/12234865@N04/5547426810",
     "provider": "openverse/flickr"
   },
   {
     "src": "images/swakopmund/photo-3.jpg",
-    "credit": "\"Swakopmund, Namibia\" by dconvertini is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
-    "license": "BY-SA 2.0",
-    "source_url": "https://www.flickr.com/photos/42477684@N08/17303952555",
+    "credit": "\"Swakopmund\" by Zibiso is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/65227342@N08/5958290978",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/swakopmund/photo-4.jpg",
+    "credit": "\"Swakop River and Dunes\" by Namibnat is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/12234865@N04/5547025269",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/swakopmund/photo-5.jpg",
+    "credit": "\"Swakop Beach\" by Namibnat is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/12234865@N04/5586549742",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/swakopmund/photo-6.jpg",
+    "credit": "\"Standing By The Swakop River\" by Namibnat is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/12234865@N04/5547469924",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/swakopmund/photo-7.jpg",
+    "credit": "\"Sunset in Swakopmund\" by zsispeo is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/14486836@N06/37439524861",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/swakopmund/photo-8.jpg",
+    "credit": "\"Built Up Over Time\" by Baron Reznik is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/56077632@N00/19048792286",
     "provider": "openverse/flickr"
   }
 ]
