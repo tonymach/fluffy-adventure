@@ -111,7 +111,8 @@ async function fetchLive(id) {
   // Clean query: the media_query seed ("…beach aerial drone 4k") is tuned for
   // YouTube/Google and returns nothing on Openverse's CC corpus.
   const baseTown = t.town.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
-  const loc = t.region === "Brazil" ? "Brazil" : t.country;
+  const loc = (t.region === "Brazil" ? "Brazil" : t.country)
+    .replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
   const q = `${baseTown} ${loc}`.trim();
   try {
     const r = await fetch(`https://api.openverse.org/v1/images/?q=${encodeURIComponent(q)}&page_size=8`,

@@ -223,7 +223,8 @@ async function fetchTown(town, manifest) {
   // Clean query for CC image search (the media_query seed "…beach aerial drone
   // 4k" is tuned for YouTube/Google and returns nothing on Openverse/Wikimedia).
   const baseTown = town.town.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
-  const loc = town.region === "Brazil" ? "Brazil" : town.country;
+  const loc = (town.region === "Brazil" ? "Brazil" : town.country)
+    .replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
   const photoQuery = `${baseTown} ${loc}`.trim();
   const videoQuery = town.media_query || `${baseTown} ${loc} beach drone`;
   let candidates = [];
