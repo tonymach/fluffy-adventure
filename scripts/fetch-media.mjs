@@ -225,20 +225,28 @@ async function fetchTown(town, manifest) {
   const baseTown = town.town.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
   const loc = (town.region === "Brazil" ? "Brazil" : town.country)
     .replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
-  const photoQuery = `${baseTown} ${loc}`.trim();
+  // Scenic-biased query first (coastal photos, not random town images like a
+  // factory), then a plain query to top up coverage. Dedupe by URL.
+  const queries = [`${baseTown} ${loc} beach`.trim(), `${baseTown} ${loc}`.trim()];
+  const seen = new Set();
   const videoQuery = town.media_query || `${baseTown} ${loc} beach drone`;
   let candidates = [];
-  for (const prov of providerOrder) {
-    if (!PROVIDERS[prov]) continue;
-    try {
-      const got = await PROVIDERS[prov](photoQuery);
-      candidates.push(...got.filter(c => c.url && /^https?:/i.test(c.url)));
-      if (DEBUG) console.log(`   · ${prov}: ${got.length} candidates`);
-    } catch (e) {
-      recordProviderError(prov, e.message);
-      if (DEBUG) console.log(`   · ${prov} ERROR: ${e.message}`);
+  outer:
+  for (const qy of queries) {
+    for (const prov of providerOrder) {
+      if (!PROVIDERS[prov]) continue;
+      try {
+        const got = await PROVIDERS[prov](qy);
+        for (const c of got) {
+          if (c.url && /^https?:/i.test(c.url) && !seen.has(c.url)) { seen.add(c.url); candidates.push(c); }
+        }
+        if (DEBUG) console.log(`   · [${qy}] ${prov}: ${got.length}`);
+      } catch (e) {
+        recordProviderError(prov, e.message);
+        if (DEBUG) console.log(`   · ${prov} ERROR: ${e.message}`);
+      }
+      if (candidates.length >= MAX_PHOTOS) break outer;
     }
-    if (candidates.length >= MIN_PHOTOS) break;
   }
   if (!candidates.length) return { id, status: "no results" };
 

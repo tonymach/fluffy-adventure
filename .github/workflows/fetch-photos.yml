@@ -47,12 +47,17 @@ jobs:
           node-version: "20"
 
       - name: Fetch photos (Openverse + Wikimedia, keyless)
+        env:
+          COMMIT_MSG: ${{ github.event.head_commit.message }}
         run: |
           MINP="${{ github.event.inputs.min_photos }}"; MINP="${MINP:-3}"
           MAXP="${{ github.event.inputs.max_photos }}"; MAXP="${MAXP:-8}"
           PR="${{ github.event.inputs.per_region }}"
           ARGS="--min-photos=$MINP --max-photos=$MAXP"
           [ -n "$PR" ] && ARGS="$ARGS --per-region=$PR"
+          # a [force-photos] marker in the commit re-fetches even towns that
+          # already have photos (used to replace low-relevance images)
+          case "$COMMIT_MSG" in *"[force-photos]"*) ARGS="$ARGS --force";; esac
           echo "node scripts/fetch-media.mjs $ARGS"
           node scripts/fetch-media.mjs $ARGS
 
