@@ -6,6 +6,7 @@ name: Fetch city photos
 # Trigger it from the Actions tab ("Run workflow") or via the API.
 
 on:
+  # Manual button in the Actions tab.
   workflow_dispatch:
     inputs:
       per_region:
@@ -20,6 +21,12 @@ on:
         description: "Maximum photos to download per town"
         required: false
         default: "8"
+  # Also fires on any push whose commit message contains [fetch-photos], so it
+  # can be kicked off with a marker commit. The CI's own commit-back is tagged
+  # [skip-fetch] instead, so it never loops.
+  push:
+    branches:
+      - claude/coastal-town-visual-tool-4wuxd5
 
 permissions:
   contents: write
@@ -30,6 +37,7 @@ concurrency:
 
 jobs:
   fetch:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[fetch-photos]')
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -40,10 +48,11 @@ jobs:
 
       - name: Fetch photos (Openverse + Wikimedia, keyless)
         run: |
-          ARGS="--min-photos=${{ github.event.inputs.min_photos }} --max-photos=${{ github.event.inputs.max_photos }}"
-          if [ -n "${{ github.event.inputs.per_region }}" ]; then
-            ARGS="$ARGS --per-region=${{ github.event.inputs.per_region }}"
-          fi
+          MINP="${{ github.event.inputs.min_photos }}"; MINP="${MINP:-3}"
+          MAXP="${{ github.event.inputs.max_photos }}"; MAXP="${MAXP:-8}"
+          PR="${{ github.event.inputs.per_region }}"
+          ARGS="--min-photos=$MINP --max-photos=$MAXP"
+          [ -n "$PR" ] && ARGS="$ARGS --per-region=$PR"
           echo "node scripts/fetch-media.mjs $ARGS"
           node scripts/fetch-media.mjs $ARGS
 
