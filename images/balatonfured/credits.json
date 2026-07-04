@@ -8,51 +8,30 @@
   },
   {
     "src": "images/balatonfured/photo-2.jpg",
-    "credit": "Benlovas",
-    "license": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Balatonfured_beach.jpg",
-    "provider": "wikimedia"
-  },
-  {
-    "src": "images/balatonfured/photo-3.jpg",
     "credit": "Globetrotter19",
     "license": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Flamingo_Wellness_and_Conference_Hotel._Entrance._-_Balatonf%C3%BCred,_Hungary.JPG",
     "provider": "wikimedia"
   },
   {
-    "src": "images/balatonfured/photo-4.jpg",
+    "src": "images/balatonfured/photo-3.jpg",
     "credit": "Globetrotter19",
     "license": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Flamingo_Wellness_and_Conference_Hotel._Staircase._-_Balatonf%C3%BCred,_Hungary.JPG",
     "provider": "wikimedia"
   },
   {
-    "src": "images/balatonfured/photo-5.jpg",
+    "src": "images/balatonfured/photo-4.jpg",
     "credit": "Globetrotter19",
     "license": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Balatonf%C3%BCred_Heart_Hospital._Beach_pool_wing._-_Hungary.JPG",
     "provider": "wikimedia"
   },
   {
-    "src": "images/balatonfured/photo-6.jpg",
-    "credit": "nucek",
-    "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Pla%C5%BCa_balato%C5%84ska_-_nucek_-_panoramio.jpg",
-    "provider": "wikimedia"
-  },
-  {
-    "src": "images/balatonfured/photo-7.jpg",
+    "src": "images/balatonfured/photo-5.jpg",
     "credit": "FOTO:Fortepan — ID 26801: Adományozó/Donor: Grauthoff, Ted. archive copy at the Wayback Machine",
     "license": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Balatonf%C3%BCred_1935,_F%C3%BCrd%C5%91h%C3%A1z._-_Fortepan_26801.jpg",
-    "provider": "wikimedia"
-  },
-  {
-    "src": "images/balatonfured/photo-8.jpg",
-    "credit": "FOTO:Fortepan — ID 29501: Adományozó/Donor: Korenchy László. archive copy at the Wayback Machine",
-    "license": "CC BY-SA 3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:N%C5%91i_portr%C3%A9,_1934._Fortepan_29501.jpg",
     "provider": "wikimedia"
   }
 ]

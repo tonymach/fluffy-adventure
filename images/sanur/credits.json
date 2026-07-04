@@ -1,0 +1,58 @@
+[
+  {
+    "src": "images/sanur/photo-1.jpg",
+    "credit": "\"Happiness\" by www.ownwayphotography.com is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/155376904@N07/45611876151",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sanur/photo-2.jpg",
+    "credit": "\"Daily routine\" by www.ownwayphotography.com is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/155376904@N07/30479929907",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sanur/photo-3.jpg",
+    "credit": "\"Beach\" by --{@rwen is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/37876958@N03/4490542033",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sanur/photo-4.jpg",
+    "credit": "\"20081219-6\" by tiltti is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/10134557@N08/3119609527",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sanur/photo-5.jpg",
+    "credit": "\"Sindhu Beach\" by Underground PFV Uitgeverij is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/75629443@N06/6954816153",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sanur/photo-6.jpg",
+    "credit": "\"Bali 116 - Sanur - Sailing the skies over the beach\" by mckaysavage is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+    "license": "BY 2.0",
+    "source_url": "https://www.flickr.com/photos/56796376@N00/9738208670",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sanur/photo-7.jpg",
+    "credit": "\"Bali : Sanur, un pêcheur en préparation\" by francois.sorrentino is licensed under CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/.",
+    "license": "BY-NC-ND 2.0",
+    "source_url": "https://www.flickr.com/photos/56755391@N05/29477790343",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/sanur/photo-8.jpg",
+    "credit": "\"fight!\" by Magalie L'Abbé is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/.",
+    "license": "BY-NC 2.0",
+    "source_url": "https://www.flickr.com/photos/97551727@N00/6727267631",
+    "provider": "openverse/flickr"
+  }
+]

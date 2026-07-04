@@ -29,30 +29,23 @@
   },
   {
     "src": "images/sedgefield/photo-5.jpg",
-    "credit": "South African Museum",
-    "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Annals_of_the_South_African_Museum_%3D_Annale_van_die_Suid-Afrikaanse_Museum_(IA_annalsofsoutha6921975sout).pdf",
-    "provider": "wikimedia"
-  },
-  {
-    "src": "images/sedgefield/photo-6.jpg",
-    "credit": "Tristram, H. B. (Henry Baker), 1822-1906",
-    "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Catalogue_of_a_collection_of_birds_belonging_to_.._(IA_catalogueofcolle00tris).pdf",
-    "provider": "wikimedia"
-  },
-  {
-    "src": "images/sedgefield/photo-7.jpg",
     "credit": "Morrison, W. Frederic",
     "license": "Public domain",
     "source_url": "https://commons.wikimedia.org/wiki/File:California_Digital_Library_(IA_aldinehistoryofq01morr).pdf",
     "provider": "wikimedia"
   },
   {
-    "src": "images/sedgefield/photo-8.jpg",
-    "credit": "Zoological Society of London",
+    "src": "images/sedgefield/photo-6.jpg",
+    "credit": "Royal Medico-psychological Association",
     "license": "Public domain",
-    "source_url": "https://commons.wikimedia.org/wiki/File:List_of_fellows_(IA_listoffellows1924zooluoft).pdf",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_British_journal_of_psychiatry_(IA_britishjournalof31roya).pdf",
+    "provider": "wikimedia"
+  },
+  {
+    "src": "images/sedgefield/photo-7.jpg",
+    "credit": "Royal Medico-psychological Association",
+    "license": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_British_journal_of_psychiatry_(IA_britishjournalof34roya).pdf",
     "provider": "wikimedia"
   }
 ]

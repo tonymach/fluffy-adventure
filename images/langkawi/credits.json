@@ -1,0 +1,51 @@
+[
+  {
+    "src": "images/langkawi/photo-1.jpg",
+    "credit": "\"Langkawi, Malaysia\" by RelaxingMusic is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/83905817@N08/9816984154",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/langkawi/photo-2.jpg",
+    "credit": "\"A Beach in Summer\" by Ewan-M is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/.",
+    "license": "BY-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/55935853@N00/352114191",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/langkawi/photo-3.jpg",
+    "credit": "\"langkawi lagoon..\" by kymioflario is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/21351623@N02/3230819965",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/langkawi/photo-4.jpg",
+    "credit": "\"Glowing Surf\" by Trey Ratcliff is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/95572727@N00/298651438",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/langkawi/photo-5.jpg",
+    "credit": "\"Fishing Boats, Langkawi, Malaysia\" by Bernard Spragg is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+    "license": "CC0 1.0",
+    "source_url": "https://www.flickr.com/photos/88123769@N02/17735206336",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/langkawi/photo-6.jpg",
+    "credit": "\"Fishing boat Langkawi.\" by Bernard Spragg is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+    "license": "CC0 1.0",
+    "source_url": "https://www.flickr.com/photos/88123769@N02/16353305126",
+    "provider": "openverse/flickr"
+  },
+  {
+    "src": "images/langkawi/photo-7.jpg",
+    "credit": "\"Purple Skies of Malaysia\" by Trey Ratcliff is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/.",
+    "license": "BY-NC-SA 2.0",
+    "source_url": "https://www.flickr.com/photos/95572727@N00/246215105",
+    "provider": "openverse/flickr"
+  }
+]
