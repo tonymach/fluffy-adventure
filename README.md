@@ -90,8 +90,16 @@ of copyrighted stock:
 
 - **Openverse** and **Wikimedia Commons** — no API key, CC-licensed *(default)*
 - **Unsplash** / **Pexels** — used automatically if you supply an API key
+- **Google Programmable Search** (Custom Search JSON API) — used if you supply a
+  key **and** a search-engine id; results are filtered to Creative-Commons usage
+  rights (`rights=cc_*`). Google returns the rights *filter* used, not the exact
+  per-image license, so the source page is recorded in the credits for you to verify.
 - **YouTube** — one representative video id per town if you supply a key; otherwise
   the card’s “Video ↗” button opens a YouTube search using the town’s query seed
+
+Every card and the placeholder lightbox also carry a **🔍 Images ↗** link that opens
+a Google Images (and license-safe Openverse) search in a new tab — handy for a quick
+eyeball without downloading anything.
 
 ### Why placeholders ship in the box
 
@@ -116,10 +124,22 @@ export UNSPLASH_ACCESS_KEY=xxxx      # https://unsplash.com/developers
 export PEXELS_API_KEY=xxxx           # https://www.pexels.com/api/
 export YOUTUBE_API_KEY=xxxx          # Google Cloud → YouTube Data API v3
 node scripts/fetch-media.mjs
+
+# Google Programmable Search (image results, CC-filtered):
+export GOOGLE_CSE_KEY=xxxx           # Google Cloud → enable "Custom Search API", make an API key
+export GOOGLE_CSE_ID=xxxx            # https://programmablesearchengine.google.com → create an engine,
+                                     #   turn ON "Image search" + "Search the entire web", copy the
+                                     #   Search engine ID (cx)
+# optional: widen/narrow the license filter (default is CC-only)
+export GOOGLE_CSE_RIGHTS="cc_publicdomain|cc_attribute|cc_sharealike|cc_noncommercial"
+node scripts/fetch-media.mjs --providers=google        # or let it auto-prepend
 ```
 
+Google’s free tier is **100 image queries/day** — one query per town, so a full
+120-town run over two days, or use `--per-region=15` / `--limit=N` to stay under it.
+
 Useful flags: `--limit=N`, `--region="Africa"`, `--min-photos=6`, `--max-photos=8`,
-`--providers=unsplash,openverse`, `--force` (refetch), `--dry-run` (show the plan).
+`--providers=google,openverse`, `--force` (refetch), `--dry-run` (show the plan).
 
 The fetcher writes photos to `images/<id>/`, saves per-town `credits.json`, and
 updates `images/media-manifest.json` + `media.js` **and** the aggregate

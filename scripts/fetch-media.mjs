@@ -58,11 +58,17 @@ const KEYS = {
   unsplash: process.env.UNSPLASH_ACCESS_KEY,
   pexels: process.env.PEXELS_API_KEY,
   youtube: process.env.YOUTUBE_API_KEY,
+  googleKey: process.env.GOOGLE_CSE_KEY,   // Custom Search JSON API key
+  googleCx: process.env.GOOGLE_CSE_ID,     // Programmable Search Engine id (cx)
 };
+// usage-rights filter for Google CSE (CC only by default; override via env)
+const GOOGLE_RIGHTS = process.env.GOOGLE_CSE_RIGHTS ||
+  "cc_publicdomain|cc_attribute|cc_sharealike|cc_noncommercial";
 let providerOrder;
 if (args["providers"]) providerOrder = String(args["providers"]).split(",").map(s => s.trim());
 else {
   providerOrder = ["openverse", "wikimedia"];
+  if (KEYS.googleKey && KEYS.googleCx) providerOrder.unshift("google");
   if (KEYS.pexels) providerOrder.unshift("pexels");
   if (KEYS.unsplash) providerOrder.unshift("unsplash");
 }
@@ -103,6 +109,23 @@ const PROVIDERS = {
       provider: "pexels",
     }));
   },
+  async google(q) {
+    if (!KEYS.googleKey || !KEYS.googleCx) return [];
+    const num = Math.min(10, MAX_PHOTOS); // API max 10/request
+    const d = await jget("https://www.googleapis.com/customsearch/v1?" +
+      `key=${KEYS.googleKey}&cx=${KEYS.googleCx}&searchType=image&num=${num}` +
+      `&safe=active&imgSize=large&rights=${encodeURIComponent(GOOGLE_RIGHTS)}` +
+      `&q=${encodeURIComponent(q)}`);
+    return (d.items || []).map(it => ({
+      url: it.link,
+      credit: `${it.title || "Image"}${it.displayLink ? " — " + it.displayLink : ""}`,
+      // CSE returns the rights *filter*, not the exact license; the source
+      // page carries the real license — recorded so it can be verified.
+      license: `CC (Google rights=${GOOGLE_RIGHTS})`,
+      source_url: it.image?.contextLink || it.link,
+      provider: "google-cse",
+    }));
+  },
   async openverse(q) {
     const d = await jget(`https://api.openverse.org/v1/images/?q=${encodeURIComponent(q)}&page_size=${MAX_PHOTOS}&license_type=all&mature=false`);
     return (d.results || []).map(p => ({
@@ -131,16 +154,28 @@ const PROVIDERS = {
   },
 };
 
-function isImageUrl(u) { return /\.(jpe?g|png|webp)(\?|$)/i.test(u) || /openverse|unsplash|pexels|wikimedia/.test(u); }
-function extOf(u) { const m = u.match(/\.(jpe?g|png|webp)(\?|$)/i); return m ? m[1].toLowerCase().replace("jpeg", "jpg") : "jpg"; }
+function extFromType(ct) {
+  if (/jpe?g/i.test(ct)) return "jpg";
+  if (/png/i.test(ct)) return "png";
+  if (/webp/i.test(ct)) return "webp";
+  if (/gif/i.test(ct)) return "gif";
+  return null;
+}
+function extFromUrl(u) { const m = u.match(/\.(jpe?g|png|webp)(\?|$)/i); return m ? m[1].toLowerCase().replace("jpeg", "jpg") : null; }
 
-async function download(url, dest) {
+// download to a path WITHOUT extension; returns the extension actually written
+// (decided from the response content-type, falling back to the URL). Rejects
+// anything that isn't really an image (e.g. an HTML error/consent page).
+async function download(url, destNoExt) {
   const r = await fetch(url, { headers: UA });
   if (!r.ok) throw new Error(`download ${r.status}`);
+  const ct = r.headers.get("content-type") || "";
+  if (!/^image\//i.test(ct)) throw new Error(`not an image (${ct || "no content-type"})`);
   const buf = Buffer.from(await r.arrayBuffer());
-  if (buf.length < 2000) throw new Error("suspiciously small file");
-  await fs.writeFile(dest, buf);
-  return buf.length;
+  if (buf.length < 2500) throw new Error("suspiciously small file");
+  const ext = extFromType(ct) || extFromUrl(url) || "jpg";
+  await fs.writeFile(`${destNoExt}.${ext}`, buf);
+  return ext;
 }
 
 async function resolveVideo(q) {
@@ -166,7 +201,7 @@ async function fetchTown(town, manifest) {
     if (!PROVIDERS[prov]) continue;
     try {
       const got = await PROVIDERS[prov](query);
-      candidates.push(...got.filter(c => c.url && isImageUrl(c.url)));
+      candidates.push(...got.filter(c => c.url && /^https?:/i.test(c.url)));
     } catch (e) { /* provider miss — try next */ }
     if (candidates.length >= MIN_PHOTOS) break;
   }
@@ -177,11 +212,11 @@ async function fetchTown(town, manifest) {
   let n = 0;
   for (const c of candidates) {
     if (n >= MAX_PHOTOS) break;
-    const file = `photo-${n + 1}.${extOf(c.url)}`;
+    const base = path.join(dir, `photo-${n + 1}`);
     try {
-      await download(c.url, path.join(dir, file));
+      const ext = await download(c.url, base); // content-type decides the ext
       if (c._download && KEYS.unsplash) fetch(`${c._download}&client_id=${KEYS.unsplash}`, { headers: UA }).catch(() => {});
-      const rec = { src: `images/${id}/${file}`, credit: c.credit, license: c.license, source_url: c.source_url, provider: c.provider };
+      const rec = { src: `images/${id}/photo-${n + 1}.${ext}`, credit: c.credit, license: c.license, source_url: c.source_url, provider: c.provider };
       photos.push(rec); credits.push(rec); n++;
       await sleep(DELAY_MS);
     } catch (e) { /* skip this image */ }
