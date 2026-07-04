@@ -81,16 +81,22 @@ else {
   if (KEYS.unsplash) providerOrder.unshift("unsplash");
 }
 
-const UA = { "User-Agent": "WaterlineScout/1.0 (personal research tool)" };
+// Wikimedia's UA policy wants a contact URL; include one to avoid blocks.
+const UA = { "User-Agent": "WaterlineScout/1.0 (+https://github.com/tonymach/fluffy-adventure; coastal-town research tool)" };
+const wait = ms => new Promise(res => setTimeout(res, ms));
 
-async function jget(url, headers = {}) {
-  const r = await fetch(url, { headers: { ...UA, ...headers } });
-  if (!r.ok) {
+async function jget(url, headers = {}, retries = 3) {
+  for (let attempt = 0; ; attempt++) {
+    const r = await fetch(url, { headers: { ...UA, ...headers } });
+    if (r.ok) return r.json();
+    if ((r.status === 429 || r.status === 503) && attempt < retries) {
+      await wait(1000 * Math.pow(2, attempt));   // 1s, 2s, 4s backoff
+      continue;
+    }
     let body = "";
-    try { body = (await r.text()).slice(0, 200); } catch (e) {}
+    try { body = (await r.text()).slice(0, 160).replace(/\s+/g, " ").trim(); } catch (e) {}
     throw new Error(`${r.status} ${r.statusText}${body ? " :: " + body : ""}`);
   }
-  return r.json();
 }
 
 // each provider returns [{url, credit, license, source_url, provider}]
@@ -141,7 +147,9 @@ const PROVIDERS = {
   async openverse(q) {
     const d = await jget(`https://api.openverse.org/v1/images/?q=${encodeURIComponent(q)}&page_size=${MAX_PHOTOS}`);
     return (d.results || []).map(p => ({
-      url: p.url,
+      // prefer Openverse's own hosted thumbnail — reliably an image and not a
+      // dead/hotlink-blocked source URL.
+      url: p.thumbnail || p.url,
       credit: p.attribution || `${p.title || "Untitled"}${p.creator ? " — " + p.creator : ""}`,
       license: `${(p.license || "").toUpperCase()} ${p.license_version || ""}`.trim(),
       source_url: p.foreign_landing_url || p.url,
@@ -179,8 +187,13 @@ function extFromUrl(u) { const m = u.match(/\.(jpe?g|png|webp)(\?|$)/i); return 
 // (decided from the response content-type, falling back to the URL). Rejects
 // anything that isn't really an image (e.g. an HTML error/consent page).
 async function download(url, destNoExt) {
-  const r = await fetch(url, { headers: UA });
-  if (!r.ok) throw new Error(`download ${r.status}`);
+  let r;
+  for (let attempt = 0; ; attempt++) {
+    r = await fetch(url, { headers: UA });
+    if (r.ok) break;
+    if ((r.status === 429 || r.status === 503) && attempt < 3) { await wait(1000 * Math.pow(2, attempt)); continue; }
+    throw new Error(`download ${r.status}`);
+  }
   const ct = r.headers.get("content-type") || "";
   if (!/^image\//i.test(ct)) throw new Error(`not an image (${ct || "no content-type"})`);
   const buf = Buffer.from(await r.arrayBuffer());
@@ -207,12 +220,17 @@ async function fetchTown(town, manifest) {
   if (!FORCE && (entry.photos?.length || 0) >= MIN_PHOTOS) {
     return { id, status: "skip (has photos)" };
   }
-  const query = town.media_query || `${town.town} ${town.country} beach aerial drone`;
+  // Clean query for CC image search (the media_query seed "…beach aerial drone
+  // 4k" is tuned for YouTube/Google and returns nothing on Openverse/Wikimedia).
+  const baseTown = town.town.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
+  const loc = town.region === "Brazil" ? "Brazil" : town.country;
+  const photoQuery = `${baseTown} ${loc}`.trim();
+  const videoQuery = town.media_query || `${baseTown} ${loc} beach drone`;
   let candidates = [];
   for (const prov of providerOrder) {
     if (!PROVIDERS[prov]) continue;
     try {
-      const got = await PROVIDERS[prov](query);
+      const got = await PROVIDERS[prov](photoQuery);
       candidates.push(...got.filter(c => c.url && /^https?:/i.test(c.url)));
       if (DEBUG) console.log(`   · ${prov}: ${got.length} candidates`);
     } catch (e) {
@@ -240,7 +258,7 @@ async function fetchTown(town, manifest) {
   if (!photos.length) return { id, status: "download failed" };
   entry.photos = photos;
   entry.credits = credits;
-  entry.video = await resolveVideo(query);
+  entry.video = await resolveVideo(videoQuery);
   await fs.writeFile(path.join(dir, "credits.json"), JSON.stringify(credits, null, 2));
   return { id, status: `${photos.length} photos${entry.video ? " + video" : ""}` };
 }
