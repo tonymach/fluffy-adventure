@@ -21,6 +21,9 @@ concurrency:
 
 jobs:
   deploy:
+    # Skip [fetch-photos] commits — the fetch workflow self-deploys those after
+    # downloading the photos, so deploying the pre-photo state here is wasteful.
+    if: ${{ github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, '[fetch-photos]') }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages

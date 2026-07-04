@@ -1,9 +1,11 @@
 name: Fetch city photos
 
 # Runs the media scraper on a GitHub-hosted runner (which HAS open internet,
-# unlike the build sandbox), then commits the photos back to the branch. That
-# push re-triggers the Pages deploy, so the live site updates with real photos.
-# Trigger it from the Actions tab ("Run workflow") or via the API.
+# unlike the build sandbox), commits the photos back to the branch, AND deploys
+# Pages itself. It must self-deploy because a push made with the built-in
+# GITHUB_TOKEN does not trigger the separate deploy workflow (GitHub's
+# loop-prevention rule). Trigger from the Actions tab or with a [fetch-photos]
+# marker commit.
 
 on:
   # Manual button in the Actions tab.
@@ -30,6 +32,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: fetch-photos
@@ -40,6 +44,9 @@ jobs:
     if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[fetch-photos]')
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -75,5 +82,19 @@ jobs:
           else
             git commit -m "Fetch city photos via CI [skip-fetch]"
             git push
-            echo "Pushed photos — Pages will redeploy."
+            echo "Pushed photos."
           fi
+
+      # Deploy Pages from here (the commit above can't trigger the deploy
+      # workflow because it was pushed with GITHUB_TOKEN).
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
