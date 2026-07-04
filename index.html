@@ -108,9 +108,23 @@
     </section>
 
     <section id="mapView" class="view">
-      <div class="map-legend" id="mapLegend"></div>
-      <div id="mapHost" class="map-host"></div>
-      <p class="hint">Schematic equirectangular map — pin positions are approximate town centroids for orientation, not survey-grade. Pin colour = score.</p>
+      <div class="map-toolbar">
+        <button id="shortlistToggle" class="ghost-btn">★ Shortlist only</button>
+        <span class="map-hint-inline">Star towns to shortlist, then click any pin or chip to open it on Google Maps and narrow down.</span>
+      </div>
+      <div id="shortlistStrip" class="shortlist-strip"></div>
+      <div class="map-split">
+        <div class="map-pane">
+          <div class="map-legend" id="mapLegend"></div>
+          <div id="mapHost" class="map-host"></div>
+          <p class="hint">Schematic overview — pin positions are approximate; colour = score. Click a pin to open it on Google Maps →</p>
+        </div>
+        <div class="gmap-pane">
+          <div class="gmap-head" id="gmapHead">Google Maps</div>
+          <div class="gmap-frame-wrap"><iframe id="gmapFrame" title="Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <p class="hint" id="gmapHint">Real satellite/road map of the focused town — check the airport, coastline, and what's actually nearby.</p>
+        </div>
+      </div>
     </section>
   </main>
 </div>

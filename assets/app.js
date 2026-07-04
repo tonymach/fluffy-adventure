@@ -546,7 +546,7 @@ function renderMap() {
       tip.innerHTML = `<b>${t.town}</b> · ${t.score.toFixed(1)}<br>${t.country} — ${t.water_body}<br>${t.rent_band_cad[0] != null ? fmtCAD(t.rent_band_cad[0]) + "+/mo" : ""} · ${WARM_LABEL[t.warm_now]}`;
     });
     c.addEventListener("mouseleave", () => tip.style.display = "none");
-    c.addEventListener("click", () => { view = "grid"; filters.search = t.town; $("#search").value = t.town; render(); });
+    c.addEventListener("click", () => { tip.style.display = "none"; focusGmap(t.id); });
     pinsG.appendChild(c);
   });
   svg.appendChild(pinsG);
@@ -560,6 +560,58 @@ function renderMap() {
   $("#mapLegend").appendChild(el("span", { class: "lg", html: `<span class="dot fav"></span><span>favorite</span>` }));
   $("#mapLegend").appendChild(el("span", { class: "lg hint", html: `<span class="dot sm"></span><span class="dot lg2"></span><span>dot size = score</span>` }));
   $("#mapLegend").appendChild(el("span", { class: "count", text: `${list.length} pins` }));
+
+  renderShortlistStrip(list);
+  // keep the current focus if it's still in view, else pick the best candidate
+  const focusStillValid = mapFocusId && list.some(t => t.id === mapFocusId);
+  const defaultFocus = list.filter(t => favorites.has(t.id))[0] || list[0];
+  focusGmap(focusStillValid ? mapFocusId : (defaultFocus && defaultFocus.id), true);
+  $("#shortlistToggle").classList.toggle("active", filters.favOnly);
+}
+
+// keyless Google Maps embed (place search → labelled marker, no API key)
+function gmapsSrc(t) {
+  const base = t.town.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
+  const loc = (t.region === "Brazil" ? "Brazil" : t.country).replace(/\s*\(.*?\)\s*/g, " ").trim();
+  const q = encodeURIComponent(`${base}, ${loc}`);
+  return `https://maps.google.com/maps?q=${q}&z=11&hl=en&output=embed`;
+}
+let mapFocusId = null;
+function focusGmap(id, silent) {
+  if (!id) return;
+  const t = TOWNS.find(x => x.id === id);
+  if (!t) return;
+  const changed = mapFocusId !== id;
+  mapFocusId = id;
+  const frame = $("#gmapFrame");
+  if (frame && (changed || !frame.src)) frame.src = gmapsSrc(t);
+  const head = $("#gmapHead");
+  if (head) head.innerHTML = `<strong>${escapeHtml(t.town)}</strong> · ${escapeHtml(t.country)} — ${t.score.toFixed(1)} · ${WARM_LABEL[t.warm_now]} · ✈ ${t.airport_iata || "—"} · ${t.rent_band_cad[0] != null ? fmtCAD(t.rent_band_cad[0]) + "+/mo" : "—"} <a href="#" class="gmap-details" data-id="${t.id}">details ↓</a>`;
+  const dl = head && head.querySelector(".gmap-details");
+  if (dl) dl.addEventListener("click", (e) => { e.preventDefault(); view = "grid"; filters.search = t.town; $("#search").value = t.town; render(); });
+  // reflect selection on the strip
+  $$(".shortlist-strip .sl-chip").forEach(ch => ch.classList.toggle("on", ch.dataset.id === id));
+}
+function renderShortlistStrip(list) {
+  const strip = $("#shortlistStrip");
+  if (!strip) return;
+  strip.innerHTML = "";
+  const favs = list.filter(t => favorites.has(t.id));
+  if (!favs.length) {
+    strip.appendChild(el("span", { class: "sl-empty", html: filters.favOnly
+      ? "No shortlisted towns match the current filters. Star some towns (☆) or turn off “Shortlist only”."
+      : "Tip: star towns (☆ on any card) to build a shortlist here, then click through them on the map." }));
+    return;
+  }
+  strip.appendChild(el("span", { class: "sl-label", text: `Shortlist (${favs.length}):` }));
+  favs.sort((a, b) => b.score - a.score).forEach(t => {
+    const chip = el("span", { class: "sl-chip", "data-id": t.id }, [
+      el("span", { class: "sl-dot", style: "background:" + scoreVar(t.score) }),
+      el("button", { class: "sl-name", text: `${t.town} ${t.score.toFixed(1)}`, onclick: () => focusGmap(t.id) }),
+      el("button", { class: "sl-x", title: "Remove from shortlist", text: "✕", onclick: () => { favorites.delete(t.id); saveFavorites(); render(); } }),
+    ]);
+    strip.appendChild(chip);
+  });
 }
 function ensureTooltip() {
   let t = $(".map-tooltip");
@@ -636,6 +688,7 @@ function buildFilterUI() {
   $("#search").addEventListener("input", e => { filters.search = e.target.value.trim(); render(); });
   $("#sort").addEventListener("change", e => { sort = e.target.value; render(); });
   $("#favBtn").addEventListener("click", () => { filters.favOnly = !filters.favOnly; render(); });
+  $("#shortlistToggle").addEventListener("click", () => { filters.favOnly = !filters.favOnly; render(); });
   const syncLiveBtn = () => { $("#liveBtn").classList.toggle("active", LIVE); $("#liveBtn").textContent = LIVE ? "📷 Live ✓" : "📷 Live"; };
   $("#liveBtn").addEventListener("click", () => {
     LIVE = !LIVE;
